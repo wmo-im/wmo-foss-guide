@@ -1,0 +1,11 @@
+== WMO Activities
+
+=== Key stakeholders
+
+=== Coordination, alignment and support
+
+=== Standards compliance
+
+=== Software review and evaluation
+
+=== Application development
