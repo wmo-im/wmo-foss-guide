@@ -1,11 +1,45 @@
-== WMO Activities
+=== WMO Activities
 
-=== Key stakeholders
+==== Coordination, alignment and support
 
-=== Coordination, alignment and support
+* coordination/support functions
+* software selection for WMO application development
+* managing FOSS activities
+* Aligning with WMO ecosystem of activities
+* ensuring sustainability of FOSS usage
+* managing risk
+* functions
+* people
 
-=== Standards compliance
+==== Standards compliance
 
-=== Software review and evaluation
+* compatability / compliance matrix
+* Open Standards <-> FOSS support matrix
+* implementation of WMO Tech Regs / compliance ?
+* FOSS as an early indicator of Tech Regs feasibility
+** ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)
+** example: wis2box, developed at the same time as WIS2 standards
+** example: OGC standards (3 implementations)
+** FOSS is not part of the Tech Reg, but is an indicator of maturity/capability
 
-=== Application development
+==== Software review and evaluation
+
+* software identification and selection
+** project checklist/assessment
+* "approved projects" and/or Reference Implementations
+** make Tech Regs more concrete
+** Tech Regs -> FOSS implementations
+** should FOSS be cited in WMO Tech Regs (suggest no)
+** criteria needed
+*** compliance (data exchange)
+*** software evaluation (FOSS!) checklist -> confidence
+*** readiness
+*** bus factor
+** rolling review
+* harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
+
+==== Application development
+
+* case study: wis2box et. al.
+** agile development during Tech Reg development
+

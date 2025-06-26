@@ -32,8 +32,6 @@ toc::[]
 <<<
 include::sections/introduction.adoc[]
 
-include::sections/guidelines/members.adoc[]
-
-include::sections/guidelines/wmo-activities.adoc[]
+include::sections/guidelines/index.adoc[]
 
 include::sections/references.adoc[]

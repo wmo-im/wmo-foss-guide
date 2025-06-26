@@ -1,5 +1,5 @@
 == Guidelines
 
-include::members.adoc[]
+include::wmo-members.adoc[]
 
 include::wmo-activities.adoc[]

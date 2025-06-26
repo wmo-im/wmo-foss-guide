@@ -1,7 +1,24 @@
 == Introduction
 
+* digital transformation via FOSS
+
 === Audience
+
+* decision makers
+* developers
 
 === Scope
 
+Living document
+
 === Background
+
+* use notes from TT-OSS document to INFCOM Management Group
+* strong usage, increasing usage
+* WIS 2.0 as an example of FOSS dev during standards dev 
+* needs coordination
+
+=== Data policy considerations
+
+Enabling Unified Data Policy via software
+
