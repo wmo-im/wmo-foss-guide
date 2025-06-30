@@ -2,44 +2,44 @@
 
 ==== Coordination, alignment and support
 
-* coordination/support functions
-* software selection for WMO application development
-* managing FOSS activities
+* Coordination/support functions
+* Software selection for WMO projects and application development
+* Managing FOSS activities
 * Aligning with WMO ecosystem of activities
-* ensuring sustainability of FOSS usage
-* managing risk
-* functions
-* people
+* Ensuring sustainability of FOSS usage
+* Managing risk
+* Functions
+* People
 
 ==== Standards compliance
 
-* compatability / compliance matrix
+* Compatability / compliance matrix
 * Open Standards <-> FOSS support matrix
-* implementation of WMO Tech Regs / compliance ?
+* Implementation of WMO Tech Regs / compliance ?
 * FOSS as an early indicator of Tech Regs feasibility
-** ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)
-** example: wis2box, developed at the same time as WIS2 standards
-** example: OGC standards (3 implementations)
+** Ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)
+** Example: wis2box, developed at the same time as WIS2 standards
+** Example: OGC standards (3 implementations)
 ** FOSS is not part of the Tech Reg, but is an indicator of maturity/capability
 
 ==== Software review and evaluation
 
-* software identification and selection
-** project checklist/assessment
-* "approved projects" and/or Reference Implementations
-** make Tech Regs more concrete
+* Software identification and selection
+** Project checklist/assessment
+* "Approved projects" and/or Reference Implementations
+** Make Tech Regs more concrete
 ** Tech Regs -> FOSS implementations
-** should FOSS be cited in WMO Tech Regs (suggest no)
-** criteria needed
-*** compliance (data exchange)
-*** software evaluation (FOSS!) checklist -> confidence
-*** readiness
-*** bus factor
-** rolling review
-* harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
+** Should FOSS be cited in WMO Tech Regs (suggest no)
+** Criteria needed
+*** Compliance (data exchange)
+*** Software evaluation (FOSS!) checklist -> confidence
+*** Readiness
+*** Bus/retirement factor
+** Rolling review
+* Harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
 
 ==== Application development
 
-* case study: wis2box et. al.
-** agile development during Tech Reg development
+* Case study: wis2box et. al.
+** Agile development during Tech Reg development
 
