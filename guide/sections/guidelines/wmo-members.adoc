@@ -3,24 +3,24 @@
 ==== Using FOSS
 
 * FOSS as an option during software evaluation
-* risk, hidden costs
-* principles apply to ANY software
-* risk management
-* due diligence (maintenance, updates)
-* lifecycle management/EOL -> migration
-* total cost of ownership considerations
+* Risk, hidden costs
+* Principles apply to ANY software
+* Risk management
+* Due diligence (maintenance, updates)
+* Lifecycle management/EOL -> migration
+* Total cost of ownership considerations
 ** HR profile / IT capacity of organization
-* benefits (freedom, cost, reducing vendor lock in, portability)
-* infrastructure considerations
+* Benefits (freedom, cost, reducing vendor lock in, portability)
+* Infrastructure considerations
 
 ==== Contributing to FOSS
 
-* national policies
-* events/hackathons (eg. OGC/OSGeo/ASF Joint Sprints)
-** by product: connection/collab
-* regulations / risk / constraints / considerations
+* National policies
+* Events/hackathons (eg. OGC/OSGeo/ASF Joint Sprints)
+** By product: connection/collab
+* Regulations / risk / constraints / considerations
 
 ==== Managing FOSS activities
 
-* aligning with WMO standards
-** achieving compliance
+* Aligning with WMO standards
+** Achieving compliance
