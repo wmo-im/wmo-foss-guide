@@ -1,15 +1,18 @@
 == Introduction
 
-* digital transformation via FOSS
+Open source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support. 
+
+FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
+
+Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offer a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization. 
 
 === Audience
 
-* decision makers
-* developers
+The document is intended for WMO Members who are involved in software development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO. 
 
 === Scope
 
-Living document
+This document provides guidance on FOSS for WMO Members and WMO Secretariat. 
 
 === Background
 
@@ -18,7 +21,19 @@ Living document
 * WIS 2.0 as an example of FOSS dev during standards dev 
 * needs coordination
 
-=== Data policy considerations
+
+FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.). 
+
+In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of exiting FOSS tools as well as developing of same, working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
+
+As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
+While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
+
+=== Data policy considerations (TODO Athina)
 
 Enabling Unified Data Policy via software
+
+Open data policies
+
+FAIR data principles
 

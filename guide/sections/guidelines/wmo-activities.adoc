@@ -1,6 +1,6 @@
 === WMO Activities
 
-==== Coordination, alignment and support
+==== Coordination, alignment and support (TODO Dave/Enrico)
 
 * Coordination/support functions
 * Software selection for WMO projects and application development
@@ -16,7 +16,7 @@
 * Compatability / compliance matrix
 * Open Standards <-> FOSS support matrix
 * Implementation of WMO Tech Regs / compliance ?
-* FOSS as an early indicator of Tech Regs feasibility
+* FOSS as an early indicator of Tech Regs feasibility (TODO Tom)
 ** Ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)
 ** Example: wis2box, developed at the same time as WIS2 standards
 ** Example: OGC standards (3 implementations)
@@ -24,13 +24,13 @@
 
 ==== Software review and evaluation
 
-* Software identification and selection
+* Software identification and selection (TODO Vasile)
 ** Project checklist/assessment
 * "Approved projects" and/or Reference Implementations
 ** Make Tech Regs more concrete
 ** Tech Regs -> FOSS implementations
 ** Should FOSS be cited in WMO Tech Regs (suggest no)
-** Criteria needed
+** Criteria needed (TODO Jian)
 *** Compliance (data exchange)
 *** Software evaluation (FOSS!) checklist -> confidence
 *** Readiness
@@ -40,6 +40,5 @@
 
 ==== Application development
 
-* Case study: wis2box et. al.
+* Case study: wis2box et. al. (TODO Tom)
 ** Agile development during Tech Reg development
-
