@@ -35,3 +35,7 @@ include::sections/introduction.adoc[]
 include::sections/guidelines/index.adoc[]
 
 include::sections/references.adoc[]
+
+include::sections/annex-evaluation-rubric.adoc[]
+
+include::sections/annex-examples.adoc[]

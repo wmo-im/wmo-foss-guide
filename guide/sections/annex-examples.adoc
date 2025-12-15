@@ -1,0 +1,5 @@
+[appendix]
+:appendix-caption: Annex
+[[annex-examples]]
+== Annex A: Examples of FOSS managed / offered by Member organizations
+
