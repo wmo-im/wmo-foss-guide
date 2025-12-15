@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.23">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="copyright" content="Copyright © 2025 World Meteorological Organization (WMO)">
 <title>WMO Guide to Free and Open Source Software</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -220,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -455,7 +455,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2025-10-05</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2025-12-15</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 0.1.0</p></td>
@@ -489,7 +489,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_audience">Audience</a></li>
 <li><a href="#_scope">Scope</a></li>
 <li><a href="#_background">Background</a></li>
-<li><a href="#_data_policy_considerations">Data policy considerations</a></li>
+<li><a href="#_data_policy_considerations_todo_athina">Data policy considerations (TODO Athina)</a></li>
 </ul>
 </li>
 <li><a href="#_guidelines">Guidelines</a>
@@ -498,12 +498,12 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <ul class="sectlevel3">
 <li><a href="#_using_foss">Using FOSS</a></li>
 <li><a href="#_contributing_to_foss">Contributing to FOSS</a></li>
-<li><a href="#_managing_foss_activities">Managing FOSS activities</a></li>
+<li><a href="#_managing_foss_activities_todo_tom">Managing FOSS activities (TODO Tom)</a></li>
 </ul>
 </li>
 <li><a href="#_wmo_activities">WMO Activities</a>
 <ul class="sectlevel3">
-<li><a href="#_coordination_alignment_and_support">Coordination, alignment and support</a></li>
+<li><a href="#_coordination_alignment_and_support_todo_daveenrico">Coordination, alignment and support (TODO Dave/Enrico)</a></li>
 <li><a href="#_standards_compliance">Standards compliance</a></li>
 <li><a href="#_software_review_and_evaluation">Software review and evaluation</a></li>
 <li><a href="#_application_development">Application development</a></li>
@@ -512,6 +512,8 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </ul>
 </li>
 <li><a href="#_references">References</a></li>
+<li><a href="#annex-evaluation-rubric">Annex A: Annex B: FOSS evaluation rubric</a></li>
+<li><a href="#annex-examples">Annex B: Annex A: Examples of FOSS managed / offered by Member organizations</a></li>
 </ul>
 </div>
 <div style="page-break-after: always;"></div>
@@ -520,30 +522,25 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect1">
 <h2 id="_introduction"><a class="anchor" href="#_introduction"></a>Introduction</h2>
 <div class="sectionbody">
-<div class="ulist">
-<ul>
-<li>
-<p>digital transformation via FOSS</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>Open source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support.</p>
+</div>
+<div class="paragraph">
+<p>FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions.</p>
+</div>
+<div class="paragraph">
+<p>Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offer a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.</p>
 </div>
 <div class="sect2">
 <h3 id="_audience"><a class="anchor" href="#_audience"></a>Audience</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>decision makers</p>
-</li>
-<li>
-<p>developers</p>
-</li>
-</ul>
+<div class="paragraph">
+<p>The document is intended for WMO Members who are involved in software development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO.</p>
 </div>
 </div>
 <div class="sect2">
 <h3 id="_scope"><a class="anchor" href="#_scope"></a>Scope</h3>
 <div class="paragraph">
-<p>Living document</p>
+<p>This document provides guidance on FOSS for WMO Members and WMO Secretariat.</p>
 </div>
 </div>
 <div class="sect2">
@@ -564,11 +561,27 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 </ul>
 </div>
+<div class="paragraph">
+<p>FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.).</p>
+</div>
+<div class="paragraph">
+<p>In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of exiting FOSS tools as well as developing of same, working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all.</p>
+</div>
+<div class="paragraph">
+<p>As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development.
+While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond.</p>
+</div>
 </div>
 <div class="sect2">
-<h3 id="_data_policy_considerations"><a class="anchor" href="#_data_policy_considerations"></a>Data policy considerations</h3>
+<h3 id="_data_policy_considerations_todo_athina"><a class="anchor" href="#_data_policy_considerations_todo_athina"></a>Data policy considerations (TODO Athina)</h3>
 <div class="paragraph">
 <p>Enabling Unified Data Policy via software</p>
+</div>
+<div class="paragraph">
+<p>Open data policies</p>
+</div>
+<div class="paragraph">
+<p>FAIR data principles</p>
 </div>
 </div>
 </div>
@@ -586,7 +599,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>FOSS as an option during software evaluation</p>
 </li>
 <li>
-<p>Risk, hidden costs</p>
+<p>Risk, hidden costs (TODO Jian)</p>
 </li>
 <li>
 <p>Principles apply to ANY software</p>
@@ -611,7 +624,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </li>
 <li>
-<p>Benefits (freedom, cost, reducing vendor lock in, portability)</p>
+<p>Benefits (freedom, cost, reducing vendor lock in, portability) (TODO Jian)</p>
 </li>
 <li>
 <p>Infrastructure considerations</p>
@@ -621,13 +634,52 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div class="sect3">
 <h4 id="_contributing_to_foss"><a class="anchor" href="#_contributing_to_foss"></a>Contributing to FOSS</h4>
+<div class="sect4">
+<h5 id="_national_policies"><a class="anchor" href="#_national_policies"></a>National policies</h5>
+<div class="paragraph">
+<p>The adoption and development of FOSS within NMHSs can be significantly strengthened through supportive national-level policies. Several WMO Members have already introduced digital government strategies that encourage the use of open standards, open data and open-source software as default options within public administrations. Where such frameworks exist, NMHSs can leverage them to increase efficiency, reduce vendor lock-in and ensure long-term sustainability of operational systems.</p>
+</div>
+<div class="paragraph">
+<p>National FOSS-related policies may include:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>National policies</p>
+<p>"Open by default" procurement rules requiring public institutions to consider FOSS alternatives alongside proprietary solutions when acquiring software. In some countries, like Romania, when you purchase "on demand" software development services, the source code should be transferred to the customer along with all the IPR associated with the software. Making the source code available under an open-source license is highly recommended.</p>
 </li>
 <li>
-<p>Events/hackathons (eg. OGC/OSGeo/ASF Joint Sprints)</p>
+<p>Guidelines for software development funded from public budget, encouraging publication of code under approved open-source licenses.</p>
+</li>
+<li>
+<p>Policies promoting interoperability and open standards, which naturally align with FOSS implementations within WIS2 and other WMO technical frameworks.</p>
+</li>
+<li>
+<p>Capacity-building programs that enable staff to acquire skills for maintaining and developing open-source tools, reducing long-term operational dependency on external vendors.</p>
+</li>
+<li>
+<p>Security and lifecycle requirements to ensure that open-source components used in critical systems follow maintenance, patching, auditing and version management rules.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Where no national regulations exist, NMHSs can still develop institution-level policies or internal guidelines to support responsible FOSS adoption:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p>Establish internal rules for licensing, contribution approval and repository management.</p>
+</li>
+<li>
+<p>Define procedures for evaluating FOSS components (governance, community health, maintenance model).</p>
+</li>
+<li>
+<p>Incorporate sustainability planning (including contribution back to upstream projects when fixes or new features are developed internally).</p>
+</li>
+<li>
+<p>Promote transparency by adopting open repositories for research software and operational tools.</p>
+</li>
+<li>
+<p>Events/hackathons (e.g. OGC/OSGeo/ASF Joint Sprints) TODO Vasile</p>
 <div class="ulist">
 <ul>
 <li>
@@ -638,12 +690,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </li>
 <li>
 <p>Regulations / risk / constraints / considerations</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Features, maintenance, project</p>
+</li>
+</ul>
+</div>
 </li>
 </ul>
 </div>
 </div>
+</div>
 <div class="sect3">
-<h4 id="_managing_foss_activities"><a class="anchor" href="#_managing_foss_activities"></a>Managing FOSS activities</h4>
+<h4 id="_managing_foss_activities_todo_tom"><a class="anchor" href="#_managing_foss_activities_todo_tom"></a>Managing FOSS activities (TODO Tom)</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -663,7 +723,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_wmo_activities"><a class="anchor" href="#_wmo_activities"></a>WMO Activities</h3>
 <div class="sect3">
-<h4 id="_coordination_alignment_and_support"><a class="anchor" href="#_coordination_alignment_and_support"></a>Coordination, alignment and support</h4>
+<h4 id="_coordination_alignment_and_support_todo_daveenrico"><a class="anchor" href="#_coordination_alignment_and_support_todo_daveenrico"></a>Coordination, alignment and support (TODO Dave/Enrico)</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -707,7 +767,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Implementation of WMO Tech Regs / compliance ?</p>
 </li>
 <li>
-<p>FOSS as an early indicator of Tech Regs feasibility</p>
+<p>FOSS as an early indicator of Tech Regs feasibility (TODO Tom)</p>
 <div class="ulist">
 <ul>
 <li>
@@ -733,7 +793,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Software identification and selection</p>
+<p>Software identification and selection (TODO Vasile)</p>
 <div class="ulist">
 <ul>
 <li>
@@ -756,7 +816,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <p>Should FOSS be cited in WMO Tech Regs (suggest no)</p>
 </li>
 <li>
-<p>Criteria needed</p>
+<p>Criteria needed (TODO Jian)</p>
 <div class="ulist">
 <ul>
 <li>
@@ -791,7 +851,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="ulist">
 <ul>
 <li>
-<p>Case study: wis2box et. al.</p>
+<p>Case study: wis2box et. al. (TODO Tom)</p>
 <div class="ulist">
 <ul>
 <li>
@@ -812,6 +872,18 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 
 </div>
 </div>
+<div class="sect1">
+<h2 id="annex-evaluation-rubric"><a class="anchor" href="#annex-evaluation-rubric"></a>Annex A: Annex B: FOSS evaluation rubric</h2>
+<div class="sectionbody">
+
+</div>
+</div>
+<div class="sect1">
+<h2 id="annex-examples"><a class="anchor" href="#annex-examples"></a>Annex B: Annex A: Examples of FOSS managed / offered by Member organizations</h2>
+<div class="sectionbody">
+
+</div>
+</div>
 </div>
 <div id="footnotes">
 <hr>
@@ -824,7 +896,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-10-05 14:12:42 UTC
+Last updated 2025-12-15 09:36:41 UTC
 </div>
 </div>
 </body>
