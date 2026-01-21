@@ -96,7 +96,7 @@ body {
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-01-20</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-01-21</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 0.1.0</p></td>
@@ -139,7 +139,7 @@ body {
 <ul class="sectlevel3">
 <li><a href="#_using_foss">Using FOSS</a></li>
 <li><a href="#_contributing_to_foss">Contributing to FOSS</a></li>
-<li><a href="#_managing_foss_activities_todo_tom">Managing FOSS activities (TODO Tom)</a></li>
+<li><a href="#_managing_foss_activities">Managing FOSS activities</a></li>
 </ul>
 </li>
 <li><a href="#_wmo_activities">WMO Activities</a>
@@ -147,7 +147,7 @@ body {
 <li><a href="#_coordination_alignment_and_support_todo_daveenrico">Coordination, alignment and support (TODO Dave/Enrico)</a></li>
 <li><a href="#_standards_compliance">Standards compliance</a></li>
 <li><a href="#_software_review_and_evaluation">Software review and evaluation</a></li>
-<li><a href="#_application_development">Application development</a></li>
+<li><a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a></li>
 </ul>
 </li>
 </ul>
@@ -344,18 +344,57 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </div>
 </div>
 <div class="sect3">
-<h4 id="_managing_foss_activities_todo_tom"><a class="anchor" href="#_managing_foss_activities_todo_tom"></a>Managing FOSS activities (TODO Tom)</h4>
+<h4 id="_managing_foss_activities"><a class="anchor" href="#_managing_foss_activities"></a>Managing FOSS activities</h4>
+<div class="paragraph">
+<p>In some cases, Members developing their own FOSS in support of WMO obligations and activities may wish to make the software freely available to the public.  The current FOSS landscape and infrastructure provides a strong support mechanism for doing FOSS development in the open, using services such as <a href="https://github.com">GitHub</a>, <a href="https://gitlab.com/gitlab-org">GitLab</a>, <a href="https://codeberg.org">Codeberg</a> and numerous other platforms.</p>
+</div>
+<div class="paragraph">
+<p>In the same spirit as contributing to FOSS, where no national regulations exist, NMHSs can still develop institution-level policies or guidelines in support of making FOSS available to the public.  The following are (some) key aspects to consider:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Aligning with WMO standards</p>
+<p>Establish an "architecture of participation":</p>
 <div class="ulist">
 <ul>
 <li>
-<p>Achieving compliance</p>
+<p>Who will be responsible for development, release management, and accepting external contributions?</p>
+</li>
+<li>
+<p>How will commit access be governed and managed?  Does the project need a project steering committee or group of stakeholders to help drive the project?</p>
+</li>
+<li>
+<p>How will external collaboration be addressed?  For example, will the project have a bug or issue tracker which can be used to identify new feature development, defects and/or bugs.  Will there be a dedicated discussion forum or mailing list for wider discussion?</p>
+</li>
+<li>
+<p>Make clear how collaboration will work to the public (for example, by providing a <code>CONTRIBUTING.md</code> document for GitHub)</p>
+</li>
+<li>
+<p>Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)</p>
+</li>
+<li>
+<p>What is the release schedule for new versions?</p>
 </li>
 </ul>
 </div>
+</li>
+<li>
+<p>Choose a license that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability</p>
+</li>
+<li>
+<p>Choose the mechanism by which the software will be made available (GitHub, GtiLab, Codeberg, organizational website, etc.)</p>
+</li>
+<li>
+<p>Ensure that a <code>README</code> is available with the code stating a clear mission and purpose</p>
+</li>
+<li>
+<p>Identify any supported WMO Technical Regulations</p>
+</li>
+<li>
+<p>Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additinal documentation for developer or othe audience types (administrators, etc.)</p>
+</li>
+<li>
+<p>Ensure the code is versioned (for example using Git as a version control system)</p>
 </li>
 </ul>
 </div>
@@ -407,26 +446,31 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 <li>
 <p>Implementation of WMO Tech Regs / compliance ?</p>
 </li>
-<li>
-<p>FOSS as an early indicator of Tech Regs feasibility (TODO Tom)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)</p>
-</li>
-<li>
-<p>Example: wis2box, developed at the same time as WIS2 standards</p>
-</li>
-<li>
-<p>Example: OGC standards (3 implementations)</p>
-</li>
-<li>
-<p>FOSS is not part of the Tech Reg, but is an indicator of maturity/capability</p>
-</li>
 </ul>
 </div>
-</li>
-</ul>
+<div class="paragraph">
+<p>FOSS can also play a significant role as an indicator of the feasibility of Technical Regulation
+implementation.  As part of the standards development phase, developing the associated FOSS
+implementation(s) aids in determining "fit for purpose" of the specification.  In addition, FOSS
+implementation during standards development allows for an open review and assessment on how a
+standard is implemented (supported network protocols, avaiability of tooling/libraries for
+integration, as well as speed of implementation (if a FOSS implementation during the development
+of a standard takes a considerable level of effort, why?  Is the complexity acceptable for the
+scope of the standard?  Determining these aspects earlier can help improve and adjust the standard
+while in development (as opposed to formal amendment processes once approved by WMO).  The agile and parallel
+development of WIS2 standards and FOSS is a key example in this context (see <a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a>).</p>
+</div>
+<div class="paragraph">
+<p>Another indicator is the number of implementations.  For example, the Open Geospatial Consortium (OGC)
+mandates that a proposed standard requires at least 3 implementations for consideration by its
+Technical Committee.  This provides "proof" to the Technical Committee that the standard can be
+implemented, and has investment from various projects as early adopters.</p>
+</div>
+<div class="paragraph">
+<p>In summary, while FOSS is not in scope for being identified as part of a Technical Regulation, it
+is a strong indicator of the the maturity, applicability and sustainability of a given standard.  Implementing
+FOSS during standards development provides safety in investment, iterative improvements,
+and confidence for widespread and sustainable adoption and implementation by Members.</p>
 </div>
 </div>
 <div class="sect3">
@@ -488,20 +532,77 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </div>
 </div>
 <div class="sect3">
-<h4 id="_application_development"><a class="anchor" href="#_application_development"></a>Application development</h4>
+<h4 id="_case_study_wis2_foss_and_agile_development"><a class="anchor" href="#_case_study_wis2_foss_and_agile_development"></a>Case study: WIS2, FOSS, and agile development</h4>
+<div class="paragraph">
+<p>The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>The WMO Executive Council, through <a href="https://library.wmo.int/idviewer/66258/1147">Resolution 34 (EC-76)</a> - Implementation plan update of the WMO Information System 2.0, endorsed the WMO Information System 2.0 (WIS2) implementation plan. The Resolution also recognized the importance of establishing a pilot phase to develop the WIS2 infrastructure and begin testing it, in order to be ready for a pre-operational phase in 2024, and then for the transition starting in 2025.</p>
+</div>
+<div class="paragraph">
+<p>The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p>
+</div>
+<div class="paragraph">
+<p>WIS2 is comprised of a number of key standards, including (but are not limited to):</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Case study: wis2box et. al. (TODO Tom)</p>
-<div class="ulist">
-<ul>
+<p>Internet and messaging protocols for data and metadata transmission (HTTP, MQTT)</p>
+</li>
 <li>
-<p>Agile development during Tech Reg development</p>
+<p>metadata encodings for dataset descriptions (WMO Core Metadata Profile) and notifications (WIS2 Notification Message)</p>
+</li>
+<li>
+<p>topic structures for real-time notifications (WIS2 Topic Hierarchy)</p>
+</li>
+<li>
+<p>interfaces and APIs for Global Services (Global Discovery Catalogue)</p>
 </li>
 </ul>
 </div>
-</li>
-</ul>
+<div class="paragraph">
+<p>Throughout the WIS2 Implementation timeline, the <a href="https://raw.githubusercontent.com/wmo-im/wis2-guide/refs/heads/main/guide/images/architecture/c4.container.png">architecture</a>, standards definitions as well as key software components were developed, deployed and tested in parallel, in an agile manner.  These software include (but are not limited to):</p>
+</div>
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 50%;">
+<col style="width: 50%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Software</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">WIS2 component(s)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2box</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WIS2 Node</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2-gdc</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Global Discovery Catalogue</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">csv2bufr</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">CSV to BUFR encoding tool for station data</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2downloader</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Python package for downloading real-time data from WIS2</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">pywis-pubsub</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Python package providing notification message publishing, subscription and data download capability in WIS2</p></td>
+</tr>
+</tbody>
+</table>
+<div class="paragraph">
+<p>Driven by collaboration, the development and testing of FOSS significantly helped with early assessment of the WIS2 standards in development.  As a result, WIS2 standards were being tested in an agile environment and rapid feedback was provided that helped refine, adjust and improve the standards early and often.</p>
+</div>
+<div class="paragraph">
+<p>WIS2 FOSS implementations have resulted in a more stable and robust program delivery with significantly reduced risk to Members.  In addition, some tools have emerged as "Reference Implementations" as key resources for the precise implementation of various WIS2 standards which can either be deployed or studied by Members accordingly.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of Open Standards and Open Source.</p>
 </div>
 </div>
 </div>
@@ -522,7 +623,27 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 <div class="sect1">
 <h2 id="annex-examples"><a class="anchor" href="#annex-examples"></a>Annex B: Examples of FOSS managed / offered by Member organizations</h2>
 <div class="sectionbody">
-
+<table class="tableblock frame-all grid-all stretch">
+<colgroup>
+<col style="width: 33.3333%;">
+<col style="width: 33.3333%;">
+<col style="width: 33.3334%;">
+</colgroup>
+<thead>
+<tr>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Organization</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">Platform</th>
+<th class="tableblock halign-left valign-top" style="background-color: #FFFFFF;">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Environment and Climate Change Canada, Meteorological Service of Canada</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">GitHub</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://github.com/ECCC-MSC" class="bare">https://github.com/ECCC-MSC</a></p></td>
+</tr>
+</tbody>
+</table>
 </div>
 </div>
 </div>
@@ -534,10 +655,16 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 <div class="footnote" id="_footnotedef_2">
 <a href="#_footnoteref_2">2</a>. <a href="https://community.wmo.int/governance/commission-membership/infcom" class="bare">https://community.wmo.int/governance/commission-membership/infcom</a>
 </div>
+<div class="footnote" id="_footnotedef_3">
+<a href="#_footnoteref_3">3</a>. <a href="https://wmo.int/wis-20" class="bare">https://wmo.int/wis-20</a>
+</div>
+<div class="footnote" id="_footnotedef_4">
+<a href="#_footnoteref_4">4</a>. <a href="https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction" class="bare">https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction</a>
+</div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-01-20 18:34:28 UTC
+Last updated 2026-01-21 13:20:37 UTC
 </div>
 </div>
 </body>
