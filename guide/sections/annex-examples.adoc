@@ -3,3 +3,12 @@
 [[annex-examples]]
 == Examples of FOSS managed / offered by Member organizations
 
+[cols="1,1,1"]
+|===
+|Organization|Platform|URL
+
+|Environment and Climate Change Canada, Meteorological Service of Canada
+|GitHub
+|https://github.com/ECCC-MSC
+
+|===
