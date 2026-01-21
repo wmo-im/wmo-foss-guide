@@ -40,7 +40,22 @@ Where no national regulations exist, NMHSs can still develop institution-level p
 * Regulations / risk / constraints / considerations 
 ** Features, maintenance, project  
 
-==== Managing FOSS activities (TODO Tom)
+==== Managing FOSS activities
 
-* Aligning with WMO standards
-** Achieving compliance
+In some cases, Members developing their own FOSS in support of WMO obligations and activities may wish to make the software freely available to the public.  The current FOSS landscape and infrastructure provides a strong support mechanism for doing FOSS development in the open, using services such as https://github.com[GitHub], https://codeberg.org[Codeberg] and numerous other platforms.
+
+In the same spirit as contributing to FOSS, where no national regulations exist, NMHSs can still develop institution-level policies or guidelines in support of making FOSS available to the public.  The following are (some) key aspects to consider:
+
+* Establish an "architecture of participation":
+** Who will be responsible for development, release management, and accepting external contributions?
+** How will commit access be governed and managed?  Does the project need a project steering committee or group of stakeholders to help drive the projct?
+** How will external collaboration be addressed?  For example, will the project have a bug or issue tracker which can be used to identify new feature development, defects and/or bugs.  Will there be a dedicated discussion forum or mailing list for wider discussion?
+** Make clear how collaboration will work to the public (for example, by providing a ``CONTRIBUTING.md`` document for GitHub)
+** Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)
+** What is the release schedule for new versions?
+* Choose a license that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability
+* Choose the mechanism by which the software will be made available (GitHub, Codeberg, organizational website, etc.)
+* Ensure that a ``README`` is available with the code stating a clear mission and purpose
+* Identify any supported WMO Technical Regulations
+* Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additinal documentation for developer or othe audience types (administrators, etc.)
+* Ensure the code is versioned (for example using Git as a version control system)

@@ -16,11 +16,27 @@
 * Compatability / compliance matrix
 * Open Standards <-> FOSS support matrix
 * Implementation of WMO Tech Regs / compliance ?
-* FOSS as an early indicator of Tech Regs feasibility (TODO Tom)
-** Ensure FOSS implementations are part of Technical Regulation development/assessment (feasibility)
-** Example: wis2box, developed at the same time as WIS2 standards
-** Example: OGC standards (3 implementations)
-** FOSS is not part of the Tech Reg, but is an indicator of maturity/capability
+
+FOSS can also play a significant role as an indicator of the feasibility of Technical Regulation
+implementation.  As part of the standards development phase, developing the associated FOSS
+implementation(s) aids in determining "fit for purpose" of the specification.  In addition, FOSS
+implementation during standards development allows for an open review and assessment on how a
+standard is implemented (supported network protocols, avaiability of tooling/libraries for
+integration, as well as speed of implementation (if a FOSS implementation during the development
+of a standard takes a considerable level of effort, why?  Is the complexity acceptable for the
+scope of the standard?  Determining these aspects earlier can help improve and adjust the standard
+while in development (as opposed to formal amendment processes once approved by WMO).  The agile and parallel
+development of WIS2 standards and FOSS is a key example in this context (see <<_case_study_wis2_foss_and_agile_development>>).
+
+Another indicator is the number of implementations.  For example, the Open Geospatial Consortium (OGC)
+mandates that a proposed standard requires at least 3 implementations for consideration by its
+Technical Committee.  This provides "proof" to the Technical Committee that the standard can be
+implemented, and has investment from various projects as early adopters.
+
+In summary, while FOSS is not in scope for being identified as part of a Technical Regulation, it
+is a strong indicator of the the maturity, applicability and sustainability of a given standard.  Implementing
+FOSS during standards development provides safety in investment, iterative improvements,
+and confidence for widespread and sustainable adoption and implementation by Members.
 
 ==== Software review and evaluation
 
@@ -38,7 +54,44 @@
 ** Rolling review
 * Harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
 
-==== Application development
+==== Case study: WIS2, FOSS, and agile development
 
-* Case study: wis2box et. al. (TODO Tom)
-** Agile development during Tech Reg development
+The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.footnote:[https://wmo.int/wis-20]
+
+The WMO Executive Council, through https://library.wmo.int/idviewer/66258/1147[Resolution 34 (EC-76)] - Implementation plan update of the WMO Information System 2.0, endorsed the WMO Information System 2.0 (WIS2) implementation plan. The Resolution also recognized the importance of establishing a pilot phase to develop the WIS2 infrastructure and begin testing it, in order to be ready for a pre-operational phase in 2024, and then for the transition starting in 2025.
+
+The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.footnote:[https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction]
+
+WIS2 is comprised of a number of key standards, including (but are not limited to):
+
+* Internet and messaging protocols for data and metadata transmission (HTTP, MQTT)
+* metadata encodings for dataset descriptions (WMO Core Metadata Profile) and notifications (WIS2 Notification Message)
+* topic structures for real-time notifications (WIS2 Topic Hierarchy)
+* interfaces and APIs for Global Services (Global Discovery Catalogue)
+
+Throughout the WIS2 Implementation timeline, the https://raw.githubusercontent.com/wmo-im/wis2-guide/refs/heads/main/guide/images/architecture/c4.container.png[architecture], standards definitions as well as key software components were developed, deployed and tested in parallel, in an agile manner.  These software include (but are not limited to):
+
+[cols="1,1"]
+|===
+|Software|WIS2 component(s)
+
+|wis2box
+|WIS2 Node
+
+|wis2-gdc
+|Global Discovery Catalogue
+
+|csv2bufr
+|CSV to BUFR encoding tool for station data
+
+|wis2downloader
+|Python package for downloading real-time data from WIS2
+
+|pywis-pubsub
+|Python package providing notification message publishing, subscription and data download capability in WIS2
+
+|===
+
+Driven by collaboration, the development and testing of FOSS significantly helped with early assessment of the WIS2 standards in development.  As a result, WIS2 standards were being tested in an agile environment and rapid feedback was provided that helped refine, adjust and improve the standards early and often.
+
+WIS2 FOSS implementations have resulted in a more stable and robust program delivery with significantly reduced risk to Members.  In addition, some tools have emerged as "Reference Implementations" as key resources for the precise implementation of various WIS2 standards which can either be deployed or studied by Members accordingly.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of Open Standards and Open Source.
