@@ -22,7 +22,7 @@
 
 .5+| Project Health
 | Public issue tracker
-| Source code under version control (e.g. on github, gitlab or other version control system)
+| Source code under version control (e.g. on GitHub, GitLab, Codeberg or other version control system)
 | Active communication channels (forum, mailing list, chat)
 | Wiki or documentation site
 | Contribution guidelines or agreements
