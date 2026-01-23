@@ -2,3 +2,49 @@
 :appendix-caption: Annex
 [[annex-evaluation-rubric]]
 == FOSS evaluation rubric
+
+[cols="1,3", options="header"]
+|===
+| Category | Indicator
+
+.5+| License Compatibility
+| License is permissive (MIT, BSD, Apache 2.0)
+| Compatible with NMHS mandates and data policies
+| No restrictions on data sharing or commercial use
+| License is OSI-approved
+| License is clearly stated (no license = reject)
+
+.4+| Security
+| Clear security vulnerability policy/process
+| Prompt patch releases (within days)
+| No known unpatched CVEs
+| Regular security checks (e.g., daily or automated)
+
+.5+| Project Health
+| Public issue tracker
+| Source code under version control (e.g. on GitHub, GitLab, Codeberg or other version control system)
+| Active communication channels (forum, mailing list, chat)
+| Wiki or documentation site
+| Contribution guidelines or agreements
+
+.4+| Community Health
+| Multiple active contributors
+| Supported by major NMHSs, WMO Programmes, or recognized consortia
+| Low bus factor (not reliant on one person)
+| Code of conduct available
+
+.5+| Openness & Governance
+| Transparent governance model
+| Open contribution process
+| Alignment with WMO standards (BUFR, GRIB2, NetCDF)
+| Decision-making process documented
+| Source code openly available (mandatory)
+
+.6+| Technical Quality & Fit
+| High test coverage
+| Continuous Integration (CI) in place
+| Comprehensive documentation (user, developer, admin)
+| Proven ability to handle NMHS-scale data volumes
+| Validated in operational NMHS environments
+| Clear release lifecycle and package management
+|===
