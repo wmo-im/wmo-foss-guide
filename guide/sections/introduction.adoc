@@ -16,12 +16,6 @@ This document provides guidance on FOSS for WMO Members and WMO Secretariat.
 
 === Background
 
-* use notes from TT-OSS document to INFCOM Management Group
-* strong usage, increasing usage
-* WIS 2.0 as an example of FOSS dev during standards dev 
-* needs coordination
-
-
 FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.). 
 
 In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of exiting FOSS tools as well as developing of same, working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
