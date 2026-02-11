@@ -54,6 +54,60 @@ and confidence for widespread and sustainable adoption and implementation by Mem
 ** Rolling review
 * Harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
 
+===== Compliance (data exchange)
+
+* **Standards alignment**: The software adheres to WMO technical standards and common industry specifications, unifying
+data exchange interfaces and formats.
+* **Data protection**: It complies with international conventions and national data protection regulations by
+implementing data desensitization, encrypted data transmission, and secure storage of sensitive meteorological data.
+* **Cross-border data security**: It meets data cross-border transfer requirements in operational regions by establishing
+a full lifecycle data-security management mechanism. This mechanism covers data collection, processing, sharing, and
+archiving in line with WMO data policies.
+
+===== Software evaluation
+
+* **Core Evaluation Checklist**:
+** __Technical Quality__: Functionality completeness and accuracy for meteorological use cases, performance when
+processing massive meteorological datasets (e.g., real-time observational data, forecast model outputs), reliability
+under peak load conditions, security, maintainability, and compatibility with existing meteorological systems.
+** __Compliance__: License is OSI-approved with no license conflicts, and complies with WMO data policies and relevant regulations.
+** __Community Sustainability__: Recent community activity (within the last 6–12 months), stability of the maintenance
+team, regularity of version releases, and maturity of the ecosystem.
+** __Cost-effectiveness__: Controllable costs across the software lifecycle (deployment, operation, maintenance, training,
+migration, and decommissioning).
+** __Business Fit__: Aligns with existing meteorological operational processes, good usability for forecasters and data
+analysts, and support for future expansion needs.
+
+* **Confidence Assurance:**
+
+** Adopt standardized evaluation processes and quantifiable metrics to ensure objectivity and repeatability of results.
+** Validate core functionality through a Proof-of-Concept (PoC) approach, incorporating feedback collected from real-world operational scenarios.
+** Conduct multi-dimensional verification, including code audits, security vulnerability scans, and in-depth open source community research, to confirm the reliability of the software.
+
+===== Readiness
+
+Completed drafting of requirements specification documents, and form a professional evaluation team (including technical, business, legal, and operations personnel).
+
+Set up a simulated meteorological operations testing environment, and prepare test data (including extreme weather scenario data) and necessary evaluation tools.
+
+Define clear priorities for software requirements and establish final decision criteria, such as approval for full adoption, conditional adoption, or rejection. Document the rationale for all decisions for audit purposes.
+
+===== Bus/retirement factor
+
+===== Business Fit and Retirement Considerations
+
+* Business Fit
+
+** Offers seamless integration with existing meteorological operational processes, minimizing the need for process adjustments.
+** Supports custom development and feature expansion to meet evolving needs (such as business scaling and new scenario integration).
+** Aligns with users’ habits in meteorological operations by providing a user-friendly interface and flexible configuration options.
+
+* Retirement Planning
+
+** Establish a clear data archiving plan to ensure secure storage and traceability of historical meteorological data after the software is decommissioned.
+** Proactively assess the costs of migrating to new systems, and establish a smooth migration path to ensure business continuity.
+** Define clear responsibilities and standardized procedures for software retirement to mitigate potential risks (e.g., data leakage, system conflicts, and service disruptions).
+
 ==== Case study: WIS2, FOSS, and agile development
 
 The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.footnote:[https://wmo.int/wis-20]
