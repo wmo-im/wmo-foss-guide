@@ -80,6 +80,27 @@ would have significant benefit.
 
 ===== FOSS project life cycle
 
+FOSS projects and software typically progress through several stages:
+
+* **Concept and prototyping**: An initial requirement is identified and ideas are explored. These may often be part
+of the development of a new standard, such as the WIS2.0 standards, or in response to an operational need. At this stage,
+the software may be experimental and maintained by a small number of developers.
+* **Development and pilot use**: Following initial prototyping, the software gains maturity and may have additional
+contributors. The software is tested in pilot environments. Parallel to this, the standards that the software is
+implementing may also gain maturity and undergo further changes.
+* **Operational use**: Software, and standards, are ready for production use in operational environments. There will be
+established governance processes for the FOSS togetehr with comprehensive documentation and contribution guides. The
+contributor base will have grown and be sustainable.
+* **End-of-life and migration**: When software is no longer actively maintained or has been superseded, clear guidance
+should exist for migrating to alternative solutions, including data migration.  End-of-life planning is particularly
+important for software that Members depend on for operational services.
+
+The WMO can support this lifecycle by providing evaluation criteria at each stage, recognizing software that meets
+established thresholds of maturity, and facilitating transitions when software reaches end-of-life.  Established
+frameworks such as the OSGeo incubator and graduation processfootnote:[https://www.osgeo.org/resources/project-graduation-checklist/]
+provide a useful model for structuring such a lifecycle within the WMO.
+
+
 ===== FOSS sustainability and risk management
 
 ===== Alignment with the WMO ecosystem
