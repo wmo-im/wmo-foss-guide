@@ -140,6 +140,8 @@ body {
 <li><a href="#_using_foss">Using FOSS</a></li>
 <li><a href="#_contributing_to_foss">Contributing to FOSS</a></li>
 <li><a href="#_managing_foss_activities">Managing FOSS activities</a></li>
+<li><a href="#_core_benefits_of_open_source_software">Core Benefits of Open Source Software</a></li>
+<li><a href="#_infrastructure_considerations">Infrastructure considerations</a></li>
 </ul>
 </li>
 <li><a href="#_wmo_activities">WMO Activities</a>
@@ -241,7 +243,8 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </li>
 <li>
 <p>Risk, hidden costs (TODO Jian)</p>
-</li>
+<div class="ulist">
+<ul>
 <li>
 <p>Principles apply to ANY software</p>
 </li>
@@ -250,6 +253,9 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </li>
 <li>
 <p>Due diligence (maintenance, updates)</p>
+</li>
+</ul>
+</div>
 </li>
 <li>
 <p>Lifecycle management/EOL &#8594; migration</p>
@@ -271,6 +277,59 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 <p>Infrastructure considerations</p>
 </li>
 </ul>
+</div>
+<div class="sect4">
+<h5 id="_risks"><a class="anchor" href="#_risks"></a>Risks</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>License compliance risks</strong> Open source licenses often have widely varying requirements regarding commercial use,
+redistribution, and code modification. Certain licenses include restrictive clauses, such as mandating that derivative
+works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes
+and intellectual property issues.</p>
+</li>
+<li>
+<p><strong>Security and continuity risks</strong>: Open source software from niche projects or less-established projects may pose
+security risks due to limited formal code audits. Additionally, the complexity of open source software supply chains
+creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological
+applications, especially  when handling sensitive observational data or real-time forecasting models.</p>
+</li>
+<li>
+<p><strong>Maintenance risks</strong>: Fixes for vulnerabilities rely on community responsiveness. If an open source project is
+discontinued,  known vulnerabilities may remain unaddressed.</p>
+</li>
+<li>
+<p><strong>Support risks</strong>: Most open source software lacks official support. As a result, timely response and effective
+resolutions of critical operational system failures cannot be guaranteed, potentially leading to interruptions
+in meteorological operation and data loss.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_hidden_costs"><a class="anchor" href="#_hidden_costs"></a>Hidden costs</h5>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Technical adaptation and integration costs</strong>: Human resources must be allocated for secondary development (customization),
+system interface integration, and compatibility testing to ensure the software aligns with existing business systems.</p>
+</li>
+<li>
+<p><strong>Long-term maintenance and version management costs</strong>: Dedicated personnel are needed to track version updates, conduct
+testing, and manage migrations. If a project is discontinued, taking over its maintenance internally entails high
+technical challenges and added operational complexity.</p>
+</li>
+<li>
+<p><strong>Talent acquisition and training costs</strong>: Recruiting skilled professionals can be expensive, and ongoing in-house
+training is required to maintain the necessary expertise.</p>
+</li>
+<li>
+<p><strong>Compliance audit and management costs</strong>: It is necessary to maintain an inventory of all open source components and
+perform regular compliance audits. Large meteorological organizations may also need to develop dedicated management
+platforms, with costs increasing as the number of components grows.</p>
+</li>
+</ol>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -398,6 +457,48 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </li>
 </ul>
 </div>
+</div>
+<div class="sect3">
+<h4 id="_core_benefits_of_open_source_software"><a class="anchor" href="#_core_benefits_of_open_source_software"></a>Core Benefits of Open Source Software</h4>
+<div class="paragraph">
+<p>The core benefits of open source software can be summarized on three dimensions: autonomy and control, cost optimization,
+and ecosystem flexibility—offering both practical advantages and adaptability. Details are as follows:</p>
+</div>
+<div class="olist arabic">
+<ol class="arabic">
+<li>
+<p><strong>Exceptional autonomy and control</strong>: The code is open and licenses are flexible, allowing meteorological organizations
+to perform deep customization as needed, directly modifying the code to add or remove functional modules to suit unique
+operational scenarios (e.g., regional weather forecasting adjustments). This level of access also allows them to
+independently identify and fix vulnerabilities, optimize performance for massive meteorological data processing, and
+control the technical roadmap of core systems. Certain permissive licenses (e.g., MIT License, Apache License 2.0) even
+permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.</p>
+</li>
+<li>
+<p><strong>Significant cost advantages</strong>: No software license fees or subscription fees are required, suitable for national meteorological
+services as well as deployments in regional forecasting centers. The availability of source code and community documentation
+reduces trial-and-error costs during secondary development, making necessary human resource investment more manageable.
+Meteorological organizations can also choose free community support or affordable third-party services (specialized in
+meteorological applications) instead of expensive vendor support packages.</p>
+</li>
+<li>
+<p><strong>Avoiding vendor lock-in risks</strong>: Free from proprietary interfaces and data format dependencies, enabling free choice of
+deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can
+be taken over independently or by a third party. Moreover, multiple service providers are often support the same open
+source software, strengthening the user’s bargaining power.</p>
+</li>
+<li>
+<p><strong>Excellent cross-platform portability</strong>: Most open source tools run on multiple operating systems (e.g., Windows and
+Linux), eliminating the need for separate purchases. Adherence to common technical standards (e.g., WMO GRIB data formats)
+lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration,
+adapting to architectural upgrades in meteorological data centers.</p>
+</li>
+</ol>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_infrastructure_considerations"><a class="anchor" href="#_infrastructure_considerations"></a>Infrastructure considerations</h4>
+
 </div>
 </div>
 <div class="sect2">
@@ -529,6 +630,131 @@ and confidence for widespread and sustainable adoption and implementation by Mem
 <p>Harmonization: regular review of ecosystem to ensure alignment and optimal use of resources</p>
 </li>
 </ul>
+</div>
+<div class="sect4">
+<h5 id="_compliance_data_exchange"><a class="anchor" href="#_compliance_data_exchange"></a>Compliance (data exchange)</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Standards alignment</strong>: The software adheres to WMO technical standards and common industry specifications, unifying
+data exchange interfaces and formats.</p>
+</li>
+<li>
+<p><strong>Data protection</strong>: It complies with international conventions and national data protection regulations by
+implementing data desensitization, encrypted data transmission, and secure storage of sensitive meteorological data.</p>
+</li>
+<li>
+<p><strong>Cross-border data security</strong>: It meets data cross-border transfer requirements in operational regions by establishing
+a full lifecycle data-security management mechanism. This mechanism covers data collection, processing, sharing, and
+archiving in line with WMO data policies.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_software_evaluation"><a class="anchor" href="#_software_evaluation"></a>Software evaluation</h5>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Core Evaluation Checklist</strong>:</p>
+<div class="ulist">
+<ul>
+<li>
+<p><em>Technical Quality</em>: Functionality completeness and accuracy for meteorological use cases, performance when
+processing massive meteorological datasets (e.g., real-time observational data, forecast model outputs), reliability
+under peak load conditions, security, maintainability, and compatibility with existing meteorological systems.</p>
+</li>
+<li>
+<p><em>Compliance</em>: License is OSI-approved with no license conflicts, and complies with WMO data policies and relevant regulations.</p>
+</li>
+<li>
+<p><em>Community Sustainability</em>: Recent community activity (within the last 6–12 months), stability of the maintenance
+team, regularity of version releases, and maturity of the ecosystem.</p>
+</li>
+<li>
+<p><em>Cost-effectiveness</em>: Controllable costs across the software lifecycle (deployment, operation, maintenance, training,
+migration, and decommissioning).</p>
+</li>
+<li>
+<p><em>Business Fit</em>: Aligns with existing meteorological operational processes, good usability for forecasters and data
+analysts, and support for future expansion needs.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p><strong>Confidence Assurance:</strong></p>
+<div class="ulist">
+<ul>
+<li>
+<p>Adopt standardized evaluation processes and quantifiable metrics to ensure objectivity and repeatability of results.</p>
+</li>
+<li>
+<p>Validate core functionality through a Proof-of-Concept (PoC) approach, incorporating feedback collected from real-world operational scenarios.</p>
+</li>
+<li>
+<p>Conduct multi-dimensional verification, including code audits, security vulnerability scans, and in-depth open source community research, to confirm the reliability of the software.</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_readiness"><a class="anchor" href="#_readiness"></a>Readiness</h5>
+<div class="paragraph">
+<p>Completed drafting of requirements specification documents, and form a professional evaluation team (including technical, business, legal, and operations personnel).</p>
+</div>
+<div class="paragraph">
+<p>Set up a simulated meteorological operations testing environment, and prepare test data (including extreme weather scenario data) and necessary evaluation tools.</p>
+</div>
+<div class="paragraph">
+<p>Define clear priorities for software requirements and establish final decision criteria, such as approval for full adoption, conditional adoption, or rejection. Document the rationale for all decisions for audit purposes.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_busretirement_factor"><a class="anchor" href="#_busretirement_factor"></a>Bus/retirement factor</h5>
+
+</div>
+<div class="sect4">
+<h5 id="_business_fit_and_retirement_considerations"><a class="anchor" href="#_business_fit_and_retirement_considerations"></a>Business Fit and Retirement Considerations</h5>
+<div class="ulist">
+<ul>
+<li>
+<p>Business Fit</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Offers seamless integration with existing meteorological operational processes, minimizing the need for process adjustments.</p>
+</li>
+<li>
+<p>Supports custom development and feature expansion to meet evolving needs (such as business scaling and new scenario integration).</p>
+</li>
+<li>
+<p>Aligns with users’ habits in meteorological operations by providing a user-friendly interface and flexible configuration options.</p>
+</li>
+</ul>
+</div>
+</li>
+<li>
+<p>Retirement Planning</p>
+<div class="ulist">
+<ul>
+<li>
+<p>Establish a clear data archiving plan to ensure secure storage and traceability of historical meteorological data after the software is decommissioned.</p>
+</li>
+<li>
+<p>Proactively assess the costs of migrating to new systems, and establish a smooth migration path to ensure business continuity.</p>
+</li>
+<li>
+<p>Define clear responsibilities and standardized procedures for software retirement to mitigate potential risks (e.g., data leakage, system conflicts, and service disruptions).</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -800,7 +1026,7 @@ and confidence for widespread and sustainable adoption and implementation by Mem
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-02-11 10:58:44 UTC
+Last updated 2026-02-11 12:18:13 UTC
 </div>
 </div>
 </body>
