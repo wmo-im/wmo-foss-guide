@@ -3,16 +3,21 @@
 [[annex-examples]]
 == Examples of FOSS managed / offered by Member organizations
 
-[cols="1,1,1"]
+[cols="1,1,1,20a"]
 |===
-|Organization|Platform|URL
+|Organization|Platform|URL|Projects(s)
 
 |Environment and Climate Change Canada, Meteorological Service of Canada
 |GitHub
 |https://github.com/ECCC-MSC
+|* https://github.com/ECCC-MSC/msc-pygeoapi
+* https://github.com/ECCC-MSC/libecbufr
+* https://github.com/ECCC-MSC/msc-wis2node
 
 |NSF Unidata
 |GitHub
 |https://github.com/Unidata
+|* TODO1
+* TODO2
 
 |===
