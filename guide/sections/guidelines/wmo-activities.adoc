@@ -13,10 +13,6 @@
 
 ==== Standards compliance
 
-* Compatability / compliance matrix
-* Open Standards <-> FOSS support matrix
-* Implementation of WMO Tech Regs / compliance ?
-
 FOSS can also play a significant role as an indicator of the feasibility of Technical Regulation
 implementation.  As part of the standards development phase, developing the associated FOSS
 implementation(s) aids in determining "fit for purpose" of the specification.  In addition, FOSS
@@ -40,9 +36,6 @@ and confidence for widespread and sustainable adoption and implementation by Mem
 
 ==== Software review and evaluation
 
-* Software identification and selection (TODO Vasile)
-** Project checklist/assessment
-
 The identification and selection of software for WMO-related activities and Member implementations should follow a structured, transparent and repeatable assessment process. This applies equally to FOSS and proprietary solutions and aims to reduce technical, operational and organizational risks while increasing confidence in long-term sustainability, interoperability and compliance with WMO frameworks.
 Before adopting, recommending or endorsing a software solution, Members and WMO bodies are encouraged to perform a lightweight but systematic project assessment covering at least the following dimensions:
 
@@ -62,11 +55,6 @@ For consistency and transparency, WMO encourages the use of a common evaluation 
 ** Make Tech Regs more concrete
 ** Tech Regs -> FOSS implementations
 ** Should FOSS be cited in WMO Tech Regs (suggest no)
-** Criteria needed (TODO Jian)
-*** Compliance (data exchange)
-*** Software evaluation (FOSS!) checklist -> confidence
-*** Readiness
-*** Bus/retirement factor
 ** Rolling review
 * Harmonization: regular review of ecosystem to ensure alignment and optimal use of resources
 
@@ -145,19 +133,19 @@ Throughout the WIS2 Implementation timeline, the https://raw.githubusercontent.c
 |===
 |Software|WIS2 component(s)
 
-|wis2box
+|https://docs.wis2box.wis.wmo.int[wis2box]
 |WIS2 Node
-
-|wis2-gdc
+ 
+|https://github.com/wmo-im/wis2-gdc[wis2-gdc]
 |Global Discovery Catalogue
-
-|csv2bufr
+ 
+|https://github.com/World-Meteorological-Organization/csv2bufr[csv2bufr]
 |CSV to BUFR encoding tool for station data
-
-|wis2downloader
+ 
+|https://github.com/World-Meteorological-Organization/wis2downloader[wis2downloader]
 |Python package for downloading real-time data from WIS2
-
-|pywis-pubsub
+ 
+|https://github.com/World-Meteorological-Organization/pywis-pubsub[pywis-pubsub]
 |Python package providing notification message publishing, subscription and data download capability in WIS2
 
 |===
