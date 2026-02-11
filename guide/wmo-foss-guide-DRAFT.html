@@ -188,22 +188,6 @@ body {
 </div>
 <div class="sect2">
 <h3 id="_background"><a class="anchor" href="#_background"></a>Background</h3>
-<div class="ulist">
-<ul>
-<li>
-<p>use notes from TT-OSS document to INFCOM Management Group</p>
-</li>
-<li>
-<p>strong usage, increasing usage</p>
-</li>
-<li>
-<p>WIS 2.0 as an example of FOSS dev during standards dev</p>
-</li>
-<li>
-<p>needs coordination</p>
-</li>
-</ul>
-</div>
 <div class="paragraph">
 <p>FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.).</p>
 </div>
@@ -280,8 +264,8 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 </div>
 <div class="sect4">
 <h5 id="_risks"><a class="anchor" href="#_risks"></a>Risks</h5>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
 <p><strong>License compliance risks</strong> Open source licenses often have widely varying requirements regarding commercial use,
 redistribution, and code modification. Certain licenses include restrictive clauses, such as mandating that derivative
@@ -303,13 +287,13 @@ discontinued,  known vulnerabilities may remain unaddressed.</p>
 resolutions of critical operational system failures cannot be guaranteed, potentially leading to interruptions
 in meteorological operation and data loss.</p>
 </li>
-</ol>
+</ul>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_hidden_costs"><a class="anchor" href="#_hidden_costs"></a>Hidden costs</h5>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
 <p><strong>Technical adaptation and integration costs</strong>: Human resources must be allocated for secondary development (customization),
 system interface integration, and compatibility testing to ensure the software aligns with existing business systems.</p>
@@ -328,7 +312,7 @@ training is required to maintain the necessary expertise.</p>
 perform regular compliance audits. Large meteorological organizations may also need to develop dedicated management
 platforms, with costs increasing as the number of components grows.</p>
 </li>
-</ol>
+</ul>
 </div>
 </div>
 </div>
@@ -464,8 +448,8 @@ platforms, with costs increasing as the number of components grows.</p>
 <p>The core benefits of open source software can be summarized on three dimensions: autonomy and control, cost optimization,
 and ecosystem flexibility—offering both practical advantages and adaptability. Details are as follows:</p>
 </div>
-<div class="olist arabic">
-<ol class="arabic">
+<div class="ulist">
+<ul>
 <li>
 <p><strong>Exceptional autonomy and control</strong>: The code is open and licenses are flexible, allowing meteorological organizations
 to perform deep customization as needed, directly modifying the code to add or remove functional modules to suit unique
@@ -493,12 +477,14 @@ Linux), eliminating the need for separate purchases. Adherence to common technic
 lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration,
 adapting to architectural upgrades in meteorological data centers.</p>
 </li>
-</ol>
+</ul>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_infrastructure_considerations"><a class="anchor" href="#_infrastructure_considerations"></a>Infrastructure considerations</h4>
-
+<div class="paragraph">
+<p>(TODO TBD)</p>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -536,19 +522,6 @@ adapting to architectural upgrades in meteorological data centers.</p>
 </div>
 <div class="sect3">
 <h4 id="_standards_compliance"><a class="anchor" href="#_standards_compliance"></a>Standards compliance</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Compatability / compliance matrix</p>
-</li>
-<li>
-<p>Open Standards &lt;&#8594; FOSS support matrix</p>
-</li>
-<li>
-<p>Implementation of WMO Tech Regs / compliance ?</p>
-</li>
-</ul>
-</div>
 <div class="paragraph">
 <p>FOSS can also play a significant role as an indicator of the feasibility of Technical Regulation
 implementation.  As part of the standards development phase, developing the associated FOSS
@@ -576,20 +549,6 @@ and confidence for widespread and sustainable adoption and implementation by Mem
 </div>
 <div class="sect3">
 <h4 id="_software_review_and_evaluation"><a class="anchor" href="#_software_review_and_evaluation"></a>Software review and evaluation</h4>
-<div class="ulist">
-<ul>
-<li>
-<p>Software identification and selection (TODO Vasile)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Project checklist/assessment</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
 <div class="paragraph">
 <p>The identification and selection of software for WMO-related activities and Member implementations should follow a structured, transparent and repeatable assessment process. This applies equally to FOSS and proprietary solutions and aims to reduce technical, operational and organizational risks while increasing confidence in long-term sustainability, interoperability and compliance with WMO frameworks.
 Before adopting, recommending or endorsing a software solution, Members and WMO bodies are encouraged to perform a lightweight but systematic project assessment covering at least the following dimensions:</p>
@@ -639,25 +598,6 @@ Before adopting, recommending or endorsing a software solution, Members and WMO 
 </li>
 <li>
 <p>Should FOSS be cited in WMO Tech Regs (suggest no)</p>
-</li>
-<li>
-<p>Criteria needed (TODO Jian)</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Compliance (data exchange)</p>
-</li>
-<li>
-<p>Software evaluation (FOSS!) checklist &#8594; confidence</p>
-</li>
-<li>
-<p>Readiness</p>
-</li>
-<li>
-<p>Bus/retirement factor</p>
-</li>
-</ul>
-</div>
 </li>
 <li>
 <p>Rolling review</p>
@@ -842,23 +782,23 @@ analysts, and support for future expansion needs.</p>
 </thead>
 <tbody>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2box</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://docs.wis2box.wis.wmo.int">wis2box</a></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">WIS2 Node</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2-gdc</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://github.com/wmo-im/wis2-gdc">wis2-gdc</a></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Global Discovery Catalogue</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">csv2bufr</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://github.com/World-Meteorological-Organization/csv2bufr">csv2bufr</a></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">CSV to BUFR encoding tool for station data</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">wis2downloader</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://github.com/World-Meteorological-Organization/wis2downloader">wis2downloader</a></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Python package for downloading real-time data from WIS2</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">pywis-pubsub</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><a href="https://github.com/World-Meteorological-Organization/pywis-pubsub">pywis-pubsub</a></p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Python package providing notification message publishing, subscription and data download capability in WIS2</p></td>
 </tr>
 </tbody>
@@ -1065,7 +1005,7 @@ analysts, and support for future expansion needs.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-02-11 15:01:32 UTC
+Last updated 2026-02-11 15:49:54 UTC
 </div>
 </div>
 </body>
