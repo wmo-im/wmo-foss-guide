@@ -18,15 +18,16 @@ As FOSS has become increasinlgy embedded in WMO programmes, projects and Member 
 coordination at the organisational level has grown accordingly. Historically, software developed, or selected, for use
 in different projects and programmes has largely been managed on an ad-hoc basis. Independent experts, contractors,
 and implementaing authorities / agencies have typically made independent choices without a common framework for the
-evaluation, governance or lifecylce management of FOSS. Whilst enabling rapid development and innovation, this
+evaluation, governance, and life-cycle management of FOSS. Whilst enabling rapid development and innovation, this
 approach has led to fragmentation and duplication of effort, and in some cases, reliance on unmaintained or insecure
 software that puts Members services at risk.
 
-The WMO Secretariat, as the body supporting the work of the constituent bodies, has a central role in coordinating
-FOSS activities across WMO programmes and projects and is supporting Members in the FOSS adoption. This coordination
-function should ensure that FOSS initiatives are aligned with the WMO's regulatory framework and that software used
-in support of WMO obligations meets appropriate standards of quality and security. Equally important, this coordination
-should ensure that Members, particularly those with limited technical capacity, are not left behind.
+The WMO Secretariat, as the body supporting the work of its Members and constituent bodies, has a central role in coordinating
+FOSS activities across WMO programmes and projects and in supporting Members in the adoption of FOSS. This coordination
+function should ensure that FOSS initiatives adopted through WMO projects and programmes are aligned with the WMO's
+regulatory framework and that software used in support of WMO obligations meets appropriate standards of quality and
+security. Equally important, this coordination should ensure that Members, particularly those with mote limited technical
+capacities, are not left behind.
 
 ===== Governance and organisational functions
 
@@ -62,17 +63,17 @@ and recommending software from within these existing ecosystems, rather than dup
 Coordination of FOSS activities within the WMO involves range of actors:
 
 * **WMO Secretariat**: Facilitates coordination across programmes and projects, supports the development and maintenance
-of FOSS guidance, and manages relationships with external FOSS organizations.  The Secretariat also provides continuity
-and institutional memory for FOSS initiatives that span multiple Commission sessions.
+  of FOSS guidance, and manages relationships with external FOSS organizations.  The Secretariat also provides continuity
+  and institutional memory for FOSS initiatives that span multiple constituent body sessions.
 * **Expert Teams and Task Teams**: Provide domain-specific expertise in evaluating and developing FOSS relevant to their
-areas of responsibility.  Expert Teams and Task Teams may identify candidate software for endorsement or develop Reference
-Implementations of WMO standards.
+  areas of responsibility.  Expert Teams and Task Teams may identify candidate software for endorsement or develop Reference
+  Implementations of WMO standards.
 * **Communities of Practice**: Serve as collaborative spaces where Members, developers and stakeholders work together on
-shared FOSS initiatives.  Communities of Practice can play an important role in maintaining and evolving software that
-supports WMO standards, as demonstrated by the development of Reference Implementations within the WIS2 programme and
-the OpenCDMS project and initiative.
+  shared FOSS initiatives.  Communities of Practice can play an important role in maintaining and evolving software that
+  supports WMO standards, as demonstrated by the development of Reference Implementations within the WIS2 programme and
+  the OpenCDMS project and initiative.
 * **Members**: Contribute expertise, code, testing and operational feedback.  Members with mature FOSS programmes can
-serve as mentors and collaborators for those building capacity.
+  serve as mentors and collaborators for those building capacity.
 
 Whilst "Communities of Practice" have been listed above, these do not exsit formally within the WMOs framework and
 constituent bodies, instead operating on an informal basis. Strengthening and formally recognising these communities
@@ -100,14 +101,85 @@ established thresholds of maturity, and facilitating transitions when software r
 frameworks such as the OSGeo incubator and graduation processfootnote:[https://www.osgeo.org/resources/project-graduation-checklist/]
 provide a useful model for structuring such a lifecycle within the WMO.
 
+====
+DB: do we want to add something about the WMO, in coordination or collaboration with Experts, leading the concept and prototyping phase
+====
 
 ===== FOSS sustainability and risk management
 
+Sustainability, and long-term maintenance and support, are amongst the most most significant challenges in FOSS adoption.
+Software that is relied upon by Members, especially for operational services, must be maintained over the long-term,
+with timely security updates and patches, compatibility updates and responsive support. Key risks to be managed include:
+
+* **Bus / retirement factor**: Over-reliance on a single, or small team, for critical software. When supporting FOSS
+  development and adoption, the WMO should encourage a broad contributor base, shared governance, and pooling of resources
+  for the support and development of critical software.
+* **Security vulnerabilities**: Software components must be subject to regular security reviews, with clear disclosure
+  and patching policies. Adequate resources must be in place to ensure any identified vulnerabilities are addressed in
+  a timely fashion.
+* **Dependency risk**: Software often depends on a chain of upstream libraries and components.  Understanding and
+  monitoring these dependencies is essential for assessing overall project health. This includes changes to upstream
+  licensing conditions.
+* **Funding and institutional support**: Whilst FOSS may be free of licensing costs there are still costs associated with
+  the development, maintenance, and operation of FOSS software. These costs are often hidden or neglected but should be
+  taken into account.
+
+
+The WMO has a role in supporting FOSS initiatives and managing risks by promoting and supporting investment in the
+development and maintenance of FOSS software and in community management. This support may be realised through
+sources such as the WMO Voluntary Cooperation Programme (VCP), extra-budgetary resources and projects, and through
+broader stakeholder and doner engagement.
+
+The WMO's coordination role should include monitoring the health of FOSS that is critical to WMO programmes and alerting
+Members to emerging risks, such as previously promoted projects that show declining activity, unpatched vulnerabilities
+or loss of key maintainers.
+
 ===== Alignment with the WMO ecosystem
+
+In the WMO context, FOSS initiatives should be aligned with the broader set of WMO activities in supporting Members.
+This includes:
+
+* **Technical Regulations and standards**: Co-development of reference implementations alongside the development and
+  implementation of new regulations and standards; FOSS developed or endorsed should conform with and / or implement
+  WMO standards. The WMO should also promote alignment and interoperability with open standards, such as those developed by
+  the Open Geospatial Consortium.
+* **Cross-programme and cross-project coordination**: FOSS components are often relevant to multiple WMO programmes.
+  Coordination can help avoid duplication, identify opportunities for shared development and ensure that Members benefit
+  from a coherent set of tools rather than competing or overlapping solutions.
+* **Data policy**:
 
 ===== Supporting Members
 
+A key function of WMO coordination is ensuring that all Members can benefit from FOSS, regardless of their technical
+capacity, and making sure that no Member is left behind.  This includes:
+
+* **Capacity building**: Providing training, documentation and technical support to help Members evaluate, deploy and
+  maintain FOSS solutions.  This is particularly important for developing countries and small island developing states,
+  where resource constraints may limit the ability to engage with FOSS communities directly.
+* **Knowledge transfer**: Facilitating the exchange of experience and expertise between Members, for example through
+  workshops, code sprints and hackathons organized alongside WMO events or in collaboration with partner organizations.
+* **Visibility and discovery**: Helping Members identify FOSS that is relevant to their needs by curating
+  recommendations and maintaining awareness of available tools within the WMO community, drawing on existing registries
+  and partner ecosystems.
+
 ===== External partnerships
+
+The WMO does not operate in isolation in the FOSS landscape.  Established organizations such as the Open Source
+Geospatial Foundation (OSGeo), the Digital Public Goods Alliance (DPGA), the Apache Software Foundation and others have
+developed mature frameworks for FOSS governance, incubation and community management.  WMO should seek to leverage these
+existing frameworks rather than developing parallel structures.
+
+Potential areas for collaboration include:
+
+* **Formal partnerships:** Memoranda of Understanding (MOUs) with organizations such as OSGeo can provide a structured
+  basis for collaboration on project governance, incubation and quality assurance. __DB: add innovation hubs in here?
+  We also need to bring in regional organisations, e.g. EUMETNET, ECMWF, CMO etc__.
+* **Registration as Digital Public Goods:** Key WMO FOSS implementations may qualify for registration with the DPGA,
+  increasing their visibility and credibility within the broader international development community.
+* **Joint events:** Code sprints, hackathons and workshops organized in collaboration with partner organizations (such
+  as OGC/OSGeo/ASF joint sprints or FOSS4G conferences) provide valuable opportunities for capacity building, community
+  engagement and collaborative development.
+
 
 [Note]
 ====
