@@ -25,9 +25,29 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 
 === Data policy considerations (TODO Athina)
 
-Enabling Unified Data Policy via software
+While talking about Open Source Software, open data plays an equally important role. The following section addresses the crucial complementary role of open data to Open Source Software and how Open Source Software can be an enabler for the WMO Unified Data Policy [LINK - https://wmo.int/wmo-unified-data-policy-resolution-res1].
 
-Open data policies
+==== FAIR data
 
-FAIR data principles
+Making data FAIR – Findable, Accessible, Interoperable and Reusable – is an important aspect in today’s digitally
+connected world. This is especially true and important for the meteorological domain, where local, regional and global
+models rely on data from different source, organisations and regions. Data that lives in silos and cannot be accessed
+has a very limited use.
+
+==== Open data policies
+
+* Important for advancing trust in data
+* Important for traceability of results etc
+* Examples:
+  ** https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data
+  ** https://opendatapolicylab.org/
+  ** https://repository.opendatapolicylab.org/
+  ** https://www.ecmwf.int/en/forecasts/datasets/open-data
+  ** https://www.ecmwf.int/en/forecasts/access-forecasts/access-real-time-open-data
+  ** https://data.ecmwf.int/
+
+==== Enabling WMO Unified Data Policy via software
+
+https://wmo.int/wmo-unified-data-policy-resolution-res1
+
 
