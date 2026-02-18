@@ -2,8 +2,9 @@
 
 ==== Coordination, alignment and support (TODO Dave/Enrico)
 
-[Note]
-====
+======
+DB: this will be removed once drafting is complete. I've left it for reference.
+
 * Coordination/support functions
 * Software selection for WMO projects and application development
 * Managing FOSS activities
@@ -12,7 +13,7 @@
 * Managing risk
 * Functions
 * People
-====
+======
 
 As FOSS has become increasinlgy embedded in WMO programmes, projects and Member operations, the need for structured
 coordination at the organisational level has grown accordingly. Historically, software developed, or selected, for use
@@ -146,7 +147,7 @@ This includes:
 * **Cross-programme and cross-project coordination**: FOSS components are often relevant to multiple WMO programmes.
   Coordination can help avoid duplication, identify opportunities for shared development and ensure that Members benefit
   from a coherent set of tools rather than competing or overlapping solutions.
-* **Data policy**:
+* **Data policy**: ToDo
 
 ===== Supporting Members
 
