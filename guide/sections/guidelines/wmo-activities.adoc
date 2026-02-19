@@ -3,7 +3,7 @@
 ==== Coordination, alignment and support
 
 As FOSS has become increasingly embedded in WMO programmes, projects and Member operations, the need for structured
-coordination at the organisational level has grown accordingly. Historically, software developed, or selected, for use
+coordination at the organizational level has grown accordingly. Historically, software developed, or selected, for use
 in different projects and programmes has largely been managed on an ad-hoc basis. Independent experts, contractors,
 and implementing authorities / agencies have typically made independent choices without a common framework for the
 evaluation, governance, and life-cycle management of FOSS. Whilst enabling rapid development and innovation, this
@@ -17,7 +17,7 @@ regulatory framework and that software used in support of WMO obligations meets 
 security. Equally important, this coordination should ensure that Members, particularly those with more limited technical
 capacities, are not left behind.
 
-===== Governance and organisational functions
+===== Governance and organizational functions
 
 Effective FOSS coordination with the WMO requires dedicated governance functions. The following functions are identified
 as essential:
@@ -38,7 +38,7 @@ These functions may be carried out by existing WMO bodies, such as the Standing 
 However, these bodies often have a narrow focus on a particular activity or area, are not typically involved in
 the projects implementing or using FOSS, and often lack the specialist knowledge on FOSS. Alternatively, a dedicated
 software review function, such as through an Open Source Program Office (OSPO), could be established. Regardless of the
-organisational form, there is a clear requirement for software governance to be systematic rather than ad-hoc, and that
+organizational form, there is a clear requirement for software governance to be systematic rather than ad-hoc, and that
 clear, objective criteria exist for evaluating and endorsing FOSS within WMO.
 
 It is important to note that WMO should not seek to develop its own registry of open-source software.
@@ -162,7 +162,7 @@ Potential areas for collaboration include:
   as OGC/OSGeo/ASF joint sprints or FOSS4G conferences) provide valuable opportunities for capacity building, community
   engagement and collaborative development.
 * **Regional digital innovation hubs**: Regional digital innovation hubs, established in collaboration with Members,
-  national and international development agencies, and regional organisations, can play an important role in the
+  national and international development agencies, and regional organizations, can play an important role in the
   development and implementation of FOSS solutions, with a focus on meeting the needs of Members within a region. These
   could be co-located, or hosted, by existing regional centres.
 
