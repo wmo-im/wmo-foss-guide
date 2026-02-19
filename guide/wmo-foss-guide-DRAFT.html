@@ -96,7 +96,7 @@ body {
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-02-11</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-02-19</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 0.1.0</p></td>
@@ -146,7 +146,7 @@ body {
 </li>
 <li><a href="#_wmo_activities">WMO Activities</a>
 <ul class="sectlevel3">
-<li><a href="#_coordination_alignment_and_support_todo_daveenrico">Coordination, alignment and support (TODO Dave/Enrico)</a></li>
+<li><a href="#_coordination_alignment_and_support">Coordination, alignment and support</a></li>
 <li><a href="#_standards_compliance">Standards compliance</a></li>
 <li><a href="#_software_review_and_evaluation">Software review and evaluation</a></li>
 <li><a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a></li>
@@ -490,34 +490,263 @@ adapting to architectural upgrades in meteorological data centers.</p>
 <div class="sect2">
 <h3 id="_wmo_activities"><a class="anchor" href="#_wmo_activities"></a>WMO Activities</h3>
 <div class="sect3">
-<h4 id="_coordination_alignment_and_support_todo_daveenrico"><a class="anchor" href="#_coordination_alignment_and_support_todo_daveenrico"></a>Coordination, alignment and support (TODO Dave/Enrico)</h4>
+<h4 id="_coordination_alignment_and_support"><a class="anchor" href="#_coordination_alignment_and_support"></a>Coordination, alignment and support</h4>
+<div class="paragraph">
+<p>As FOSS has become increasingly embedded in WMO programmes, projects and Member operations, the need for structured
+coordination at the organizational level has grown accordingly. Historically, software developed, or selected, for use
+in different projects and programmes has largely been managed on an ad-hoc basis. Independent experts, contractors,
+and implementing authorities / agencies have typically made independent choices without a common framework for the
+evaluation, governance, and life-cycle management of FOSS. Whilst enabling rapid development and innovation, this
+approach has led to fragmentation and duplication of effort, and in some cases, reliance on unmaintained or insecure
+software that puts Members services at risk.</p>
+</div>
+<div class="paragraph">
+<p>The WMO Secretariat, as the body supporting the work of its Members and constituent bodies, has a central role in coordinating
+FOSS activities across WMO programmes and projects and in supporting Members in the adoption of FOSS. This coordination
+function should ensure that FOSS initiatives adopted through WMO projects and programmes are aligned with the WMO&#8217;s
+regulatory framework and that software used in support of WMO obligations meets appropriate standards of quality and
+security. Equally important, this coordination should ensure that Members, particularly those with more limited technical
+capacities, are not left behind.</p>
+</div>
+<div class="sect4">
+<h5 id="_governance_and_organizational_functions"><a class="anchor" href="#_governance_and_organizational_functions"></a>Governance and organizational functions</h5>
+<div class="paragraph">
+<p>Effective FOSS coordination with the WMO requires dedicated governance functions. The following functions are identified
+as essential:</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p>Coordination/support functions</p>
+<p><strong>Software evaluation and review</strong>: Providing a consistent process for assessing FOSS used in WMO programmes and
+projects, applying criteria such as those described in the FOSS evaluation rubric (see <a href="#annex-evaluation-rubric">FOSS evaluation rubric</a>).
+This includes evaluating license compatibility, security posture, project and community health, openness of governance,
+and technical fitness for purpose.</p>
 </li>
 <li>
-<p>Software selection for WMO projects and application development</p>
+<p><strong>Lifecycle oversight</strong>: Tracking the status of FOSS components used across WMO programmes, from initial adoption
+through operational use to end-of-life, ensuring that migration plans are in place when software is no longer maintained.</p>
 </li>
 <li>
-<p>Managing FOSS activities</p>
+<p><strong>Standards alignment</strong>: Ensuring that FOSS developed or endorsed within WMO implements relevant Technical Regulations
+and open standards correctly and consistently.</p>
 </li>
 <li>
-<p>Aligning with WMO ecosystem of activities</p>
-</li>
-<li>
-<p>Ensuring sustainability of FOSS usage</p>
-</li>
-<li>
-<p>Managing risk</p>
-</li>
-<li>
-<p>Functions</p>
-</li>
-<li>
-<p>People</p>
+<p><strong>Guidance and advisory support</strong>: Providing practical guidance to Expert Teams, Task Teams, Communities of
+Practice, and other implementors on FOSS best practices, including licensing, contribution workflows, governance models
+and release management.</p>
 </li>
 </ul>
+</div>
+<div class="paragraph">
+<p>These functions may be carried out by existing WMO bodies, such as the Standing Committees, Expert Teams, and Task Teams.
+However, these bodies often have a narrow focus on a particular activity or area, are not typically involved in
+the projects implementing or using FOSS, and often lack the specialist knowledge on FOSS. Alternatively, a dedicated
+software review function, such as through an Open Source Program Office (OSPO), could be established. Regardless of the
+organizational form, there is a clear requirement for software governance to be systematic rather than ad-hoc, and that
+clear, objective criteria exist for evaluating and endorsing FOSS within WMO.</p>
+</div>
+<div class="paragraph">
+<p>It is important to note that WMO should not seek to develop its own registry of open-source software.
+Existing registries and ecosystems (such as those maintained by OSGeo, the Digital Public Goods Alliance, and
+language-specific package repositories) already serve this purpose.  WMO&#8217;s coordination role should focus on evaluating
+and recommending software from within these existing ecosystems, rather than duplicating their efforts.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_roles_and_responsibilities"><a class="anchor" href="#_roles_and_responsibilities"></a>Roles and responsibilities</h5>
+<div class="paragraph">
+<p>Coordination of FOSS activities within the WMO involves a range of actors:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>WMO Secretariat</strong>: Facilitates coordination across programmes and projects, supports the development and maintenance
+of FOSS guidance, and manages relationships with external FOSS organizations.  The Secretariat also provides continuity
+and institutional memory for FOSS initiatives that span multiple constituent body sessions.</p>
+</li>
+<li>
+<p><strong>Expert Teams and Task Teams</strong>: Provide domain-specific expertise in evaluating and developing FOSS relevant to their
+areas of responsibility.  Expert Teams and Task Teams may identify candidate software for endorsement or develop Reference
+Implementations of WMO standards.</p>
+</li>
+<li>
+<p><strong>Communities of Practice</strong>: Serve as collaborative spaces where Members, developers and stakeholders work together on
+shared FOSS initiatives.  Communities of Practice can play an important role in maintaining and evolving software that
+supports WMO standards, as demonstrated by the development of Reference Implementations within the WIS2 programme and
+the OpenCDMS project and initiative.</p>
+</li>
+<li>
+<p><strong>Members</strong>: Contribute expertise, code, testing and operational feedback.  Members with mature FOSS programmes can
+serve as mentors and collaborators for those building capacity.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>Whilst "Communities of Practice" have been listed above, these do not exist formally within the WMO&#8217;s framework and
+constituent bodies, instead operating on an informal basis. Strengthening and formally recognising these communities
+would have significant benefit.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_foss_project_life_cycle"><a class="anchor" href="#_foss_project_life_cycle"></a>FOSS project life cycle</h5>
+<div class="paragraph">
+<p>FOSS projects and software typically progress through several stages:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Concept and prototyping</strong>: An initial requirement is identified and ideas are explored. These may often be part
+of the development of a new standard, such as the WIS2.0 standards, or in response to an operational need. At this stage,
+the software may be experimental and maintained by a small number of developers.</p>
+</li>
+<li>
+<p><strong>Development and pilot use</strong>: Following initial prototyping, the software gains maturity and may have additional
+contributors. The software is tested in pilot environments. Parallel to this, the standards that the software is
+implementing may also gain maturity and undergo further changes.</p>
+</li>
+<li>
+<p><strong>Operational use</strong>: Software, and standards, are ready for production use in operational environments. There will be
+established governance processes for the FOSS together with comprehensive documentation and contribution guides. The
+contributor base will have grown and be sustainable.</p>
+</li>
+<li>
+<p><strong>End-of-life and migration</strong>: When software is no longer actively maintained or has been superseded, clear guidance
+should exist for migrating to alternative solutions, including data migration.  End-of-life planning is particularly
+important for software that Members depend on for operational services.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The WMO can support this lifecycle by providing evaluation criteria at each stage, recognizing software that meets
+established thresholds of maturity, and facilitating transitions when software reaches end-of-life.  Established
+frameworks such as the OSGeo incubator and graduation process<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup>
+provide a useful model for structuring such a lifecycle within the WMO.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_foss_sustainability_and_risk_management"><a class="anchor" href="#_foss_sustainability_and_risk_management"></a>FOSS sustainability and risk management</h5>
+<div class="paragraph">
+<p>Sustainability, and long-term maintenance and support, are amongst the most significant challenges in FOSS adoption.
+Software that is relied upon by Members, especially for operational services, must be maintained over the long-term,
+with timely security updates and patches, compatibility updates and responsive support. Key risks to be managed include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Bus / retirement factor</strong>: Over-reliance on a single, or small team, for critical software. When supporting FOSS
+development and adoption, the WMO should encourage a broad contributor base, shared governance, and pooling of resources
+for the support and development of critical software.</p>
+</li>
+<li>
+<p><strong>Security vulnerabilities</strong>: Software components must be subject to regular security reviews, with clear disclosure
+and patching policies. Adequate resources must be in place to ensure any identified vulnerabilities are addressed in
+a timely fashion.</p>
+</li>
+<li>
+<p><strong>Dependency risk</strong>: Software often depends on a chain of upstream libraries and components.  Understanding and
+monitoring these dependencies is essential for assessing overall project health. This includes changes to upstream
+licensing conditions.</p>
+</li>
+<li>
+<p><strong>Funding and institutional support</strong>: Whilst FOSS may be free of licensing costs there are still costs associated with
+the development, maintenance, and operation of FOSS software. These costs are often hidden or neglected but should be
+taken into account.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The WMO has a role in supporting FOSS initiatives and managing risks by promoting and supporting investment in the
+development and maintenance of FOSS software and in community management. This support may be realised through
+sources such as the WMO Voluntary Cooperation Programme (VCP), extra-budgetary resources and projects, and through
+broader stakeholder and donor engagement.</p>
+</div>
+<div class="paragraph">
+<p>The WMO&#8217;s coordination role should include monitoring the health of FOSS that is critical to WMO programmes and alerting
+Members to emerging risks, such as previously promoted projects that show declining activity, unpatched vulnerabilities
+or loss of key maintainers.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_alignment_with_the_wmo_ecosystem"><a class="anchor" href="#_alignment_with_the_wmo_ecosystem"></a>Alignment with the WMO ecosystem</h5>
+<div class="paragraph">
+<p>In the WMO context, FOSS initiatives should be aligned with the broader set of WMO activities in supporting Members.
+This includes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Technical Regulations and standards</strong>: Co-development of reference implementations alongside the development and
+implementation of new regulations and standards; FOSS developed or endorsed should conform with and / or implement
+WMO standards. The WMO should also promote alignment and interoperability with open standards, such as those developed by
+the Open Geospatial Consortium.</p>
+</li>
+<li>
+<p><strong>Cross-programme and cross-project coordination</strong>: FOSS components are often relevant to multiple WMO programmes.
+Coordination can help avoid duplication, identify opportunities for shared development and ensure that Members benefit
+from a coherent set of tools rather than competing or overlapping solutions.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_supporting_members"><a class="anchor" href="#_supporting_members"></a>Supporting Members</h5>
+<div class="paragraph">
+<p>A key function of WMO coordination is ensuring that all Members can benefit from FOSS, regardless of their technical
+capacity, and making sure that no Member is left behind.  This includes:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Capacity building</strong>: Providing training, documentation and technical support to help Members evaluate, deploy and
+maintain FOSS solutions.  This is particularly important for developing countries and small island developing states,
+where resource constraints may limit the ability to engage with FOSS communities directly.</p>
+</li>
+<li>
+<p><strong>Knowledge transfer</strong>: Facilitating the exchange of experience and expertise between Members, for example through
+workshops, code sprints and hackathons organized alongside WMO events or in collaboration with partner organizations.</p>
+</li>
+<li>
+<p><strong>Visibility and discovery</strong>: Helping Members identify FOSS that is relevant to their needs by curating
+recommendations and maintaining awareness of available tools within the WMO community, drawing on existing registries
+and partner ecosystems.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_external_partnerships"><a class="anchor" href="#_external_partnerships"></a>External partnerships</h5>
+<div class="paragraph">
+<p>The WMO does not operate in isolation in the FOSS landscape.  Established organizations such as the Open Source
+Geospatial Foundation (OSGeo), the Digital Public Goods Alliance (DPGA), the Apache Software Foundation and others have
+developed mature frameworks for FOSS governance, incubation and community management.  WMO should seek to leverage these
+existing frameworks rather than developing parallel structures.</p>
+</div>
+<div class="paragraph">
+<p>Potential areas for collaboration include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Formal partnerships:</strong> Memoranda of Understanding (MoUs) with organizations such as OSGeo can provide a structured
+basis for collaboration on project governance, incubation and quality assurance.</p>
+</li>
+<li>
+<p><strong>Registration as Digital Public Goods:</strong> Key WMO FOSS implementations may qualify for registration with the DPGA,
+increasing their visibility and credibility within the broader international development community.</p>
+</li>
+<li>
+<p><strong>Joint events:</strong> Code sprints, hackathons and workshops organized in collaboration with partner organizations (such
+as OGC/OSGeo/ASF joint sprints or FOSS4G conferences) provide valuable opportunities for capacity building, community
+engagement and collaborative development.</p>
+</li>
+<li>
+<p><strong>Regional digital innovation hubs</strong>: Regional digital innovation hubs, established in collaboration with Members,
+national and international development agencies, and regional organizations, can play an important role in the
+development and implementation of FOSS solutions, with a focus on meeting the needs of Members within a region. These
+could be co-located, or hosted, by existing regional centres.</p>
+</li>
+</ul>
+</div>
 </div>
 </div>
 <div class="sect3">
@@ -739,13 +968,13 @@ analysts, and support for future expansion needs.</p>
 <div class="sect3">
 <h4 id="_case_study_wis2_foss_and_agile_development"><a class="anchor" href="#_case_study_wis2_foss_and_agile_development"></a>Case study: WIS2, FOSS, and agile development</h4>
 <div class="paragraph">
-<p>The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup></p>
+<p>The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>The WMO Executive Council, through <a href="https://library.wmo.int/idviewer/66258/1147">Resolution 34 (EC-76)</a> - Implementation plan update of the WMO Information System 2.0, endorsed the WMO Information System 2.0 (WIS2) implementation plan. The Resolution also recognized the importance of establishing a pilot phase to develop the WIS2 infrastructure and begin testing it, in order to be ready for a pre-operational phase in 2024, and then for the transition starting in 2025.</p>
 </div>
 <div class="paragraph">
-<p>The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup></p>
+<p>The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>WIS2 is comprised of a number of key standards, including (but are not limited to):</p>
@@ -997,15 +1226,18 @@ analysts, and support for future expansion needs.</p>
 <a href="#_footnoteref_2">2</a>. <a href="https://community.wmo.int/governance/commission-membership/infcom" class="bare">https://community.wmo.int/governance/commission-membership/infcom</a>
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. <a href="https://wmo.int/wis-20" class="bare">https://wmo.int/wis-20</a>
+<a href="#_footnoteref_3">3</a>. <a href="https://www.osgeo.org/resources/project-graduation-checklist/" class="bare">https://www.osgeo.org/resources/project-graduation-checklist/</a>
 </div>
 <div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. <a href="https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction" class="bare">https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction</a>
+<a href="#_footnoteref_4">4</a>. <a href="https://wmo.int/wis-20" class="bare">https://wmo.int/wis-20</a>
+</div>
+<div class="footnote" id="_footnotedef_5">
+<a href="#_footnoteref_5">5</a>. <a href="https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction" class="bare">https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-02-11 15:49:54 UTC
+Last updated 2026-02-19 20:08:45 UTC
 </div>
 </div>
 </body>
