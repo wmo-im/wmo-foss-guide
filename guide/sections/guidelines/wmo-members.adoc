@@ -76,7 +76,7 @@ and ecosystem flexibility—offering both practical advantages and adaptability.
 
 ==== Profiling competencies
 
-Members wishing to use, participate and/or manage FOSS activities should be familiar with basic FOSS principles, and assess their level of participation accordingly.  Understanding the architecture of participation of FOSS varies among projects.  In addition to domain and software development competencies, staff require the ability to analyze a given FOSS project and/or community, understanding how development, contributions and social and political infrastructure operate.  Staff should also be supported to participate in FOSS as part of their ongoing learning and development.  The degree to which these skills are developed depend on the level of FOSS investment by a given Member organization.
+Members wishing to use, participate and/or manage FOSS activities should be familiar with basic FOSS principles, and assess their level of participation accordingly.  Understanding the architecture of participation of FOSS varies among projects.  In addition to domain and software development competencies, staff require the ability to analyze a given FOSS project and/or community, understanding how development, contributions and social and political infrastructure operate.  Staff should also be supported to participate in FOSS as part of their ongoing learning and development.  This can include attending conferences and/or code sprints and hackathons.  The degree to which these skills are developed depend on the level of FOSS investment by a given Member organization.
 
 ==== Infrastructure considerations
 
