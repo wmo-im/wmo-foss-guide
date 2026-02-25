@@ -2,45 +2,19 @@
 
 ==== Using FOSS
 
-* FOSS as an option during software evaluation
-* Risk, hidden costs (TODO Jian)
-** Principles apply to ANY software
-** Risk management
-** Due diligence (maintenance, updates)
-* Lifecycle management/EOL -> migration
-* Total cost of ownership considerations
-** HR profile / IT capacity of organization
-* Benefits (freedom, cost, reducing vendor lock in, portability) (TODO Jian)
-* Infrastructure considerations
-
 ===== Risks
 
-* **License compliance risks** Open source licenses often have widely varying requirements regarding commercial use,
-redistribution, and code modification. Certain licenses include restrictive clauses, such as mandating that derivative
-works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes
-and intellectual property issues.
-* **Security and continuity risks**: Open source software from niche projects or less-established projects may pose
-security risks due to limited formal code audits. Additionally, the complexity of open source software supply chains
-creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological
-applications, especially  when handling sensitive observational data or real-time forecasting models.
-* **Maintenance risks**: Fixes for vulnerabilities rely on community responsiveness. If an open source project is
-discontinued,  known vulnerabilities may remain unaddressed.
-* **Support risks**: Most open source software lacks official support. As a result, timely response and effective
-resolutions of critical operational system failures cannot be guaranteed, potentially leading to interruptions
-in meteorological operation and data loss.
+* **License compliance risks** Open source licenses often have widely varying requirements regarding commercial use, redistribution, and code modification. Certain licenses include restrictive clauses, such as mandating that derivative works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes and intellectual property issues.
+* **Security and continuity risks**: Open source software from niche projects or less-established projects may pose security risks due to limited formal code audits. Additionally, the complexity of open source software supply chains creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological applications, especially  when handling sensitive observational data or real-time forecasting models.
+* **Maintenance risks**: Fixes for vulnerabilities rely on community responsiveness. If an open source project is discontinued,  known vulnerabilities may remain unaddressed.
+* **Support risks**: Most open source software lacks official support. As a result, timely response and effective resolutions of critical operational system failures cannot be guaranteed, potentially leading to interruptions in meteorological operation and data loss.
 
 ===== Hidden costs
 
-* **Technical adaptation and integration costs**: Human resources must be allocated for secondary development (customization),
-system interface integration, and compatibility testing to ensure the software aligns with existing business systems.
-* **Long-term maintenance and version management costs**: Dedicated personnel are needed to track version updates, conduct
-testing, and manage migrations. If a project is discontinued, taking over its maintenance internally entails high
-technical challenges and added operational complexity.
-* **Talent acquisition and training costs**: Recruiting skilled professionals can be expensive, and ongoing in-house
-training is required to maintain the necessary expertise.
-* **Compliance audit and management costs**: It is necessary to maintain an inventory of all open source components and
-perform regular compliance audits. Large meteorological organizations may also need to develop dedicated management
-platforms, with costs increasing as the number of components grows.
+* **Technical adaptation and integration costs**: Human resources must be allocated for secondary development (customization), system interface integration, and compatibility testing to ensure the software aligns with existing business systems.
+* **Long-term maintenance and version management costs**: Dedicated personnel are needed to track version updates, conduct testing, and manage migrations. If a project is discontinued, taking over its maintenance internally entails high technical challenges and added operational complexity.
+* **Talent acquisition and training costs**: Recruiting skilled professionals can be expensive, and ongoing in-house training is required to maintain the necessary expertise.
+* **Compliance audit and management costs**: It is necessary to maintain an inventory of all open source components and perform regular compliance audits. Large meteorological organizations may also need to develop dedicated management platforms, with costs increasing as the number of components grows.
 
 
 ==== Contributing to FOSS
@@ -95,25 +69,14 @@ In the same spirit as contributing to FOSS, where no national regulations exist,
 The core benefits of open source software can be summarized on three dimensions: autonomy and control, cost optimization,
 and ecosystem flexibility—offering both practical advantages and adaptability. Details are as follows:
 
-* **Exceptional autonomy and control**: The code is open and licenses are flexible, allowing meteorological organizations
-to perform deep customization as needed, directly modifying the code to add or remove functional modules to suit unique
-operational scenarios (e.g., regional weather forecasting adjustments). This level of access also allows them to
-independently identify and fix vulnerabilities, optimize performance for massive meteorological data processing, and
-control the technical roadmap of core systems. Certain permissive licenses (e.g., MIT License, Apache License 2.0) even
-permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.
-* **Significant cost advantages**: No software license fees or subscription fees are required, suitable for national meteorological
-services as well as deployments in regional forecasting centers. The availability of source code and community documentation
-reduces trial-and-error costs during secondary development, making necessary human resource investment more manageable.
-Meteorological organizations can also choose free community support or affordable third-party services (specialized in
-meteorological applications) instead of expensive vendor support packages.
-* **Avoiding vendor lock-in risks**: Free from proprietary interfaces and data format dependencies, enabling free choice of
-deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can
-be taken over independently or by a third party. Moreover, multiple service providers are often support the same open
-source software, strengthening the user’s bargaining power.
-* **Excellent cross-platform portability**: Most open source tools run on multiple operating systems (e.g., Windows and
-Linux), eliminating the need for separate purchases. Adherence to common technical standards (e.g., WMO GRIB data formats)
-lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration,
-adapting to architectural upgrades in meteorological data centers.
+* **Exceptional autonomy and control**: The code is open and licenses are flexible, allowing meteorological organizations to perform deep customization as needed, directly modifying the code to add or remove functional modules to suit unique operational scenarios (e.g., regional weather forecasting adjustments). This level of access also allows them to independently identify and fix vulnerabilities, optimize performance for massive meteorological data processing, and control the technical roadmap of core systems. Certain permissive licenses (e.g., MIT License, Apache License 2.0) even permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.
+* **Significant cost advantages**: No software license fees or subscription fees are required, suitable for national meteorological services as well as deployments in regional forecasting centers. The availability of source code and community documentation reduces trial-and-error costs during secondary development, making necessary human resource investment more manageable.  Meteorological organizations can also choose free community support or affordable third-party services (specialized in meteorological applications) instead of expensive vendor support packages.
+* **Avoiding vendor lock-in risks**: Free from proprietary interfaces and data format dependencies, enabling free choice of deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can be taken over independently or by a third party. Moreover, multiple service providers are often support the same open source software, strengthening the user’s bargaining power.
+* **Excellent cross-platform portability**: Most open source tools run on multiple operating systems (e.g., Windows and Linux), eliminating the need for separate purchases. Adherence to common technical standards (e.g., WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centers.
+
+==== Profiling competencies
+
+Members wishing to use, participate and/or manage FOSS activities should be familiar with basic FOSS principles, and assess their level of participation accordingly.  Understanding the architecture of participation of FOSS varies among projects.  In addition to domain and software development competencies, staff require the ability to analyze a given FOSS project and/or community, understanding how development, contributions and social and political infrastructure operate.  Staff should also be supported to participate in FOSS as part of their ongoing learning and development.  This can include attending conferences and/or code sprints and hackathons.  The degree to which these skills are developed depend on the level of FOSS investment by a given Member organization.
 
 ==== Infrastructure considerations
 
