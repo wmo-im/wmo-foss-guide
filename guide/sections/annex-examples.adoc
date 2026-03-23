@@ -3,21 +3,288 @@
 [[annex-examples]]
 == Examples of FOSS managed / offered by Member organizations
 
-[cols="1,1,1,20a"]
-|===
-|Organization|Platform|URL|Projects(s)
+The following table provides examples of FOSS repositories maintained by WMO, its Members, and closely
+affiliated intergovernmental organizations, organized by WMO Regional Association (RA). It is not exhaustive;
+it illustrates the breadth and maturity of FOSS activity across the WMO community. All listed projects carry
+OSI-approved open source licences unless otherwise noted.
 
-|Environment and Climate Change Canada, Meteorological Service of Canada
+NOTE: GitHub is the dominant platform for NMHS open source publishing. GitLab sees some use, both on
+gitlab.com and through self-hosted instances (e.g. EUMETSAT operates gitlab.eumetsat.int; GeoSphere Austria
+uses a self-hosted https://forgejo.org[Forgejo] instance at gitea.geosphere.at). The choice of platform is a
+matter of organizational preference and existing infrastructure; Members should evaluate options based on
+accessibility, governance, and their own policy requirements (see <<_source_code_hosting_and_collaboration>>).
+
+[cols="2,1,3,8a", options="header"]
+|===
+|Organization|Platform|Repository URL|Notable projects
+
+4+|*WMO*
+
+|WMO Information Management (`wmo-im`)
+|GitHub
+|https://github.com/wmo-im
+|* https://github.com/wmo-im/wis2-gdc[wis2-gdc] / https://github.com/wmo-im/wis2-gc[wis2-gc] / https://github.com/wmo-im/wis2-gb[wis2-gb] — WIS2 Global Discovery Catalogue, Global Cache, and Global Broker reference implementations (Apache-2.0)
+* https://github.com/wmo-im/pywiscat[pywiscat] — Python API for querying the WIS2 Global Discovery Catalogue (MIT)
+
+|World Meteorological Organization (`World-Meteorological-Organization`)
+|GitHub
+|https://github.com/World-Meteorological-Organization
+|* https://github.com/World-Meteorological-Organization/wis2box[wis2box] — WIS2 in a box; reference implementation of a WMO WIS2 Node (Apache-2.0)
+* https://github.com/World-Meteorological-Organization/wis2box-ui[wis2box-ui] / https://github.com/World-Meteorological-Organization/wis2box-webapp[wis2box-webapp] — Vue.js interfaces for wis2box (Apache-2.0)
+* https://github.com/World-Meteorological-Organization/synop2bufr[synop2bufr] — converts SYNOP FM-12 messages to BUFR (Apache-2.0)
+* https://github.com/World-Meteorological-Organization/csv2bufr[csv2bufr] — converts CSV observation data to BUFR (Apache-2.0)
+* https://github.com/World-Meteorological-Organization/pywis-pubsub[pywis-pubsub] — Python library for WIS2 MQTT data subscription and download (Apache-2.0)
+* https://github.com/World-Meteorological-Organization/cap-composer[cap-composer] — WMO Common Alerting Protocol (CAP) composer tool (MIT)
+
+|WMO Communities of Practice (`wmo-cop`)
+|GitHub
+|https://github.com/wmo-cop
+|* https://github.com/wmo-cop/pyoscar[pyoscar] — Python API client for WMO OSCAR/Surface station metadata registry (MIT)
+
+|MCH — Meteorology, Climatology and Hydrology DBMS
+|GitHub
+|https://github.com/mch-project/MCH
+|WMO-owned DBMS for managing meteorological, climatological, and hydrological observational data.
+Originally developed under the PROMMA project for Mexico's CONAGUA; WMO assumed ownership in 2011.
+Freely available to all WMO Members, particularly used by developing country NMHSs. (GPL-3.0)
+
+4+|*Intergovernmental and multi-agency*
+
+|European Centre for Medium-Range Weather Forecasts (ECMWF)
+|GitHub
+|https://github.com/ecmwf
+|* https://github.com/ecmwf/eccodes[eccodes] — GRIB and BUFR encoding/decoding library; the de facto global standard (Apache-2.0)
+* https://github.com/ecmwf/cfgrib[cfgrib] — Python interface mapping GRIB files to xarray/CF Convention (Apache-2.0)
+* https://github.com/ecmwf/cdsapi[cdsapi] — Python API for the Copernicus Climate Data Store (Apache-2.0)
+* https://github.com/ecmwf/earthkit[earthkit] — Python tools for weather and climate data workflows (Apache-2.0)
+* https://github.com/ecmwf/magics[magics] — meteorological plotting and visualisation library (Apache-2.0)
+* Anemoi framework — collaborative ML weather forecasting framework co-developed with DMI, DWD, FMI, KNMI, MET Norway, Météo-France, MeteoSwiss, RMI Belgium, and AEMET (Apache-2.0)
+
+|Pytroll (multi-agency satellite data processing consortium)
+footnote:[Core contributors include EUMETSAT and several Nordic NMHSs]
+|GitHub
+|https://github.com/pytroll
+|* https://github.com/pytroll/satpy[satpy] — Python package for Earth observation satellite data processing (GPL-3.0)
+* https://github.com/pytroll/pyresample[pyresample] — geospatial image resampling for satellite data (LGPL-3.0)
+* https://github.com/pytroll/pyorbital[pyorbital] — orbital and astronomy computations for satellite passes (GPL-3.0)
+
+4+|*RA I — Africa*
+
+|WMO Regional Office for Africa / NORCAP (`wmo-raf`)
+|GitHub
+|https://github.com/wmo-raf
+|Tools for African NMHS digital transformation (~74 repos, very active). Key projects:
+
+* https://github.com/wmo-raf/climweb[climweb] — open source CMS and public-facing website platform for NMHSs, including weather pages, forecasts and warnings (MIT)
+* https://github.com/wmo-raf/adl[adl] — Automated Data Logger for weather observation data collection and processing (MIT)
+* https://github.com/wmo-raf/cap-composer[cap-composer] — CAP alerts composition and dissemination tool (MIT)
+* https://github.com/wmo-raf/geomanager[geomanager] — geospatial data manager for raster and vector datasets (MIT)
+
+|Climsoft
+footnote:[Developed collaboratively by Zimbabwe Meteorological Department, Kenya Meteorological Department, ACMAD, and others, with support from WMO, UK Met Office, and IDEMS International]
+|GitHub
+|https://github.com/climsoft
+|Widely-used open source Climate Data Management System for African NMHSs.
+Deployed operationally across East Africa and supported in 14+ SADC member states and 17 West African countries.
+
+* https://github.com/climsoft/Climsoft[Climsoft] — desktop application; operational in Kenya, Uganda, Ethiopia, Sudan, Djibouti (GPL-3.0)
+* https://github.com/climsoft/climsoft-web[climsoft-web] — next-generation web rewrite (Climsoft v6); in active development (GPL-3.0)
+
+4+|*RA II — Asia*
+
+|China Meteorological Administration — National Meteorological Centre (NMC)
+|GitHub
+|https://github.com/nmcdev
+|Python and R toolkit for operational meteorological development (19 repos, actively maintained). Key projects:
+
+* https://github.com/nmcdev/meteva[meteva] — fast evaluation and validation library for weather forecast products (Apache-2.0)
+* https://github.com/nmcdev/nmc_met_io[nmc_met_io] — reading and writing MICAPS files, satellite imagery, and radar data (GPL-3.0)
+* https://github.com/nmcdev/nmc_met_graphics[nmc_met_graphics] — meteorological charting and colour table utilities (GPL-3.0)
+* https://github.com/nmcdev/metdig[metdig] — meteorological diagnostic tools (GPL-3.0)
+* https://github.com/nmcdev/nmc_met_map[nmc_met_map] — mapping utilities for meteorological applications (GPL-3.0)
+
+4+|*RA III — South America*
+
+|Instituto Nacional de Pesquisas Espaciais (INPE, Brazil)
+footnote:[INPE is Brazil's national space research institute and the primary source of operational satellite-derived meteorological data in the country.]
+|GitHub
+|https://github.com/dissm-inpe
+|* https://github.com/dissm-inpe/goes2image[goes2image] — converts GOES/ABI satellite data to standard image formats; used for operational satellite imagery processing (MIT)
+
+4+|*RA IV — North America, Central America and the Caribbean*
+
+|NOAA Environmental Modeling Center (EMC)
+|GitHub
+|https://github.com/NOAA-EMC
+|* https://github.com/NOAA-EMC/WW3[WW3] — WAVEWATCH III ocean wave model (LGPL-3.0)
+* https://github.com/NOAA-EMC/global-workflow[global-workflow] — GFS/GEFS global forecast system workflow (LGPL-3.0)
+* https://github.com/NOAA-EMC/GSI[GSI] — Gridpoint Statistical Interpolation data assimilation system (LGPL-3.0)
+* https://github.com/NOAA-EMC/NCEPLIBS-bufr[NCEPLIBS-bufr] — BUFR encoding/decoding library (LGPL-3.0)
+
+|NOAA Office of Water Prediction (OWP)
+|GitHub
+|https://github.com/NOAA-OWP
+|* https://github.com/NOAA-OWP/ngen[ngen] — Next Generation Water Modeling Engine (Apache-2.0)
+* https://github.com/NOAA-OWP/inundation-mapping[inundation-mapping] — flood inundation mapping software (Apache-2.0)
+
+|NOAA Geophysical Fluid Dynamics Laboratory (GFDL)
+|GitHub
+|https://github.com/NOAA-GFDL
+|* https://github.com/NOAA-GFDL/FMS[FMS] — Flexible Modeling System for coupled climate models (Apache-2.0)
+* https://github.com/NOAA-GFDL/MOM6[MOM6] — Modular Ocean Model version 6 (Apache-2.0)
+
+|Environment and Climate Change Canada — Meteorological Service of Canada (MSC)
 |GitHub
 |https://github.com/ECCC-MSC
-|* https://github.com/ECCC-MSC/msc-pygeoapi
-* https://github.com/ECCC-MSC/libecbufr
-* https://github.com/ECCC-MSC/msc-wis2node
+|* https://github.com/ECCC-MSC/msc-pygeoapi[msc-pygeoapi] — OGC API/pygeoapi deployment for MSC open data (MIT)
+* https://github.com/ECCC-MSC/msc-animet[msc-animet] — interactive weather animation tool for MSC Open Data (GPL-3.0)
+* https://github.com/ECCC-MSC/libecbufr[libecbufr] — BUFR encoding/decoding library (GPL-3.0)
+* https://github.com/ECCC-MSC/msc-wis2node[msc-wis2node] — MSC WIS2 Node implementation (GPL-3.0)
 
-|NSF Unidata
+|Environment and Climate Change Canada — Meteorological Research Division
+|GitHub
+|https://github.com/ECCC-ASTD-MRD
+|* https://github.com/ECCC-ASTD-MRD/gem[gem] — Global Environmental Multiscale (GEM) NWP model (LGPL-2.1)
+* https://github.com/ECCC-ASTD-MRD/librmn[librmn] — NWP utility library (LGPL-2.1)
+* https://github.com/ECCC-ASTD-MRD/MIDAS-src[MIDAS-src] — Modular and Integrated Data Assimilation System (LGPL-2.1)
+
+|NSF Unidata (USA)
 |GitHub
 |https://github.com/Unidata
-|* TODO1
-* TODO2
+|* https://github.com/Unidata/thredds[thredds] — THREDDS Data Server for scientific data access via OPeNDAP, WMS and other protocols (BSD-3-Clause)
+* https://github.com/Unidata/MetPy[MetPy] — Python toolkit for meteorological data reading, analysis and visualisation (BSD-3-Clause)
+* https://github.com/Unidata/netcdf-c[netcdf-c] — NetCDF-C library (BSD-3-Clause)
+* https://github.com/Unidata/LDM[LDM] — Local Data Manager for real-time data distribution (BSD-2-Clause)
+
+|OpenDCS — Open Data Collection System
+footnote:[Co-funded by USBR, USGS, and USACE; relevant to any NMHS using GOES DCS telemetry]
+|GitHub
+|https://github.com/opendcs/opendcs
+|Java software for retrieving, decoding, processing, and storing hydrometeorological time series data from
+monitoring platforms, particularly via NOAA GOES satellite telemetry. (Apache-2.0)
+
+|National Meteorological Service of Belize (NMS-Belize)
+|GitHub
+|https://github.com/NMS-Belize
+|* https://github.com/NMS-Belize/surface[surface] — web-based surface observation management system for data entry,
+quality control and dissemination; actively maintained (GPL-3.0)
+* https://github.com/NMS-Belize/surface-installer[surface-installer] — Python installer for the surface application (MIT)
+
+|RClimDex
+|GitHub
+|https://github.com/ECCC-CDAS/RClimDex
+|R package and GUI for computing the 27 ETCCDI temperature and precipitation extreme indices from daily station data,
+with built-in quality control. Widely used in WMO regional training workshops; predecessor to Climpact. (LGPL-2.1)
+
+4+|*RA V — South-West Pacific*
+
+|MetOcean Solutions (division of MetService, New Zealand)
+|GitHub
+|https://github.com/metocean
+|* https://github.com/metocean/wavespectra[wavespectra] — wave spectra analysis tools (MIT)
+* https://github.com/metocean/moana-qc[moana-qc] — quality control for ocean temperature observations (MIT)
+
+|Climpact
+footnote:[Developed at UNSW Sydney under the ARC Centre of Excellence for Climate Extremes; maintained by WMO CCl ET-SCI chair]
+|GitHub
+|https://github.com/ARCCSS-extremes/climpact
+|R Shiny application and R package for calculating the WMO Expert Team on Sector-specific Climate Indices (ET-SCI)
+— a superset of the 27 ETCCDI indices extended to health, agriculture and water sectors.
+The WMO-endorsed reference tool for ET-SCI index calculation; used by NMHSs globally. (GPL-3.0)
+
+4+|*RA VI — Europe*
+
+|Meteorologisk institutt (MET Norway)
+|GitHub
+|https://github.com/metno
+|* https://github.com/metno/fimex[fimex] — file interpolation, manipulation and extraction for meteorological grid data (GPL-2.0)
+* https://github.com/metno/diana[diana] — operational meteorological visualisation and production software (GPL, version unconfirmed)
+* https://github.com/metno/pyaerocom[pyaerocom] — Python tools for climate and air quality model evaluation (GPL-3.0)
+* https://github.com/metno/bris-inference[bris-inference] — operational ML weather model (Bris), based on Anemoi framework (Apache-2.0)
+* https://github.com/metno/kvalobs[kvalobs] — automated quality control of geophysical observations, co-developed with SMHI (GPL-2.0)
+
+|Finnish Meteorological Institute (FMI)
+|GitHub
+|https://github.com/fmidev
+|* https://github.com/fmidev/smartmet-server[smartmet-server] — high-performance operational NWP data server; widely deployed internationally (MIT)
+* https://github.com/fmidev/rack[rack] — weather radar data processing (MIT)
+* https://github.com/fmidev/himan[himan] — weather parameter post-processing tool (MIT)
+
+|Danmarks Meteorologiske Institut (DMI)
+|GitHub
+|https://github.com/dmidk
+|* https://github.com/dmidk/sunflow[sunflow] — solar nowcasting framework (MIT)
+
+|Swedish Meteorological and Hydrological Institute (SMHI)
+|GitHub
+|https://github.com/smhi
+|Components of the Diana visualisation ecosystem (shared with MET Norway); co-develops Kvalobs (see MET Norway entry).
+
+|Met Office (UK)
+|GitHub
+|https://github.com/MetOffice
+|* https://github.com/MetOffice/lfric_apps[lfric_apps] / https://github.com/MetOffice/lfric_core[lfric_core] — LFRic, the next-generation atmospheric model (BSD-3-Clause)
+* https://github.com/MetOffice/forest[forest] — Forecast and Observation Research and Evaluation Survey Tool (BSD-3-Clause)
+* https://github.com/MetOffice/CSET[CSET] — toolkit for evaluation of weather and climate models (Apache-2.0)
+
+|Royal Netherlands Meteorological Institute (KNMI)
+|GitHub
+|https://github.com/KNMI
+|* https://github.com/KNMI/adaguc-server[adaguc-server] — OGC WMS/WCS server for meteorological and climate data; widely deployed (Apache-2.0)
+* https://github.com/KNMI/adaguc-viewer[adaguc-viewer] — companion JavaScript web viewer (Apache-2.0)
+* https://github.com/KNMI/edr-pydantic[edr-pydantic] — Pydantic models for OGC Environmental Data Retrieval API (MIT)
+* https://github.com/KNMI/covjson-pydantic[covjson-pydantic] — Pydantic models for CoverageJSON (MIT)
+
+|Royal Netherlands Meteorological Institute (KNMI)
+|GitLab
+|https://gitlab.com/KNMI-OSS
+|* Climate Explorer — widely-used climate analysis web tool and data update scripts
+* Space weather tools — data retriever, HAPI server, and timeline viewer
+* KNMI public weather app and backend API
+
+|OpenGeoWeb consortium (KNMI, FMI, MET Norway)
+|GitLab
+|https://gitlab.com/opengeoweb
+|* https://gitlab.com/opengeoweb/opengeoweb[opengeoweb] — open source aviation meteorological workstation replacing legacy GeoWeb software;
+jointly developed by three NMHSs; 10,000+ commits, 200+ releases (Apache-2.0)
+
+|MeteoSwiss (Switzerland)
+|GitHub
+|https://github.com/MeteoSwiss
+|* https://github.com/MeteoSwiss/ldcast[ldcast] — latent diffusion model for generative precipitation nowcasting (BSD-3-Clause)
+* https://github.com/MeteoSwiss/pyrad[pyrad] — Python radar data processing library (BSD-3-Clause)
+* https://github.com/MeteoSwiss/fast-barnes-py[fast-barnes-py] — fast Barnes interpolation for Python (BSD-3-Clause)
+* https://github.com/MeteoSwiss/meteodata-lab[meteodata-lab] — Python library for processing GRIB data with xarray (BSD-3-Clause)
+
+|Météo-France
+|GitHub
+|https://github.com/meteofrance
+|* https://github.com/meteofrance/mfai[mfai] — Python package for operational ML workflows (Apache-2.0)
+* https://github.com/meteofrance/meteonet[meteonet] — toolbox and documentation for the MeteoNet open dataset (Apache-2.0)
+* https://github.com/meteofrance/py4cast[py4cast] — weather forecasting with deep learning (Apache-2.0)
+
+|Deutscher Wetterdienst (DWD)
+|GitHub
+|https://github.com/DeutscherWetterdienst
+|* https://github.com/DeutscherWetterdienst/regrid[regrid] — tools to regrid ICON NWP data from icosahedral to regular grids (MIT)
+* https://github.com/DeutscherWetterdienst/downloader[downloader] — Python CLI for downloading NWP GRIB2 data from the DWD Open Data server (MIT)
+
+|GeoSphere Austria (formerly ZAMG)
+|GitHub / Forgejo
+|https://github.com/Geosphere-Austria +
+https://gitea.geosphere.at
+|Self-hosted Forgejo instance (gitea.geosphere.at) used as an internal scientific code and data management platform
+
+|National Technical University of Athens (NTUA) / openmeteo
+|GitHub
+|https://github.com/openmeteo/enhydris
+|* https://github.com/openmeteo/enhydris[enhydris] — Python/Django web application for storage, management and dissemination of hydrometeorological time series and station metadata; used by Greece's national hydrometeorological data bank (AGPL-3.0)
+
+|R-Instat
+footnote:[Developed by IDEMS International (UK) with the African Maths Initiative; primary user community is African NMHSs, with training documented in Kenya, Rwanda, Namibia, Zimbabwe, Uganda, Zambia, Niger, DRC, Botswana, and Djibouti]
+|GitHub
+|https://github.com/IDEMSInternational/R-Instat
+|Free, menu-driven statistical software powered by R, making climate analysis accessible to users without programming experience.
+Includes a dedicated climate menu for working with station data (normals, trends, wind roses, Climsoft integration). (GPL-3.0)
 
 |===

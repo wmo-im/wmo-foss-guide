@@ -1,3 +1,42 @@
 == References
 
+=== FOSS practice and governance
+
 * [[producing-oss]] Fogel, Karl: Producing Open Source Software: How to Run a Successful Free Software Project (2024) footnote:[https://producingoss.com]
+* [[osor-handbook]] European Commission / Open Source Observatory: OSOR Handbook on Open Source Software in Public Administration (2026) footnote:[https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/updated-osor-handbook-published]
+* [[public-digital]] Public Digital: Open Source in Government (2021) footnote:[https://assets.public.digital/Open_Source_Report.pdf]
+* [[public-money-public-code]] Free Software Foundation Europe: Public Money? Public Code! footnote:[https://fsfe.org/activities/publiccode/index.en.html]
+
+=== Economic impact studies
+
+* [[ec-oss-impact]] Blind, K. et al.: The Impact of Open Source Software and Hardware on Technological Independence, Competitiveness and Innovation in the EU Economy, European Commission (2021) footnote:[https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and]
+* [[wb-geonode-roi]] GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source footnote:[https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open]
+* [[lf-roi]] Linux Foundation: Active Open Source Contribution Delivers 2–5x ROI (2025) footnote:[https://www.linuxfoundation.org/research/open-source-roi]
+
+=== National and regional policies
+
+* [[ec-oss-strategy]] European Commission: Open Source Software Strategy 2020–2023 — Think Open (2020) footnote:[https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-software-strategy_en]
+* [[interoperable-europe-act]] Regulation (EU) 2024/903: Interoperable Europe Act footnote:[https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act]
+* [[eu-cra]] Regulation (EU) 2024/2847: Cyber Resilience Act — open source implications footnote:[https://digital-strategy.ec.europa.eu/en/policies/cra-open-source]
+* [[us-fsc-policy]] United States Office of Management and Budget: Federal Source Code Policy (OMB M-16-21, 2016) footnote:[https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf]
+* [[ca-open-first]] Government of Canada: Open First Whitepaper (2020) footnote:[https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html]
+* [[au-dss]] Australian Government Digital Transformation Agency: Digital Service Standard — Criterion 8: Make source code open footnote:[https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria/8-make-source-code-open]
+* [[nz-nzgoal-se]] New Zealand Government: NZGOAL Software Extension (NZGOAL-SE) footnote:[https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/]
+* [[india-oss-policy]] Ministry of Electronics and Information Technology (MeitY), India: Policy on Adoption of Open Source Software for Government of India (2015) footnote:[https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf]
+* [[japan-ipa-2024]] Information-technology Promotion Agency (IPA), Japan: 2024 Open Source Promotion Report footnote:[https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report]
+* [[brazil-spb]] Government of Brazil: Portal do Software Público Brasileiro footnote:[https://github.com/spbgovbr]
+* [[au-digital-transformation]] African Union Commission: Digital Transformation Strategy for Africa 2020–2030 footnote:[https://au.int/sites/default/files/documents/38507-doc-dts-english.pdf]
+* [[csis-oss-policies]] Center for Strategic and International Studies (CSIS): Government Open Source Software Policies database footnote:[https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies]
+
+=== Multilateral and international resources
+
+* [[dpga-standard]] Digital Public Goods Alliance: Digital Public Goods Standard footnote:[https://new.digitalpublicgoods.net/standard]
+* [[undp-osee]] UNDP / ITU: Open Source Ecosystem Enabler (OSEE) footnote:[https://www.undp.org/digital/osee]
+* [[undp-default-open]] UNDP Digital Standards — Standard 9: Default to Open footnote:[https://www.undp.org/digital/standards/9-default-to-Open]
+* [[wb-oss-global]] World Bank: Open Source for Global Public Goods (2020) footnote:[https://documents.worldbank.org/en/publication/documents-reports/documentdetail/672901582561140400/open-source-for-global-public-goods]
+* [[osor-country-intel]] EU Open Source Observatory: Open Source Software Country Intelligence (60+ countries) footnote:[https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence]
+
+=== Meteorological sector
+
+* [[ecmwf-code-for-earth]] ECMWF / Copernicus Climate Change Service: Code for Earth footnote:[https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data]
+* [[wis2-transition]] WMO: WIS2 Transition Guide footnote:[https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html]
