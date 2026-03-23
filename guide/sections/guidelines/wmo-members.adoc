@@ -4,7 +4,7 @@
 
 ===== Risks
 
-* **License compliance risks** Open source licenses often have widely varying requirements regarding commercial use, redistribution, and code modification. Certain licenses include restrictive clauses, such as mandating that derivative works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes and intellectual property issues.
+* **Licence compliance risks** Open source licences often have widely varying requirements regarding commercial use, redistribution, and code modification. Certain licences include restrictive clauses, such as mandating that derivative works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes and intellectual property issues.
 * **Security and continuity risks**: Open source software from niche projects or less-established projects may pose security risks due to limited formal code audits. Additionally, the complexity of open source software supply chains creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological applications, especially  when handling sensitive observational data or real-time forecasting models.
 * **Maintenance risks**: Fixes for vulnerabilities rely on community responsiveness. If an open source project is discontinued,  known vulnerabilities may remain unaddressed.
 * **Support risks**: Most open source software lacks official support. As a result, timely response and effective resolutions of critical operational system failures cannot be guaranteed, potentially leading to interruptions in meteorological operation and data loss.
@@ -25,10 +25,10 @@ The adoption and development of FOSS within NMHSs can be significantly strengthe
 
 National FOSS-related policies may include: 
 
-* "Open by default" procurement rules requiring public institutions to consider FOSS alternatives alongside proprietary solutions when acquiring software. In some countries, like Romania, when you purchase "on demand" software development services, the source code should be transferred to the customer along with all the IPR associated with the software. Making the source code available under an open-source license is highly recommended. 
-* Guidelines for software development funded from public budget, encouraging publication of code under approved open-source licenses. 
+* "Open by default" procurement rules requiring public institutions to consider FOSS alternatives alongside proprietary solutions when acquiring software. In some countries, like Romania, when you purchase "on demand" software development services, the source code should be transferred to the customer along with all the IPR associated with the software. Making the source code available under an open-source licence is highly recommended.
+* Guidelines for software development funded from public budget, encouraging publication of code under approved open-source licences.
 * Policies promoting interoperability and open standards, which naturally align with FOSS implementations within WIS2 and other WMO technical frameworks. 
-* Capacity-building programs that enable staff to acquire skills for maintaining and developing open-source tools, reducing long-term operational dependency on external vendors. 
+* Capacity-building programmes that enable staff to acquire skills for maintaining and developing open-source tools, reducing long-term operational dependency on external vendors.
 * Security and lifecycle requirements to ensure that open-source components used in critical systems follow maintenance, patching, auditing and version management rules. 
 
 Where no national regulations exist, NMHSs can still develop institution-level policies or internal guidelines to support responsible FOSS adoption: 
@@ -57,11 +57,11 @@ In the same spirit as contributing to FOSS, where no national regulations exist,
 ** Make clear how collaboration will work to the public (for example, by providing a ``CONTRIBUTING.md`` document for GitHub)
 ** Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)
 ** What is the release schedule for new versions?
-* Choose a license that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability
-* Choose the mechanism by which the software will be made available (GitHub, GtiLab, Codeberg, organizational website, etc.)
+* Choose a licence that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability
+* Choose the mechanism by which the software will be made available (GitHub, GitLab, Codeberg, organizational website, etc.)
 * Ensure that a ``README`` is available with the code stating a clear mission and purpose
 * Identify any supported WMO Technical Regulations
-* Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additinal documentation for developer or othe audience types (administrators, etc.)
+* Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additional documentation for developer or other audience types (administrators, etc.)
 * Ensure the code is versioned (for example using Git as a version control system)
 
 ==== Core Benefits of Open Source Software
@@ -71,8 +71,8 @@ and ecosystem flexibility—offering both practical advantages and adaptability.
 
 * **Exceptional autonomy and control**: The code is open and licenses are flexible, allowing meteorological organizations to perform deep customization as needed, directly modifying the code to add or remove functional modules to suit unique operational scenarios (e.g., regional weather forecasting adjustments). This level of access also allows them to independently identify and fix vulnerabilities, optimize performance for massive meteorological data processing, and control the technical roadmap of core systems. Certain permissive licenses (e.g., MIT License, Apache License 2.0) even permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.
 * **Significant cost advantages**: No software license fees or subscription fees are required, suitable for national meteorological services as well as deployments in regional forecasting centers. The availability of source code and community documentation reduces trial-and-error costs during secondary development, making necessary human resource investment more manageable.  Meteorological organizations can also choose free community support or affordable third-party services (specialized in meteorological applications) instead of expensive vendor support packages.
-* **Avoiding vendor lock-in risks**: Free from proprietary interfaces and data format dependencies, enabling free choice of deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can be taken over independently or by a third party. Moreover, multiple service providers are often support the same open source software, strengthening the user’s bargaining power.
-* **Excellent cross-platform portability**: Most open source tools run on multiple operating systems (e.g., Windows and Linux), eliminating the need for separate purchases. Adherence to common technical standards (e.g., WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centers.
+* **Avoiding vendor lock-in risks**: Free from proprietary interfaces and data format dependencies, enabling free choice of deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can be taken over independently or by a third party. Moreover, multiple service providers often support the same open source software, strengthening the user’s bargaining power.
+* **Excellent cross-platform portability**: Most open source tools run on multiple operating systems (e.g., Windows and Linux), eliminating the need for separate purchases. Adherence to common technical standards (e.g., WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centres.
 
 ==== Profiling competencies
 
@@ -92,13 +92,13 @@ publishing project documentation. Many of these platforms also offer free tiers 
 should consider platform accessibility (e.g. connectivity constraints in some regions), governance (commercial vs.
 community-run), and data sovereignty when making a choice. Some platforms, notably GitLab (Community Edition),
 https://gitea.io[Gitea], and https://forgejo.org[Forgejo], can also be self-hosted, which may be preferable where
-organisational policy or national regulations require software infrastructure to remain under institutional control.
+organizational policy or national regulations require software infrastructure to remain under institutional control.
 
 ===== Continuous integration and delivery (CI/CD)
 
 Most major hosting platforms include integrated CI/CD tooling (e.g. GitHub Actions, GitLab CI) that enables automated
 testing, building, and release workflows. These services are typically free for public repositories and significantly
-reduce the overhead of maintaining software quality and producing releases. Where platforms are self-hosted, organisations
+reduce the overhead of maintaining software quality and producing releases. Where platforms are self-hosted, organizations
 must also provision and maintain the runner infrastructure — the compute resources on which CI/CD jobs execute. This
 may be on-premises hardware, virtual machines, or cloud instances, and represents an additional operational
 consideration when choosing a self-hosted deployment model.
@@ -110,7 +110,7 @@ environment — for example, PyPI (Python), npm (JavaScript), Docker Hub and Git
 and conda-forge (scientific computing). Members consuming FOSS should be aware of the provenance and integrity guarantees
 offered by each registry, and consider mirroring critical dependencies where connectivity is a concern. Registry
 licensing terms can also change: for example, Anaconda Inc. revised their Terms of Service in 2020 to require a paid
-licence for use of their `defaults` channel by organisations with more than 200 employees, while the community-maintained
+licence for use of their `defaults` channel by organizations with more than 200 employees, while the community-maintained
 https://conda-forge.org[conda-forge] channel remains freely available. This illustrates the importance of reviewing
 registry terms alongside software licences.
 

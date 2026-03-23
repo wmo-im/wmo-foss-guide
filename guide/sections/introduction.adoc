@@ -31,7 +31,7 @@ While talking about Open Source Software, open data plays an equally important r
 
 Making data FAIR – Findable, Accessible, Interoperable and Reusable – is an important aspect in today’s digitally
 connected world. This is especially true and important for the meteorological domain, where local, regional and global
-models rely on data from different source, organisations and regions. Data that lives in silos and cannot be accessed
+models rely on data from different source, organizations and regions. Data that lives in silos and cannot be accessed
 has a very limited use.
 
 ==== Open data policies

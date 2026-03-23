@@ -13,7 +13,7 @@ The WMO Secretariat, as the body supporting the work of its Members and constitu
 Effective FOSS coordination with the WMO requires dedicated governance functions. The following functions are identified as essential:
 
 * **Software evaluation and review**: Providing a consistent process for assessing FOSS used in WMO programmes and projects, applying criteria such as those described in the FOSS evaluation rubric (see <<annex-evaluation-rubric>>).
-This includes evaluating license compatibility, security posture, project and community health, openness of governance, and technical fitness for purpose.
+This includes evaluating licence compatibility, security posture, project and community health, openness of governance, and technical fitness for purpose.
 * **Lifecycle oversight**: Tracking the status of FOSS components used across WMO programmes, from initial adoption through operational use to end-of-life, ensuring that migration plans are in place when software is no longer maintained.
 * **Standards alignment**: Ensuring that FOSS developed or endorsed within WMO implements relevant Technical Regulations and open standards correctly and consistently.
 * **Guidance and advisory support**: Providing practical guidance to Expert Teams, Task Teams, Communities of
@@ -31,10 +31,10 @@ Coordination of FOSS activities within the WMO involves a range of actors:
 
 * **WMO Secretariat**: Facilitates coordination across programmes and projects, supports the development and maintenance of FOSS guidance, and manages relationships with external FOSS organizations.  The Secretariat also provides continuity and institutional memory for FOSS initiatives that span multiple constituent body sessions.
 * **Expert Teams and Task Teams**: Provide domain-specific expertise in evaluating and developing FOSS relevant to their areas of responsibility.  Expert Teams and Task Teams may identify candidate software for endorsement or develop <<_reference_implementations>> of WMO standards.
-* **Communities of Practice**: Serve as collaborative spaces where Members, developers and stakeholders work together on shared FOSS initiatives.  Communities of Practice can play an important role in maintaining and evolving software that supports WMO standards, as demonstrated by the development of <<_Reference Implementations within the WIS2 programme and the OpenCDMS project and initiative.
+* **Communities of Practice**: Serve as collaborative spaces where Members, developers and stakeholders work together on shared FOSS initiatives.  Communities of Practice can play an important role in maintaining and evolving software that supports WMO standards, as demonstrated by the development of <<_reference_implementations,Reference Implementations>> within the WIS2 programme and the OpenCDMS project and initiative.
 * **Members**: Contribute expertise, code, testing and operational feedback.  Members with mature FOSS programmes can serve as mentors and collaborators for those building capacity.
 
-Whilst "Communities of Practice" have been listed above, these do not exist formally within the WMO's framework and constituent bodies, instead operating on an informal basis. Strengthening and formally recognising these communities would have significant benefit.
+Whilst "Communities of Practice" have been listed above, these do not exist formally within the WMO's framework and constituent bodies, instead operating on an informal basis. Strengthening and formally recognizing these communities would have significant benefit.
 
 ===== FOSS project life cycle
 
@@ -56,7 +56,7 @@ Sustainability, and long-term maintenance and support, are amongst the most sign
 * **Dependency risk**: Software often depends on a chain of upstream libraries and components.  Understanding and monitoring these dependencies is essential for assessing overall project health. This includes changes to upstream licensing conditions.
 * **Funding and institutional support**: Whilst FOSS may be free of licensing costs there are still costs associated with the development, maintenance, and operation of FOSS software. These costs are often hidden or neglected but should be taken into account.
 
-The WMO has a role in supporting FOSS initiatives and managing risks by promoting and supporting investment in the development and maintenance of FOSS software and in community management. This support may be realised through sources such as the WMO Voluntary Cooperation Programme (VCP), extra-budgetary resources and projects, and through broader stakeholder and donor engagement.
+The WMO has a role in supporting FOSS initiatives and managing risks by promoting and supporting investment in the development and maintenance of FOSS software and in community management. This support may be realized through sources such as the WMO Voluntary Cooperation Programme (VCP), extra-budgetary resources and projects, and through broader stakeholder and donor engagement.
 
 The WMO's coordination role should include monitoring the health of FOSS that is critical to WMO programmes and alerting Members to emerging risks, such as previously promoted projects that show declining activity, unpatched vulnerabilities or loss of key maintainers.
 
@@ -118,7 +118,7 @@ Before adopting, recommending or endorsing a software solution, Members and WMO 
 
 * Purpose and scope alignment. The software should have a clearly defined purpose and scope, aligned with the intended operational, research or regulatory use case. Its role within the overall system architecture (e.g. data production, exchange, discovery, processing or visualization) should be explicit and overlaps or dependencies with existing solutions should be identified.
 * Standards and regulatory compliance. The software should demonstrably support relevant WMO Technical Regulations, standards and recommended practices, as applicable (e.g. WIS2, BUFR, GRIB, NetCDF, WMO Core Metadata Profile). Where full compliance is not yet achieved, gaps, limitations and mitigation measures should be clearly documented.
-* Licensing and policy compatibility. Licensing terms must be clearly stated and compatible with national regulations, WMO data policies and operational constraints. For FOSS, licenses should be OSI-approved and allow redistribution, modification and operational use without legal ambiguity.
+* Licensing and policy compatibility. Licensing terms must be clearly stated and compatible with national regulations, WMO data policies and operational constraints. For FOSS, licences should be OSI-approved and allow redistribution, modification and operational use without legal ambiguity.
 * Project maturity and sustainability. The assessment should consider the maturity of the project, including release history, roadmap availability, versioning practices and evidence of operational use. Indicators such as the number of active contributors, governance transparency, institutional backing and the “bus factor” provide insight into long-term sustainability and associated risks.
 * Security and risk management. The project should have documented security practices, including vulnerability reporting mechanisms, patching policies and incident response procedures. Known risks, external dependencies and lifecycle considerations (including end-of-life or migration paths) should be evaluated early in the selection process.
 * Technical quality and operational fitness. Software quality should be assessed based on documentation availability, test coverage, automation (e.g. CI/CD), performance at NMHS-relevant data volumes, and ease of deployment, operation and maintenance. Evidence of production use within the WMO community or by peer organizations is a strong positive indicator.
@@ -156,7 +156,7 @@ archiving in line with WMO data policies.
 ** __Technical Quality__: Functionality completeness and accuracy for meteorological use cases, performance when
 processing massive meteorological datasets (e.g., real-time observational data, forecast model outputs), reliability
 under peak load conditions, security, maintainability, and compatibility with existing meteorological systems.
-** __Compliance__: License is OSI-approved with no license conflicts, and complies with WMO data policies and relevant regulations.
+** __Compliance__: Licence is OSI-approved with no licence conflicts, and complies with WMO data policies and relevant regulations.
 ** __Community Sustainability__: Recent community activity (within the last 6–12 months), stability of the maintenance
 team, regularity of version releases, and maturity of the ecosystem.
 ** __Cost-effectiveness__: Controllable costs across the software lifecycle (deployment, operation, maintenance, training,
@@ -234,4 +234,4 @@ Throughout the WIS2 Implementation timeline, the https://raw.githubusercontent.c
 
 Driven by collaboration, the development and testing of FOSS significantly helped with early assessment of the WIS2 standards in development.  As a result, WIS2 standards were being tested in an agile environment and rapid feedback was provided that helped refine, adjust and improve the standards early and often.
 
-WIS2 FOSS implementations have resulted in a more stable and robust program delivery with significantly reduced risk to Members.  In addition, some tools have emerged as <<_reference_implementations>>.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of Open Standards and Open Source.
+WIS2 FOSS implementations have resulted in a more stable and robust programme delivery with significantly reduced risk to Members.  In addition, some tools have emerged as <<_reference_implementations>>.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of Open Standards and Open Source.
