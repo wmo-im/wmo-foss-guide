@@ -80,4 +80,42 @@ Members wishing to use, participate and/or manage FOSS activities should be fami
 
 ==== Infrastructure considerations
 
-(TODO TBD)
+FOSS development and distribution is supported by a rich ecosystem of freely available hosting platforms and services.
+Understanding this landscape helps Members make informed choices when publishing software, consuming FOSS components, or
+participating in collaborative development.
+
+===== Source code hosting and collaboration
+
+Platforms such as https://github.com[GitHub], https://gitlab.com[GitLab], and https://codeberg.org[Codeberg] provide the
+core infrastructure for hosting source code, tracking issues, managing contributions via pull or merge requests, and
+publishing project documentation. Many of these platforms also offer free tiers for public open-source projects. Members
+should consider platform accessibility (e.g. connectivity constraints in some regions), governance (commercial vs.
+community-run), and data sovereignty when making a choice. Some platforms, notably GitLab (Community Edition),
+https://gitea.io[Gitea], and https://forgejo.org[Forgejo], can also be self-hosted, which may be preferable where
+organisational policy or national regulations require software infrastructure to remain under institutional control.
+
+===== Continuous integration and delivery (CI/CD)
+
+Most major hosting platforms include integrated CI/CD tooling (e.g. GitHub Actions, GitLab CI) that enables automated
+testing, building, and release workflows. These services are typically free for public repositories and significantly
+reduce the overhead of maintaining software quality and producing releases. Where platforms are self-hosted, organisations
+must also provision and maintain the runner infrastructure — the compute resources on which CI/CD jobs execute. This
+may be on-premises hardware, virtual machines, or cloud instances, and represents an additional operational
+consideration when choosing a self-hosted deployment model.
+
+===== Package and artefact registries
+
+FOSS components are distributed through a variety of public registries depending on the language and runtime
+environment — for example, PyPI (Python), npm (JavaScript), Docker Hub and GitHub Container Registry (container images),
+and conda-forge (scientific computing). Members consuming FOSS should be aware of the provenance and integrity guarantees
+offered by each registry, and consider mirroring critical dependencies where connectivity is a concern. Registry
+licensing terms can also change: for example, Anaconda Inc. revised their Terms of Service in 2020 to require a paid
+licence for use of their `defaults` channel by organisations with more than 200 employees, while the community-maintained
+https://conda-forge.org[conda-forge] channel remains freely available. This illustrates the importance of reviewing
+registry terms alongside software licences.
+
+===== Community infrastructure
+
+Beyond code hosting, FOSS projects often rely on additional community infrastructure including mailing lists, discussion
+forums, chat platforms (e.g. Matrix, Slack, Discourse), and documentation sites. When evaluating or adopting a FOSS
+project, the health and accessibility of these channels is a useful indicator of community activity and support.
