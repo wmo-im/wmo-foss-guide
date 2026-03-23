@@ -1,2 +1,3 @@
 == References
 
+* [[producing-oss]] Fogel, Karl: Producing Open Source Software: How to Run a Successful Free Software Project (2024) footnote:[https://producingoss.com]
