@@ -168,7 +168,7 @@ analysts, and support for future expansion needs.
 
 ** Adopt standardized evaluation processes and quantifiable metrics to ensure objectivity and repeatability of results.
 ** Validate core functionality through a Proof-of-Concept (PoC) approach, incorporating feedback collected from real-world operational scenarios.
-** Conduct multi-dimensional verification, including code audits, security vulnerability scans, and in-depth open source community research, to confirm the reliability of the software.
+** Conduct multi-dimensional verification, including code audits, security vulnerability scans, and in-depth open-source community research, to confirm the reliability of the software.
 
 ===== Readiness
 
@@ -234,4 +234,4 @@ Throughout the WIS2 Implementation timeline, the https://raw.githubusercontent.c
 
 Driven by collaboration, the development and testing of FOSS significantly helped with early assessment of the WIS2 standards in development.  As a result, WIS2 standards were being tested in an agile environment and rapid feedback was provided that helped refine, adjust and improve the standards early and often.
 
-WIS2 FOSS implementations have resulted in a more stable and robust programme delivery with significantly reduced risk to Members.  In addition, some tools have emerged as <<_reference_implementations>>.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of Open Standards and Open Source.
+WIS2 FOSS implementations have resulted in a more stable and robust programme delivery with significantly reduced risk to Members.  In addition, some tools have emerged as <<_reference_implementations>>.  WIS2 Technical Regulations were approved with confidence as a result of the agile development of open standards and FOSS.

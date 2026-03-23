@@ -1,6 +1,6 @@
 == Introduction
 
-Open source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support. 
+Open-source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support. 
 
 FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
 
