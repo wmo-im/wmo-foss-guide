@@ -178,6 +178,18 @@ with built-in quality control. Widely used in WMO regional training workshops; p
 
 4+|*RA V — South-West Pacific*
 
+|Bureau of Meteorology — Radar Applications (`bom-radar`)
+|GitHub
+|https://github.com/bom-radar
+|* https://github.com/bom-radar/rapic[rapic] — Rapic radar data protocol support library (Apache-2.0)
+* https://github.com/bom-radar/odim_h5[odim_h5] — OPERA Data Information Model (ODIM) HDF5 format support library (Apache-2.0)
+* https://github.com/bom-radar/lpats[lpats] — LPATS lightning protocol support library (Apache-2.0)
+
+|CSIRO (Commonwealth Scientific and Industrial Research Organisation)
+|GitHub
+|https://github.com/csiro
+|* https://github.com/csiro/ccam-ccam[ccam-ccam] — Conformal Cubic Atmospheric Model; variable-resolution global model for GCM downscaling and regional climate projections (GPL-3.0)
+
 |MetOcean Solutions (division of MetService, New Zealand)
 |GitHub
 |https://github.com/metocean
