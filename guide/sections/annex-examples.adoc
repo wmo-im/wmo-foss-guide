@@ -1,12 +1,12 @@
 [appendix]
 :appendix-caption: Annex
 [[annex-examples]]
-== Examples of FOSS managed / offered by Member organizations
+== Examples of FOSS in the meteorological community
 
 The following table provides examples of FOSS repositories maintained by WMO, its Members, and closely
-affiliated intergovernmental organizations, organized by WMO Regional Association (RA). It is not exhaustive;
-it illustrates the breadth and maturity of FOSS activity across the WMO community. All listed projects carry
-OSI-approved open source licences unless otherwise noted.
+affiliated intergovernmental and research organizations, organized by WMO Regional Association (RA). It is
+not exhaustive; it illustrates the breadth and maturity of FOSS activity across the WMO community. All
+listed projects carry OSI-approved open source licences unless otherwise noted.
 
 NOTE: GitHub is the dominant platform for NMHS open source publishing. GitLab sees some use, both on
 gitlab.com and through self-hosted instances (e.g. EUMETSAT operates gitlab.eumetsat.int; GeoSphere Austria
@@ -40,13 +40,6 @@ accessibility, governance, and their own policy requirements (see <<_source_code
 |GitHub
 |https://github.com/wmo-cop
 |* https://github.com/wmo-cop/pyoscar[pyoscar] — Python API client for WMO OSCAR/Surface station metadata registry (MIT)
-
-|MCH — Meteorology, Climatology and Hydrology DBMS
-|GitHub
-|https://github.com/mch-project/MCH
-|WMO-owned DBMS for managing meteorological, climatological, and hydrological observational data.
-Originally developed under the PROMMA project for Mexico's CONAGUA; WMO assumed ownership in 2011.
-Freely available to all WMO Members, particularly used by developing country NMHSs. (GPL-3.0)
 
 4+|*Intergovernmental and multi-agency*
 
