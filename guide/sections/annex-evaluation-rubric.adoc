@@ -7,12 +7,12 @@
 |===
 | Category | Indicator
 
-.5+| License Compatibility
-| License is permissive (MIT, BSD, Apache 2.0)
+.5+| Licence Compatibility
+| Licence is permissive (MIT, BSD, Apache 2.0)
 | Compatible with NMHS mandates and data policies
 | No restrictions on data sharing or commercial use
-| License is OSI-approved
-| License is clearly stated (no license = reject)
+| Licence is OSI-approved
+| Licence is clearly stated (no licence = reject)
 
 .4+| Security
 | Clear security vulnerability policy/process
