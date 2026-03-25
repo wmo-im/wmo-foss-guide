@@ -23,8 +23,11 @@ accessibility, governance, and their own policy requirements (see <<_source_code
 |WMO Information Management (`wmo-im`)
 |GitHub
 |https://github.com/wmo-im
-|* https://github.com/wmo-im/wis2-gdc[wis2-gdc] / https://github.com/wmo-im/wis2-gc[wis2-gc] / https://github.com/wmo-im/wis2-gb[wis2-gb] — WIS2 Global Discovery Catalogue, Global Cache, and Global Broker reference implementations (Apache-2.0)
+|* https://github.com/wmo-im/wis2-gdc[wis2-gdc] / https://github.com/wmo-im/wis2-gc[wis2-gc] / https://github.com/wmo-im/wis2-gb[wis2-gb] — WIS2 Global Discovery Catalogue, Global Cache, and Global Broker Reference Implementations (Apache-2.0)
+* https://github.com/wmo-im/pywcmp[pywcmp] — Python tool for validating WMO Core Metadata Profile (WCMP) documents (MIT)
 * https://github.com/wmo-im/pywiscat[pywiscat] — Python API for querying the WIS2 Global Discovery Catalogue (MIT)
+
+NOTE: Whilst listed under the WMO, the listed software packages / RIs have been developed collaboratively with Canada, France and other Members
 
 |World Meteorological Organization (`World-Meteorological-Organization`)
 |GitHub
@@ -35,6 +38,8 @@ accessibility, governance, and their own policy requirements (see <<_source_code
 * https://github.com/World-Meteorological-Organization/csv2bufr[csv2bufr] — converts CSV observation data to BUFR (Apache-2.0)
 * https://github.com/World-Meteorological-Organization/pywis-pubsub[pywis-pubsub] — Python library for WIS2 MQTT data subscription and download (Apache-2.0)
 * https://github.com/World-Meteorological-Organization/cap-composer[cap-composer] — WMO Common Alerting Protocol (CAP) composer tool (MIT)
+
+NOTE: Whilst listed under the WMO, the wis2box software and other packages have been developed collaboratively with Canada and other Members
 
 |WMO Communities of Practice (`wmo-cop`)
 |GitHub
@@ -81,7 +86,7 @@ footnote:[Developed collaboratively by Zimbabwe Meteorological Department, Kenya
 Deployed operationally across East Africa and supported in 14+ SADC member states and 17 West African countries.
 
 * https://github.com/climsoft/Climsoft[Climsoft] — desktop application; operational in Kenya, Uganda, Ethiopia, Sudan, Djibouti (GPL-3.0)
-* https://github.com/climsoft/climsoft-web[climsoft-web] — next-generation web rewrite (Climsoft v6); in active development (GPL-3.0)
+* https://github.com/climsoft/climsoft-web[climsoft-web] — next-generation web rewrite (Climsoft v5); in active development (GPL-3.0)
 
 4+|*RA II — Asia*
 
@@ -105,6 +110,14 @@ footnote:[INPE is Brazil's national space research institute and the primary sou
 |* https://github.com/dissm-inpe/goes2image[goes2image] — converts GOES/ABI satellite data to standard image formats; used for operational satellite imagery processing (MIT)
 
 4+|*RA IV — North America, Central America and the Caribbean*
+
+|University Corporation for Atmospheric Research (UCAR) / NCAR
+footnote:[WRF is co-developed and maintained by NCAR, NOAA, the US Air Force, and numerous research and operational NMHSs worldwide]
+|GitHub
+|https://github.com/wrf-model
+|* https://github.com/wrf-model/WRF[WRF] — Weather Research and Forecasting model; widely used mesoscale NWP system for research and operations (UCAR public domain licence — not OSI-certified but essentially unrestricted)
+* https://github.com/wrf-model/WPS[WPS] — WRF Preprocessing System for terrain, land use and meteorological input data
+* https://github.com/wrf-model/WRFDA[WRFDA] — data assimilation system for WRF
 
 |NOAA Environmental Modeling Center (EMC)
 |GitHub
@@ -229,7 +242,6 @@ The WMO-endorsed reference tool for ET-SCI index calculation; used by NMHSs glob
 |GitHub
 |https://github.com/MetOffice
 |* https://github.com/MetOffice/lfric_apps[lfric_apps] / https://github.com/MetOffice/lfric_core[lfric_core] — LFRic, the next-generation atmospheric model (BSD-3-Clause)
-* https://github.com/MetOffice/forest[forest] — Forecast and Observation Research and Evaluation Survey Tool (BSD-3-Clause)
 * https://github.com/MetOffice/CSET[CSET] — toolkit for evaluation of weather and climate models (Apache-2.0)
 
 |Royal Netherlands Meteorological Institute (KNMI)
