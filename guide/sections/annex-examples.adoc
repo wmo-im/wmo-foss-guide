@@ -27,7 +27,7 @@ accessibility, governance, and their own policy requirements (see <<_source_code
 * https://github.com/wmo-im/pywcmp[pywcmp] — Python tool for validating WMO Core Metadata Profile (WCMP) documents (MIT)
 * https://github.com/wmo-im/pywiscat[pywiscat] — Python API for querying the WIS2 Global Discovery Catalogue (MIT)
 
-NOTE: Whilst listed under the WMO, the listed software packages / RIs have been developed collaboratively with Canada, France and other Members
+NOTE: Whilst listed under the WMO, the listed software packages / RIs have been developed collaboratively with Canada and other Members
 
 |World Meteorological Organization (`World-Meteorological-Organization`)
 |GitHub
