@@ -27,7 +27,7 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 
 While talking about Open Source Software, open data plays an equally important role. The following section addresses the crucial complementary role of open data to Open Source Software and how Open Source Software can be an enabler for the WMO Unified Data Policy [LINK - https://wmo.int/wmo-unified-data-policy-resolution-res1].
 
-==== FAIR data
+==== FAIR data as in Findable, Accessible, Interoperable and Reusable
 
 Making data FAIR – Findable, Accessible, Interoperable and Reusable – is an important aspect in today’s digitally
 connected world. This is especially true and important for the meteorological domain, where local, regional and global
