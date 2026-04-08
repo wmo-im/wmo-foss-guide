@@ -7,11 +7,11 @@ FOSS now powers major initiatives and services worldwide, and is backed by indus
 
 FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
 
-Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offers a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization. 
+Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offers a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.
 
 === Audience
 
-The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO. 
+The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO.
 
 === Scope
 
@@ -23,10 +23,27 @@ software, and to commercially sourced or supported software.
 
 FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.). 
 
-In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
+In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all.
 
-As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development. 
+As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.
+
+Openly developed FOSS projects depend on community contributions and maintainer review and approval of contributions.
+Whether a large or small community, ongoing maintenance of a project depends on building and maintaining a strong community with a culture of collaboration and contribution.
+In many ways, the community aspects of a project are as important as the technical aspects.
+
+Communication during the contribution and review process is key.
+Contributors should consider the effort involved in reviewing contributions and how they can structure their contributions to simplify the process.
+Contributors should be able to justify and defend all changes they are submitting (whether developed with or without assistance from AI tools).
+// TODO - ERD - Perhaps move above paragraph to Member Contributing section below?
+
+As the use of AI tools for the development of FOSS contributions have become more common, it is important to maintain a projects community and the culture.\
+Many FOSS projects have developed AI Tool Use Policies or Guidelinesfootnote:[Kate Holterhoff, "The Generative AI Policy Lanscape in Open Source". RedMonk article, 26 Feb 2026. https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/]footnote:[Melissa Weber Mendonça, list of open source AI contribution policies. List maintained in GH repo README - https://github.com/melissawm/open-source-ai-contribution-policies].
+The guidelines tend to focus on the need for human communication around contributions, the value of contributions relative to the effort required by maintainers, and transparency with type and amount of AI tool use indicated.
+The discussion of AI tool use in FOSS is still underway, here is a summary of some of the issues from the Scientific Python community footnote:[Scientific Python blog "Community Consderations Around AI Contributions"] and an example (Zarr) guidelines document footnote:[Example AI Tool Use guidelines - Zarr - https://zarr.readthedocs.io/en/stable/contributing/#ai-assisted-contributions].
+
+The speed and scale at which AI tools can generate possible fixes and enhancements, as well as exploits to security vulnerabilities, necessitates strong culture, process, and communication around human decision making on discussions and issues.
+AI can also be used for reputation building which impacts OSS project ability to provide support to the user and developer community.
 
 === Data policy considerations
 
