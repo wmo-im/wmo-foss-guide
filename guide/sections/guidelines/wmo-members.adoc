@@ -6,6 +6,7 @@
 
 * **Licence compliance risks** Open-source licences often have widely varying requirements regarding commercial use, redistribution, and code modification. Certain licences include restrictive clauses, such as mandating that derivative works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes and intellectual property issues.
 * **Security and continuity risks**: Open-source software from niche or less-established projects may pose security risks due to limited formal code audits. Additionally, the complexity of open-source software supply chains creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological applications, especially when handling sensitive observational data or real-time forecasting models.
+// TODO - ERD - Mention AI in above item?]
 * **Maintenance risks**: Fixes for vulnerabilities rely on community responsiveness. If an open-source project is discontinued, known vulnerabilities may remain unaddressed.
 * **Support risks**: Most open-source software lacks official support. As a result, timely response and effective resolution of critical operational system failures cannot be guaranteed, potentially leading to interruptions in meteorological operations and data loss.
 
@@ -55,6 +56,7 @@ In the same spirit as contributing to FOSS, where no national regulations exist,
 ** How will commit access be governed and managed?  Does the project need a project steering committee or group of stakeholders to help drive the project?
 ** How will external collaboration be addressed?  For example, will the project have a bug or issue tracker which can be used to identify new feature development, defects and/or bugs.  Will there be a dedicated discussion forum or mailing list for wider discussion?
 ** Make clear how collaboration will work to the public (for example, by providing a ``CONTRIBUTING.md`` document for GitHub)
+// TODO - ERD - mention AI policy in above item?]
 ** Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)
 ** What is the release schedule for new versions?
 * Choose a licence that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability

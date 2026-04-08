@@ -23,6 +23,23 @@ In addition, as part of the global open data/open science movement, numerous gov
 As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
 While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
 
+Openly developed FOSS projects depend on community contributions and maintainer review and approval of contributions.
+Whether a large or small community, ongoing maintenance of a project depends on building and maintaining a strong community with a culture of collaboration and contribution.
+In many ways, the community aspects of a project are as important as the technical aspects.
+
+Communication during the contribution and review process is key.
+Contributors should consider the effort involved in reviewing contributions and how they can structure their contributions to simplify the process.
+Contributors should be able to justify and defend all changes they are submitting (whether developed with or without assistance from AI tools).
+// TODO - ERD - Perhaps move above paragraph to Member Contributing section below?
+
+As the use of AI tools for the development of FOSS contributions have become more common, it is important to maintain a projects community and the culture.\
+Many FOSS projects have developed AI Tool Use Policies or Guidelinesfootnote:[Kate Holterhoff, "The Generative AI Policy Lanscape in Open Source". RedMonk article, 26 Feb 2026. https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source/]footnote:[Melissa Weber Mendonça, list of open source AI contribution policies. List maintained in GH repo README - https://github.com/melissawm/open-source-ai-contribution-policies].
+The guidelines tend to focus on the need for human communication around contributions, the value of contributions relative to the effort required by maintainers, and transparency with type and amount of AI tool use indicated.
+The discussion of AI tool use in FOSS is still underway, here is a summary of some of the issues from the Scientific Python community footnote:[Scientific Python blog "Community Consderations Around AI Contributions"] and an example (Zarr) guidelines document footnote:[Example AI Tool Use guidelines - Zarr - https://zarr.readthedocs.io/en/stable/contributing/#ai-assisted-contributions].
+
+The speed and scale at which AI tools can generate possible fixes and enhancements, as well as exploits to security vulnerabilities, necessitates strong culture, process, and communication around human decision making on discussions and issues.
+AI can also be used for reputation building which impacts OSS project ability to provide support to the user and developer community.
+
 === Data policy considerations (TODO Athina)
 
 While talking about Open Source Software, open data plays an equally important role. The following section addresses the crucial complementary role of open data to Open Source Software and how Open Source Software can be an enabler for the WMO Unified Data Policy [LINK - https://wmo.int/wmo-unified-data-policy-resolution-res1].
