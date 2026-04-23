@@ -23,7 +23,7 @@ In addition, as part of the global open data/open science movement, numerous gov
 As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
 While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
 
-=== Data policy considerations (TODO Athina)
+=== Data policy considerations
 
 While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
@@ -37,12 +37,12 @@ Earth system data and strengthen international collaboration.
 Open data, and especially meteorological, hydrological, atmosphere, and climate data should not be understood solely as
 data that is “available”. To be truly useful, data must be governed through clear policy frameworks, standards, and
 licensing arrangements that define how it can be accessed, shared, reused, and redistributed. Open access alone does not
-guarantee value. Data must also be F.A.I.R.:
+guarantee value. Data must also be FAIR:
 
-- Findable through clear metadata and catalogues
-- Accessible through reliable services and standard interfaces
-- Interoperable across institutions and systems
-- Reusable under clear legal and technical conditions
+- *Findable* through clear metadata and catalogues
+- *Accessible* through reliable services and standard interfaces
+- *Interoperable* across institutions and systems
+- *Reusable* under clear legal and technical conditions
 
 These FAIR principles are highly aligned with WMO objectives, provide a practical framework for implementing the Unified
 Data Policy, and help ensure that shared data can be effectively used by member states, researchers, operational
