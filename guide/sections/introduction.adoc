@@ -30,7 +30,9 @@ only when combined with accessible, well-governed data. Open data and FOSS are m
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
 operationalize that data. Together, they can e.g. support the implementation of the
 https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
-Earth system data and strengthen international collaboration.
+Earth system data and strengthen international collaboration. Together, they can e.g. support the implementation of the
+WMO Unified Data Policy by helping Members expand access to Earth system data, strengthen international collaboration,
+and contribute to broader open science practices.
 
 ==== Open data as a strategic asset
 
@@ -45,8 +47,8 @@ guarantee value. Data must also be FAIR:
 - *Reusable* under clear legal and technical conditions
 
 These FAIR principles are highly aligned with WMO objectives, provide a practical framework for implementing the Unified
-Data Policy, and help ensure that shared data can be effectively used by member states, researchers, operational
-centres, and strengthen international collaboration.
+Data Policy, and help ensure that shared data can be effectively used by member states, researchers, and operational
+centres, thereby strengthening and supporting also open science and reproducible research.
 
 ==== The importance of policy, license and legal clarity
 
