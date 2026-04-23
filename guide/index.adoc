@@ -38,4 +38,4 @@ include::sections/references.adoc[]
 
 include::sections/annex-evaluation-rubric.adoc[]
 
-include::sections/annex-examples.adoc[]
+//include::sections/annex-examples.adoc[]
