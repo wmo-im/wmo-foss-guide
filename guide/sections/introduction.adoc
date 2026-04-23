@@ -1,6 +1,9 @@
 == Introduction
 
-Open-source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support. 
+Free and open-source software (FOSS) refers to software that is released under a license that grants users the freedom
+to run, study, modify, and distribute the software and its source code. Common licenses include GPL, MIT, Apache, BSD,
+and many others. Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
+FOSS now powers major initiatives and services worldwide, and is backed by industry support.
 
 FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
 
@@ -12,7 +15,9 @@ The document is intended for WMO Members who are involved in software developmen
 
 === Scope
 
-This document provides guidance on FOSS for WMO Members and WMO Secretariat. 
+This document provides guidance on FOSS for WMO Members and WMO Secretariat, both in terms of using FOSS but also
+in the development and contribution to FOSS projects. The guidance is equally applicable to internally developed
+software, and to commercially sourced or supported software.
 
 === Background
 
@@ -62,7 +67,8 @@ define:
 
 Also, an often overlooked but essential aspect of open data, is licensing. Even where data is technically accessible,
 the absence of an explicit open data license can create uncertainty around reuse, redistribution, and related products.
-An open data licence helps to provide legal clarity for users and encourages broader adoption.
+An open data licence helps to provide legal clarity for users and encourages broader adoption. The Open Knowledge
+Foundation provides a curated list of open data licences at https://opendefinition.org/licenses/.
 
 ==== The enabling role of FOSS
 
