@@ -184,7 +184,10 @@ body {
 <h2 id="_introduction"><a class="anchor" href="#_introduction"></a>Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
-<p>Open-source software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry, FOSS now powers major initiatives and services worldwide, and is backed by industry support.</p>
+<p>Free and open-source software (FOSS) refers to software that is released under a license that grants users the freedom
+to run, study, modify, and distribute the software and its source code. Common licenses include GPL, MIT, Apache, BSD,
+and many others. Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
+FOSS now powers major initiatives and services worldwide, and is backed by industry support.</p>
 </div>
 <div class="paragraph">
 <p>FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions.</p>
@@ -201,7 +204,9 @@ body {
 <div class="sect2">
 <h3 id="_scope"><a class="anchor" href="#_scope"></a>Scope</h3>
 <div class="paragraph">
-<p>This document provides guidance on FOSS for WMO Members and WMO Secretariat.</p>
+<p>This document provides guidance on FOSS for WMO Members and WMO Secretariat, both in terms of using FOSS but also
+in the development and contribution to FOSS projects. The guidance is equally applicable to internally developed
+software, and to commercially sourced or supported software.</p>
 </div>
 </div>
 <div class="sect2">
@@ -284,7 +289,8 @@ define:</p>
 <div class="paragraph">
 <p>Also, an often overlooked but essential aspect of open data, is licensing. Even where data is technically accessible,
 the absence of an explicit open data license can create uncertainty around reuse, redistribution, and related products.
-An open data licence helps to provide legal clarity for users and encourages broader adoption.</p>
+An open data licence helps to provide legal clarity for users and encourages broader adoption. The Open Knowledge
+Foundation provides a curated list of open data licences at <a href="https://opendefinition.org/licenses/" class="bare">https://opendefinition.org/licenses/</a>.</p>
 </div>
 </div>
 <div class="sect3">
@@ -408,6 +414,9 @@ meteorological data ecosystem.</p>
 </li>
 <li>
 <p><strong>Maintenance risks</strong>: Fixes for vulnerabilities rely on community responsiveness. If an open-source project is discontinued, known vulnerabilities may remain unaddressed.</p>
+</li>
+<li>
+<p><strong>Dependency and stack maintenance risks</strong>: FOSS solutions typically depend on a broader ecosystem of libraries, frameworks, and runtime components. Keeping the full software stack up to date, including across upstream dependencies, requires continuous effort. Version incompatibilities, breaking changes upstream, and end-of-life releases can create significant operational burden, particularly for small teams managing operational meteorological systems.</p>
 </li>
 <li>
 <p><strong>Support risks</strong>: Most open-source software lacks official support. As a result, timely response and effective resolution of critical operational system failures cannot be guaranteed, potentially leading to interruptions in meteorological operations and data loss.</p>
@@ -580,6 +589,9 @@ meteorological data ecosystem.</p>
 <li>
 <p><strong>Cross-platform portability</strong>: Most open-source tools run on multiple operating systems (e.g., Windows and Linux). Adherence to common technical standards (e.g., WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centres.</p>
 </li>
+<li>
+<p><strong>Technical capacity development</strong>: Community involvement within FOSS projects can foster career growth, professional recognition, networking and collaboration. In turn this can lead to increased techical capacity within the Members NMHSs and other organisations.</p>
+</li>
 </ul>
 </div>
 </div>
@@ -741,7 +753,7 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <div class="sect4">
 <h5 id="_foss_sustainability_and_risk_management"><a class="anchor" href="#_foss_sustainability_and_risk_management"></a>FOSS sustainability and risk management</h5>
 <div class="paragraph">
-<p>Sustainability, and long-term maintenance and support, are amongst the most significant challenges in FOSS adoption.  Software that is relied upon by Members, especially for operational services, must be maintained over the long-term, with timely security updates and patches, compatibility updates and responsive support. Key risks to be managed include:</p>
+<p>Sustainability, and long-term maintenance and support, are amongst the most significant challenges in FOSS adoption.  Software that is relied upon by Members, especially for operational services, must be maintained over the long-term, with timely security updates and patches, backwards compatibility and responsive support. Key risks to be managed include:</p>
 </div>
 <div class="ulist">
 <ul>
@@ -749,13 +761,16 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <p><strong>Bus / retirement factor</strong>: Over-reliance on a single, or small team, for critical software. When supporting FOSS development and adoption, the WMO should encourage a broad contributor base, shared governance, and pooling of resources for the support and development of critical software.</p>
 </li>
 <li>
-<p><strong>Security vulnerabilities</strong>: Software components must be subject to regular security reviews, with clear disclosure and patching policies. Adequate resources must be in place to ensure any identified vulnerabilities are addressed in a timely fashion.</p>
+<p><strong>Lack of long-term support and maintenance</strong>: Not all FOSS projects have a sustained commitment to long-term support. Projects may cease active development without formal end-of-life notice, leaving Members dependent on unmaintained software with unaddressed vulnerabilities and no migration path. Unlike proprietary software, where support obligations are contractually defined, FOSS maintenance relies on community goodwill, institutional backing, or commercial arrangements — none of which are guaranteed. Members should assess the long-term support model of any FOSS solution prior to operational adoption and have contingency plans in place should maintenance cease.</p>
+</li>
+<li>
+<p><strong>Security vulnerabilities</strong>: Software components must be subject to regular security reviews, including vulnerability testing, with clear disclosure and patching policies. Adequate resources must be in place to ensure any identified vulnerabilities are addressed in a timely fashion.</p>
 </li>
 <li>
 <p><strong>Dependency risk</strong>: Software often depends on a chain of upstream libraries and components.  Understanding and monitoring these dependencies is essential for assessing overall project health. This includes changes to upstream licensing conditions.</p>
 </li>
 <li>
-<p><strong>Funding and institutional support</strong>: Whilst FOSS may be free of licensing costs there are still costs associated with the development, maintenance, and operation of FOSS software. These costs are often hidden or neglected but should be taken into account.</p>
+<p><strong>Funding and institutional support</strong>: Whilst FOSS may be free of licensing costs there are still costs associated with the development, maintenance, implementation and operation of FOSS software. These costs are often hidden or neglected but should be taken into account. Capacity development costs — including staff training, upskilling, and the ongoing effort required to build and retain the expertise needed to evaluate, deploy and maintain FOSS — represent a significant and frequently underestimated component of these costs, particularly for Members with limited technical resources.</p>
 </li>
 </ul>
 </div>
@@ -2238,7 +2253,7 @@ Includes a dedicated climate menu for working with station data (normals, trends
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-04-23 11:16:11 UTC
+Last updated 2026-04-23 13:44:43 UTC
 </div>
 </div>
 </body>
