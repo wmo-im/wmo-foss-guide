@@ -23,31 +23,86 @@ In addition, as part of the global open data/open science movement, numerous gov
 As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
 While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
 
-=== Data policy considerations (TODO Athina)
+=== Data policy considerations
 
-While talking about Open Source Software, open data plays an equally important role. The following section addresses the crucial complementary role of open data to Open Source Software and how Open Source Software can be an enabler for the WMO Unified Data Policy [LINK - https://wmo.int/wmo-unified-data-policy-resolution-res1].
+While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
+only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
+the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
+operationalize that data. Together, they can e.g. support the implementation of the
+https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
+Earth system data and strengthen international collaboration. Together, they can e.g. support the implementation of the
+WMO Unified Data Policy by helping Members expand access to Earth system data, strengthen international collaboration,
+and contribute to broader open science practices.
 
-==== FAIR data
+==== Open data as a strategic asset
 
-Making data FAIR – Findable, Accessible, Interoperable and Reusable – is an important aspect in today’s digitally
-connected world. This is especially true and important for the meteorological domain, where local, regional and global
-models rely on data from different source, organizations and regions. Data that lives in silos and cannot be accessed
-has a very limited use.
+Open data, and especially meteorological, hydrological, atmosphere, and climate data should not be understood solely as
+data that is “available”. To be truly useful, data must be governed through clear policy frameworks, standards, and
+licensing arrangements that define how it can be accessed, shared, reused, and redistributed. Open access alone does not
+guarantee value. Data must also be FAIR:
 
-==== Open data policies
+- *Findable* through clear metadata and catalogues
+- *Accessible* through reliable services and standard interfaces
+- *Interoperable* across institutions and systems
+- *Reusable* under clear legal and technical conditions
 
-* Important for advancing trust in data
-* Important for traceability of results etc
-* Examples:
-  ** https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data
-  ** https://opendatapolicylab.org/
-  ** https://repository.opendatapolicylab.org/
-  ** https://www.ecmwf.int/en/forecasts/datasets/open-data
-  ** https://www.ecmwf.int/en/forecasts/access-forecasts/access-real-time-open-data
-  ** https://data.ecmwf.int/
+These FAIR principles are highly aligned with WMO objectives, provide a practical framework for implementing the Unified
+Data Policy, and help ensure that shared data can be effectively used by member states, researchers, and operational
+centres, thereby strengthening and supporting also open science and reproducible research.
 
-==== Enabling WMO Unified Data Policy via software
+==== The importance of policy, license and legal clarity
 
-https://wmo.int/wmo-unified-data-policy-resolution-res1
+To enable meaningful data exchange, open data should be supported by a clear policy framework. Such policies help
+define:
 
+- what data should be shared,
+- under what conditions,
+- who is responsible for stewardship,
+- and how quality, security, and privacy are maintained.
+
+Also, an often overlooked but essential aspect of open data, is licensing. Even where data is technically accessible,
+the absence of an explicit open data license can create uncertainty around reuse, redistribution, and related products.
+An open data licence helps to provide legal clarity for users and encourages broader adoption.
+
+==== The enabling role of FOSS
+
+FOSS plays a central role in translating data policy into operational practice.
+
+They can help:
+
+- *Reducing barriers to access*: FOSS tools allow members to access and work with shared datasets without dependence on
+costly proprietary software, an aspect especially interesting for members with limited financial or technical resources.
+
+- *Supporting interoperability*: Many FOSS solutions are built around open standards, APIs, and web services, making
+data exchange easier (see above).
+- *Strengthening transparency*: FOSS workflows allow users to inspect how data are processed, improving trust,
+reproducibility, and scientific integrity.metadata management
+- *Enabling innovation*: When open data is combined with open software, organisations can develop locally relevant
+applications and services, maybe also supporting start ups and local economies, while contributing improvements back to the wider community.
+
+By relying on open standards and transparent architectures, FOSS helps ensure that data remains interoperable,
+portable, and reusable across institutions and Member States.
+
+==== The way forward
+
+The benefits of open data policies as the WMO Unified Data Policy depend not only on making data available, but also on
+ensuring that data can be effectively discovered, understood, and reused. FOSS provides the technical means to support
+this goal, while sound data policies and open licensing provide the governance foundation that ensures sustainable, and
+trusted data sharing.
+
+Together, open data, FOSS, and open standards can help create a more collaborative, transparent, and resilient global
+meteorological data ecosystem.
+
+==== Supporting Links
+
+* WMO - World Meteorological Organisation
+** https://wmo.int/wmo-unified-data-policy-resolution-res1
+* EU - European Union
+** https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data
+* ECMWF - European Centre for Medium-Range Weather Forecasts
+** https://www.ecmwf.int/en/forecasts/datasets/open-data
+** https://www.ecmwf.int/en/forecasts/access-forecasts/access-real-time-open-data
+** https://data.ecmwf.int/
+* National Policy
+** Canada - https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
 
