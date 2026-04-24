@@ -11,7 +11,7 @@ Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' ef
 
 === Audience
 
-The document is intended for WMO Members who are involved in software development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO. 
+The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO. 
 
 === Scope
 
@@ -23,7 +23,7 @@ software, and to commercially sourced or supported software.
 
 FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.). 
 
-In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of exiting FOSS tools as well as developing of same, working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
+In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
 
 As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
 While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
@@ -35,9 +35,7 @@ only when combined with accessible, well-governed data. Open data and FOSS are m
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
 operationalize that data. Together, they can e.g. support the implementation of the
 https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
-Earth system data and strengthen international collaboration. Together, they can e.g. support the implementation of the
-WMO Unified Data Policy by helping Members expand access to Earth system data, strengthen international collaboration,
-and contribute to broader open science practices.
+Earth system data and strengthen international collaboration and contribute to broader open science practices.
 
 ==== Open data as a strategic asset
 
