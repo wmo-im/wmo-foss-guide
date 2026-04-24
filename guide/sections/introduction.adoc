@@ -33,9 +33,9 @@ While FOSS is resident in numerous WMO Member organizations, guidance and coordi
 While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
-operationalize that data. Together, they can e.g. support the implementation of the
+operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <<annex-data-policies, Annex B>> for examples).  Together with FOSS, they can e.g. support the implementation of the
 https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
-Earth system data and strengthen international collaboration and contribute to broader open science practices.
+Earth system data, strengthen international collaboration and contribute to broader open science practices.
 
 ==== Open data as a strategic asset
 
@@ -96,17 +96,3 @@ trusted data sharing.
 
 Together, open data, FOSS, and open standards can help create a more collaborative, transparent, and resilient global
 meteorological data ecosystem.
-
-==== Supporting Links
-
-* WMO - World Meteorological Organisation
-** https://wmo.int/wmo-unified-data-policy-resolution-res1
-* EU - European Union
-** https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data
-* ECMWF - European Centre for Medium-Range Weather Forecasts
-** https://www.ecmwf.int/en/forecasts/datasets/open-data
-** https://www.ecmwf.int/en/forecasts/access-forecasts/access-real-time-open-data
-** https://data.ecmwf.int/
-* National Policy
-** Canada - https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
-

@@ -1,0 +1,26 @@
+[appendix]
+:appendix-caption: Annex
+[[annex-data-policies]]
+
+== Data policies
+
+=== Global
+
+* World Meteorological Organisation (WMO)
+** https://wmo.int/wmo-unified-data-policy-resolution-res1
+
+=== Regional
+* European Union (EU)
+** https://digital-strategy.ec.europa.eu/en/policies/legislation-open-data
+
+* European Centre for Medium-Range Weather Forecasts (ECMWF)
+** https://www.ecmwf.int/en/forecasts/datasets/open-data
+** https://www.ecmwf.int/en/forecasts/access-forecasts/access-real-time-open-data
+** https://data.ecmwf.int/
+
+=== National
+
+* Canada
+** https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
+* Brazil
+** https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2016/Decreto/D8777.htm
