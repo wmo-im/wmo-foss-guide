@@ -1,0 +1,37 @@
+== Executive Summary
+
+Free and open-source software (FOSS) has become a foundational element of modern meteorological, hydrological, and climate services. Across the WMO community, FOSS underpins digital infrastructure — from data encoding libraries and dissemination services (including the WMO Information System 2.0 (WIS2) reference implementations) to open-source numerical weather prediction (NWP) models. The global shift toward open science, open data, and digital transformation has made structured engagement with FOSS a strategic imperative for WMO and its Members.
+
+This guide provides practical guidance for WMO Members and the WMO Secretariat on the responsible adoption, development, and governance of FOSS. It addresses the full software lifecycle — from evaluation and selection through operational use to end-of-life — and identifies coordination mechanisms to ensure that FOSS activities across WMO programmes are coherent, secure, and sustainable.
+
+=== Key findings
+
+FOSS adoption within the WMO community has grown significantly but has largely been managed on an ad hoc basis. Independent decisions by projects and programmes, without a common framework for evaluation and governance, have led to fragmentation, duplication of effort, and in some cases reliance on software that does not meet adequate standards of maintenance, security, or operational fitness. The absence of structured coordination places operational services at risk and leaves Members — particularly those with limited technical capacity — without adequate guidance or support.
+
+The benefits of FOSS are well established, though returns vary significantly by context, scale, and implementation approach. Studies have documented a cost-benefit ratio of above 1:4 for OSS investment across the EU public sector (European Commission, 2021), and over 200% return on investment in a geospatial software case study directly analogous to NMHS operations over a seven-year period (World Bank / GFDRR). FOSS is a key enabler for WMO's Early Warnings for All initiative and supports Members' digital transformation journeys, especially for least developed countries (LDCs) and small island developing states (SIDS).
+
+=== Establishing a WMO Open Source Program Office
+
+*Central to the guidance in this document is the proposal that the WMO Secretary-General establish an Open Source Program Office (OSPO).*
+
+An OSPO would provide the dedicated governance function needed to coordinate FOSS activities systematically across WMO programmes and projects, replacing the current ad hoc approach with clear, expert, and institutionally embedded oversight. Key functions of a WMO OSPO would include:
+
+* *Software evaluation and endorsement*: Applying consistent, transparent criteria (such as the evaluation rubric in <<annex-evaluation-rubric, Annex A>>) to assess FOSS adopted or developed within WMO programmes, in coordination with relevant Expert Teams.
+* *Lifecycle oversight*: Tracking FOSS components from initial adoption through operational use to end-of-life, and ensuring timely migration planning.
+* *Standards alignment*: Coordinating standards alignment reviews, working with Expert Teams to ensure FOSS developed or endorsed within WMO correctly implements relevant Technical Regulations and open standards.
+* *Guidance and advisory support*: Providing practical guidance on FOSS best practices — including licensing, contribution workflows, governance models, and security — to Members, implementing authorities, and project teams, in support of the technical direction set by Expert Teams and Task Teams.
+* *External partnerships*: Managing WMO's relationships with established FOSS organizations — including OSGeo, the Apache Software Foundation, the Digital Public Goods Alliance, and the UNDP/ITU Open Source Ecosystem Enabler (OSEE) initiative — to leverage existing frameworks and avoid duplication.
+* *Member support*: Helping Members — especially those with limited technical capacity — identify, evaluate, and sustainably adopt FOSS solutions relevant to their operational needs.
+
+The establishment of an OSPO is supported by precedent in comparable international and operational organizations. The European Centre for Medium-Range Weather Forecasts (ECMWF) has embedded FOSS practice as a core institutional activity. The UNDP and ITU, through their OSEE initiative, actively support the establishment of OSPOs in developing countries. The World Bank maintains its own open source programme with documented institutional returns on investment. An OSPO does not require a large resource commitment: many effective OSPOs operate with a small, dedicated team. The critical requirement is institutional mandate and commitment, not scale.
+
+=== Further guidance
+
+In addition to establishing an OSPO, this guide encourages WMO and its Members to:
+
+* *Recognize and formalize Communities of Practice* within WMO's constituent body structure, to strengthen collaborative FOSS governance and sustain shared software initiatives across Members.
+* *Develop Reference Implementations in parallel with Technical Regulations*, as demonstrated by the WIS2 programme, to validate standards, reduce implementation risk, and accelerate adoption by Members.
+* *Apply a common evaluation framework* (see <<annex-evaluation-rubric, Annex A>>) when selecting or endorsing FOSS for use in WMO programmes and projects.
+* *Engage with the broader FOSS ecosystem* through formal partnerships (e.g., Memoranda of Understanding with OSGeo), registration of key WMO FOSS as Digital Public Goods, and participation in joint events, code sprints, and hackathons.
+* *Plan for sustainability from the outset*: address key person dependency, long-term maintenance, security vulnerability management, and funding — including through the WMO Voluntary Cooperation Programme and extra-budgetary sources.
+* *Support national FOSS policies*: encourage Members to develop or leverage national open-by-default policies and institution-level guidelines that reduce vendor lock-in and strengthen long-term operational resilience.
