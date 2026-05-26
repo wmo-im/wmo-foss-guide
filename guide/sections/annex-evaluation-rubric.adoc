@@ -30,7 +30,7 @@
 .4+| Community Health
 | Multiple active contributors
 | Supported by major NMHSs, WMO Programmes, or recognized consortia
-| Low bus factor (not reliant on one person)
+| Low key person dependency (not reliant on one person)
 | Code of conduct available
 
 .5+| Openness & Governance

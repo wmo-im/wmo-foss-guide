@@ -11,7 +11,7 @@ Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' ef
 
 === Audience
 
-The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO.
+The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as the WMO Secretariat in the coordination, alignment and support of FOSS within WMO.
 
 === Scope
 
@@ -25,7 +25,7 @@ FOSS development and use among WMO Members has been a longstanding activity.  Ty
 
 In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all.
 
-As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
+As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards and Global Services. The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.
 
 ==== Culture and process in FOSS projects
