@@ -50,7 +50,7 @@ guarantee value. Data must also be FAIR:
 - *Reusable* under clear legal and technical conditions
 
 These FAIR principles are highly aligned with WMO objectives, provide a practical framework for implementing the Unified
-Data Policy, and help ensure that shared data can be effectively used by member states, researchers, and operational
+Data Policy, and help ensure that shared data can be effectively used by Members, researchers, and operational
 centres, thereby strengthening and supporting also open science and reproducible research.
 
 ==== The importance of policy, license and legal clarity
@@ -85,7 +85,7 @@ reproducibility, scientific integrity, and metadata management.
 applications and services, maybe also supporting start ups and local economies, while contributing improvements back to the wider community.
 
 By relying on open standards and transparent architectures, FOSS helps ensure that data remains interoperable,
-portable, and reusable across institutions and Member States.
+portable, and reusable across institutions.
 
 ==== The way forward
 
