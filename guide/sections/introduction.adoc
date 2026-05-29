@@ -7,7 +7,7 @@ FOSS now powers major initiatives and services worldwide, and is backed by indus
 
 FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
 
-Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offer a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization. 
+Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offers a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization. 
 
 === Audience
 
@@ -25,15 +25,15 @@ FOSS development and use among WMO Members has been a longstanding activity.  Ty
 
 In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all. 
 
-As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while in development, promoting the “release early, release often” philosophy of agile and iterative development. 
-While FOSS is resident in numerous WMO Member organizations, guidance and coordination becomes more vital to ensure Member services are provided with security, privacy and safety in mind for WMO Members and beyond. 
+As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development. 
+While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.
 
 === Data policy considerations
 
 While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
-operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <<annex-data-policies, Annex B>> for examples).  Together with FOSS, they can e.g. support the implementation of the
+operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <<annex-data-policies, Annex B>> for examples).  Together with FOSS they can, for example, support the implementation of the
 https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
 Earth system data, strengthen international collaboration and contribute to broader open science practices.
 
@@ -80,7 +80,7 @@ costly proprietary software, an aspect especially interesting for members with l
 - *Supporting interoperability*: Many FOSS solutions are built around open standards, APIs, and web services, making
 data exchange easier (see above).
 - *Strengthening transparency*: FOSS workflows allow users to inspect how data are processed, improving trust,
-reproducibility, and scientific integrity.metadata management
+reproducibility, scientific integrity, and metadata management.
 - *Enabling innovation*: When open data is combined with open software, organisations can develop locally relevant
 applications and services, maybe also supporting start ups and local economies, while contributing improvements back to the wider community.
 
@@ -89,9 +89,9 @@ portable, and reusable across institutions and Member States.
 
 ==== The way forward
 
-The benefits of open data policies as the WMO Unified Data Policy depend not only on making data available, but also on
+The benefits of open data policies, such as the WMO Unified Data Policy, depend not only on making data available, but also on
 ensuring that data can be effectively discovered, understood, and reused. FOSS provides the technical means to support
-this goal, while sound data policies and open licensing provide the governance foundation that ensures sustainable, and
+this goal, while sound data policies and open licensing provide the governance foundation that ensures sustainable and
 trusted data sharing.
 
 Together, open data, FOSS, and open standards can help create a more collaborative, transparent, and resilient global
