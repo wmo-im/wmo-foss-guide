@@ -55,7 +55,8 @@ In the same spirit as contributing to FOSS, where no national regulations exist,
 ** Who will be responsible for development, release management, and accepting external contributions?
 ** How will commit access be governed and managed?  Does the project need a project steering committee or group of stakeholders to help drive the project?
 ** How will external collaboration be addressed?  For example, will the project have a bug or issue tracker which can be used to identify new feature development, defects and/or bugs.  Will there be a dedicated discussion forum or mailing list for wider discussion?
-** Make clear how collaboration will work to the public (for example, by providing a ``CONTRIBUTING.md`` document for GitHub)
+** Make clear how collaboration will work to the public (for example, by providing a ``CONTRIBUTING.md`` document for GitHub).
+** Having a strong process for managing contributions can help ensure a strong culture of collaboration and cooperation. (This applies to both open projects and more restricted, small group projects). Consider addressing whether and how contributors can use AI Tools, if at all (see the <<impact-of-ai>> section and <<annex-ai-tool-use>> Annex).
 ** Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)
 ** What is the release schedule for new versions?
 * Choose a licence that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability

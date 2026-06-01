@@ -41,3 +41,5 @@ include::sections/annex-evaluation-rubric.adoc[]
 include::sections/annex-data-policies.adoc[]
 
 //include::sections/annex-examples.adoc[]
+
+include::sections/annex-ai-tool-use.adoc[]
