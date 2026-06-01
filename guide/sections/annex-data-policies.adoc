@@ -20,7 +20,9 @@
 
 === National
 
-* Canada
-** https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
 * Brazil
 ** https://www.planalto.gov.br/ccivil_03/_Ato2015-2018/2016/Decreto/D8777.htm
+* Canada
+** https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
+* United Kingdom
+** https://www.gov.uk/guidance/national-data-strategy
