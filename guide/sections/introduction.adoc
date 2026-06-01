@@ -28,15 +28,11 @@ In addition, as part of the global open data/open science movement, numerous gov
 As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.
 
-==== Culture and Process in FOSS Projects
+==== Culture and process in FOSS projects
 
-Openly developed FOSS projects depend on community contributions and maintainer review and approval of contributions.
-Whether a large or small community, ongoing maintenance of a project depends on building and maintaining a strong community with a culture of collaboration and contribution.
-The community aspects of a project can be as important as the technical aspects when considering the maintainability and sustainability of the project.
+Openly developed FOSS projects depend on community contributions and maintainer review and approval of contributions. Whether a large or small community, ongoing maintenance of a project depends on building and maintaining a strong community with a culture of collaboration and contribution. The community aspects of a project can be as important as the technical aspects when considering the maintainability and sustainability of the project.
 
-Communication during the contribution and review process is key.
-Contributors should consider the effort involved in reviewing contributions and how they can structure their contributions to simplify the process.
-Contributors should be able to justify and defend all changes they are submitting (whether developed with or without assistance from AI tools).
+Communication during the contribution and review process is key. Contributors should consider the effort involved in reviewing contributions and how they can structure their contributions to simplify the process. Contributors should be able to justify all changes they are submitting (whether developed with or without assistance from AI tools).
 
 === Data policy considerations
 
