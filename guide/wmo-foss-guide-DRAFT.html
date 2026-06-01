@@ -129,7 +129,11 @@ body {
 <ul class="sectlevel2">
 <li><a href="#_audience">Audience</a></li>
 <li><a href="#_scope">Scope</a></li>
-<li><a href="#_background">Background</a></li>
+<li><a href="#_background">Background</a>
+<ul class="sectlevel3">
+<li><a href="#_culture_and_process_in_foss_projects">Culture and process in FOSS projects</a></li>
+</ul>
+</li>
 <li><a href="#_data_policy_considerations">Data policy considerations</a>
 <ul class="sectlevel3">
 <li><a href="#_open_data_as_a_strategic_asset">Open data as a strategic asset</a></li>
@@ -138,6 +142,7 @@ body {
 <li><a href="#_the_way_forward">The way forward</a></li>
 </ul>
 </li>
+<li><a href="#impact-of-ai">Impact of AI on FOSS Projects</a></li>
 </ul>
 </li>
 <li><a href="#_guidelines">Guidelines</a>
@@ -178,6 +183,13 @@ body {
 <li><a href="#_global">Global</a></li>
 <li><a href="#_regional">Regional</a></li>
 <li><a href="#_national">National</a></li>
+</ul>
+</li>
+<li><a href="#annex-ai-tool-use">Annex C: AI Tool Use in FOSS</a>
+<ul class="sectlevel2">
+<li><a href="#_overview_of_issues">Overview of Issues</a></li>
+<li><a href="#_examples_of_foss_project_ai_tool_usage_policies">Examples of FOSS project AI tool usage policies</a></li>
+<li><a href="#_overall_landscape_of_foss_ai_tool_usage_policies">Overall landscape of FOSS AI tool usage policies</a></li>
 </ul>
 </li>
 </ul>
@@ -225,6 +237,15 @@ software, and to commercially sourced or supported software.</p>
 <div class="paragraph">
 <p>As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.</p>
+</div>
+<div class="sect3">
+<h4 id="_culture_and_process_in_foss_projects"><a class="anchor" href="#_culture_and_process_in_foss_projects"></a>Culture and process in FOSS projects</h4>
+<div class="paragraph">
+<p>Openly developed FOSS projects depend on community contributions and maintainer review and approval of contributions. Whether a large or small community, ongoing maintenance of a project depends on building and maintaining a strong community with a culture of collaboration and contribution. The community aspects of a project can be as important as the technical aspects when considering the maintainability and sustainability of the project.</p>
+</div>
+<div class="paragraph">
+<p>Communication during the contribution and review process is key. Contributors should consider the effort involved in reviewing contributions and how they can structure their contributions to simplify the process. Contributors should be able to justify all changes they are submitting (whether developed with or without assistance from AI tools).</p>
+</div>
 </div>
 </div>
 <div class="sect2">
@@ -341,6 +362,23 @@ trusted data sharing.</p>
 <p>Together, open data, FOSS, and open standards can help create a more collaborative, transparent, and resilient global
 meteorological data ecosystem.</p>
 </div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="impact-of-ai"><a class="anchor" href="#impact-of-ai"></a>Impact of AI on FOSS Projects</h3>
+<div class="paragraph">
+<p>The capabilities of AI/LLM/Agentic tools and workflows are evolving rapidly and increasingly used to contribute to and manage FOSS projects.
+FOSS projects can be impacted in a variety of ways including dramatic increases in the number, size, and complexity of contributions.
+Many FOSS projects have responded by developing AI Tool Use Policies or Guidelines, often focused on the importance of maintaining a project&#8217;s community and culture.
+(See the <a href="#annex-ai-tool-use">AI Tool Use in FOSS</a> Annex for references to AI in FOSS overview articles and example AI use policies.)</p>
+</div>
+<div class="paragraph">
+<p>The guidelines tend to focus on the need for human communication around contributions, the value of contributions relative to the effort required by maintainers, and transparency with type and amount of AI tool use indicated.
+(Contributions of low value-to-effort are sometimes called "extractive contributions".)</p>
+</div>
+<div class="paragraph">
+<p>The speed and scale at which AI tools can generate possible fixes and enhancements, as well as exploits to security vulnerabilities, necessitates strong culture, process, and communication around human decision making on discussions and issues.
+AI has also be used for reputation building through AI-generated discussions and Q&amp;A which, along with requiring maintainer effort, can impact an OSS project&#8217;s ability to provide support to the user and developer community.</p>
 </div>
 </div>
 </div>
@@ -488,7 +526,10 @@ meteorological data ecosystem.</p>
 <p>How will external collaboration be addressed?  For example, will the project have a bug or issue tracker which can be used to identify new feature development, defects and/or bugs.  Will there be a dedicated discussion forum or mailing list for wider discussion?</p>
 </li>
 <li>
-<p>Make clear how collaboration will work to the public (for example, by providing a <code>CONTRIBUTING.md</code> document for GitHub)</p>
+<p>Make clear how collaboration will work to the public (for example, by providing a <code>CONTRIBUTING.md</code> document for GitHub).</p>
+</li>
+<li>
+<p>Having a strong process for managing contributions can help ensure a strong culture of collaboration and cooperation. (This applies to both open projects and more restricted, small group projects). Consider addressing whether and how contributors can use AI Tools, if at all (see the <a href="#impact-of-ai">Impact of AI on FOSS Projects</a> section and <a href="#annex-ai-tool-use">AI Tool Use in FOSS</a> Annex).</p>
 </li>
 <li>
 <p>Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)</p>
@@ -1421,6 +1462,58 @@ analysts, and support for future expansion needs.</p>
 </div>
 </div>
 </div>
+<div class="sect1">
+<h2 id="annex-ai-tool-use"><a class="anchor" href="#annex-ai-tool-use"></a>Annex C: AI Tool Use in FOSS</h2>
+<div class="sectionbody">
+<div class="sect2">
+<h3 id="_overview_of_issues"><a class="anchor" href="#_overview_of_issues"></a>Overview of Issues</h3>
+<div class="paragraph">
+<p>A Scientific Python blog post, <a href="https://discuss.scientific-python.org/t/blog-community-considerations-around-ai-contributions/2234">Community Considerations Around AI Contributions</a>, provides a good introduction to concerns and possible benefits of AI tool use.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_examples_of_foss_project_ai_tool_usage_policies"><a class="anchor" href="#_examples_of_foss_project_ai_tool_usage_policies"></a>Examples of FOSS project AI tool usage policies</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>GDAL: <a href="https://gdal.org/en/stable/community/ai_tool_policy.html">LLM tool policy</a></p>
+</li>
+<li>
+<p>matplotlib: <a href="https://matplotlib.org/devdocs/devel/contribute.html#generative-ai">Use of Generative AI guidelines</a></p>
+</li>
+<li>
+<p>NumPy: <a href="https://numpy.org/devdocs/dev/ai_policy.html">AI Policy</a></p>
+</li>
+<li>
+<p>OpenJDK: <a href="https://openjdk.org/legal/ai">Interim Policy on Generative AI</a></p>
+</li>
+<li>
+<p>Python: <a href="https://devguide.python.org/getting-started/generative-ai/">Generative AI guidelines</a></p>
+</li>
+<li>
+<p>QGIS: <a href="https://github.com/qgis/QGIS-Enhancement-Proposals/blob/master/qep-408-ai-tool-policy.md">AI tool use policy</a></p>
+</li>
+<li>
+<p>Zarr-Python: <a href="https://zarr.readthedocs.io/en/stable/contributing/#ai-assisted-contributions">AI-assisted contributions guidelines</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_overall_landscape_of_foss_ai_tool_usage_policies"><a class="anchor" href="#_overall_landscape_of_foss_ai_tool_usage_policies"></a>Overall landscape of FOSS AI tool usage policies</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>Kate Holterhoff, "The Generative AI Policy Landscape in Open Source". RedMonk article, 26 Feb 2026. <a href="https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source" class="bare">https://redmonk.com/kholterhoff/2026/02/26/generative-ai-policy-landscape-in-open-source</a></p>
+</li>
+<li>
+<p>Melissa Weber Mendonça, list of open source AI contribution policies. <a href="https://github.com/melissawm/open-source-ai-contribution-policies" class="bare">https://github.com/melissawm/open-source-ai-contribution-policies</a>]</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
 </div>
 <div id="footnotes">
 <hr>
@@ -1559,7 +1652,7 @@ analysts, and support for future expansion needs.</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-01 00:43:25 UTC
+Last updated 2026-06-01 13:44:45 UTC
 </div>
 </div>
 </body>
