@@ -96,7 +96,7 @@ body {
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock"><strong class="big">World Meteorological Organization</strong></p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-06-01</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Date: 2026-06-04</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Version: 0.1.0</p></td>
@@ -125,6 +125,13 @@ body {
 <div id="toc" class="toc">
 <div id="toctitle" class="title">Table of Contents</div>
 <ul class="sectlevel1">
+<li><a href="#_executive_summary">Executive Summary</a>
+<ul class="sectlevel2">
+<li><a href="#_key_findings">Key findings</a></li>
+<li><a href="#_establishing_a_wmo_open_source_program_office">Establishing a WMO Open Source Program Office</a></li>
+<li><a href="#_further_guidance">Further guidance</a></li>
+</ul>
+</li>
 <li><a href="#_introduction">Introduction</a>
 <ul class="sectlevel2">
 <li><a href="#_audience">Audience</a></li>
@@ -152,7 +159,6 @@ body {
 <li><a href="#_using_foss">Using FOSS</a></li>
 <li><a href="#_contributing_to_foss">Contributing to FOSS</a></li>
 <li><a href="#_managing_foss_activities">Managing FOSS activities</a></li>
-<li><a href="#_benefits_of_foss">Benefits of FOSS</a></li>
 <li><a href="#_profiling_competencies">Profiling competencies</a></li>
 <li><a href="#_infrastructure_considerations">Infrastructure considerations</a></li>
 </ul>
@@ -168,6 +174,7 @@ body {
 </li>
 </ul>
 </li>
+<li><a href="#_glossary">Glossary</a></li>
 <li><a href="#_references">References</a>
 <ul class="sectlevel2">
 <li><a href="#_foss_practice_and_governance">FOSS practice and governance</a></li>
@@ -198,16 +205,98 @@ body {
 </div>
 </div>
 <div class="sect1">
+<h2 id="_executive_summary"><a class="anchor" href="#_executive_summary"></a>Executive Summary</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Free and open-source software (FOSS) has become a foundational element of modern meteorological, hydrological, and climate services. Across the WMO community, FOSS underpins digital infrastructure — from data encoding libraries and dissemination services (including the WMO Information System 2.0 (WIS2) reference implementations) to open-source numerical weather prediction (NWP) models. The global shift toward open science, open data, and digital transformation has made structured engagement with FOSS a strategic imperative for WMO and its Members.</p>
+</div>
+<div class="paragraph">
+<p>This guide provides practical guidance for WMO Members and the WMO Secretariat on the responsible adoption, development, and governance of FOSS. It addresses the full software lifecycle — from evaluation and selection through operational use to end-of-life — and identifies coordination mechanisms to ensure that FOSS activities across WMO programmes are coherent, secure, and sustainable.</p>
+</div>
+<div class="sect2">
+<h3 id="_key_findings"><a class="anchor" href="#_key_findings"></a>Key findings</h3>
+<div class="paragraph">
+<p>FOSS adoption within the WMO community has grown significantly but has largely been managed on an ad hoc basis. Independent decisions by projects and programmes, without a common framework for evaluation and governance, have led to fragmentation, duplication of effort, and in some cases reliance on software that does not meet adequate standards of maintenance, security, or operational fitness. The absence of structured coordination places operational services at risk and leaves Members — particularly those with limited technical capacity — without adequate guidance or support.</p>
+</div>
+<div class="paragraph">
+<p>The benefits of FOSS are well established, though returns vary significantly by context, scale, and implementation approach. Studies have documented a cost-benefit ratio of above 1:4 for OSS investment across the EU public sector (European Commission, 2021), and over 200% return on investment in a geospatial software case study directly analogous to NMHS operations over a seven-year period (World Bank / GFDRR). FOSS is a key enabler for WMO&#8217;s Early Warnings for All initiative and supports Members' digital transformation journeys, especially for least developed countries (LDCs) and small island developing States (SIDS).</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_establishing_a_wmo_open_source_program_office"><a class="anchor" href="#_establishing_a_wmo_open_source_program_office"></a>Establishing a WMO Open Source Program Office</h3>
+<div class="paragraph">
+<p><strong>Central to the guidance in this document is the proposal that the WMO Secretary-General establish an Open Source Program Office (OSPO).</strong></p>
+</div>
+<div class="paragraph">
+<p>An OSPO would provide the dedicated governance function needed to coordinate FOSS activities systematically across WMO programmes and projects, replacing the current ad hoc approach with clear, expert, and institutionally embedded oversight. Key functions of a WMO OSPO would include:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Software evaluation and endorsement</strong>: Applying consistent, transparent criteria (such as the evaluation rubric in <a href="#annex-evaluation-rubric">Annex A</a>) to assess FOSS adopted or developed within WMO programmes, in coordination with relevant Expert Teams.</p>
+</li>
+<li>
+<p><strong>Lifecycle oversight</strong>: Tracking FOSS components from initial adoption through operational use to end-of-life, and ensuring timely migration planning.</p>
+</li>
+<li>
+<p><strong>Standards alignment</strong>: Coordinating standards alignment reviews, working with Expert Teams to ensure FOSS developed or endorsed within WMO correctly implements relevant Technical Regulations and open standards.</p>
+</li>
+<li>
+<p><strong>Guidance and advisory support</strong>: Providing practical guidance on FOSS best practices — including licensing, contribution workflows, governance models, and security — to Members, implementing authorities, and project teams, in support of the technical direction set by Expert Teams and Task Teams.</p>
+</li>
+<li>
+<p><strong>External partnerships</strong>: Managing WMO&#8217;s relationships with established FOSS organizations — including OSGeo, the Apache Software Foundation, the Digital Public Goods Alliance, and the UNDP/ITU Open Source Ecosystem Enabler (OSEE) initiative — to leverage existing frameworks and avoid duplication.</p>
+</li>
+<li>
+<p><strong>Member support</strong>: Helping Members — especially those with limited technical capacity — identify, evaluate, and sustainably adopt FOSS solutions relevant to their operational needs.</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>The establishment of an OSPO is supported by precedent in comparable international and operational organizations. The European Centre for Medium-Range Weather Forecasts (ECMWF) has embedded FOSS practice as a core institutional activity. The UNDP and ITU, through their OSEE initiative, actively support the establishment of OSPOs in developing countries. The World Bank maintains its own open source programme with documented institutional returns on investment. An OSPO does not require a large resource commitment: many effective OSPOs operate with a small, dedicated team. The critical requirement is institutional mandate and commitment, not scale.</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_further_guidance"><a class="anchor" href="#_further_guidance"></a>Further guidance</h3>
+<div class="paragraph">
+<p>In addition to establishing an OSPO, this guide encourages WMO and its Members to:</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Recognize and formalize Communities of Practice</strong> within WMO&#8217;s constituent body structure, to strengthen collaborative FOSS governance and sustain shared software initiatives across Members.</p>
+</li>
+<li>
+<p><strong>Develop Reference Implementations in parallel with Technical Regulations</strong>, as demonstrated by the WIS2 programme, to validate standards, reduce implementation risk, and accelerate adoption by Members.</p>
+</li>
+<li>
+<p><strong>Apply a common evaluation framework</strong> (see <a href="#annex-evaluation-rubric">Annex A</a>) when selecting or endorsing FOSS for use in WMO programmes and projects.</p>
+</li>
+<li>
+<p><strong>Engage with the broader FOSS ecosystem</strong> through formal partnerships (for example, Memoranda of Understanding with OSGeo), registration of key WMO FOSS as Digital Public Goods, and participation in joint events, code sprints, and hackathons.</p>
+</li>
+<li>
+<p><strong>Plan for sustainability from the outset</strong>: address key person dependency, long-term maintenance, security vulnerability management, and funding — including through the WMO Voluntary Cooperation Programme and extra-budgetary sources.</p>
+</li>
+<li>
+<p><strong>Support national FOSS policies</strong>: encourage Members to develop or leverage national open-by-default policies and institution-level guidelines that reduce vendor lock-in and strengthen long-term operational resilience.</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_introduction"><a class="anchor" href="#_introduction"></a>Introduction</h2>
 <div class="sectionbody">
 <div class="paragraph">
 <p>Free and open-source software (FOSS) refers to software that is released under a license that grants users the freedom
-to run, study, modify, and distribute the software and its source code. Common licenses include GPL, MIT, Apache, BSD,
-and many others. Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
+to run, study, modify, and distribute the software and its source code. Common licenses include GPL,<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> MIT,<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup> Apache,<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup> BSD,
+and many others, a comprehensive list of which is maintained by the Open Source Initiative (OSI).<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> Throughout this document, the terms "FOSS" and "open source" are used interchangeably for readability, though they carry distinct philosophical emphases.<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup> Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
 FOSS now powers major initiatives and services worldwide, and is backed by industry support.</p>
 </div>
 <div class="paragraph">
-<p>FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions.</p>
+<p>FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All (EW4All), a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for least developed countries (LDCs) and small island developing States (SIDS), where resource constraints often hinder the implementation of proprietary solutions.</p>
 </div>
 <div class="paragraph">
 <p>Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offers a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.</p>
@@ -215,7 +304,7 @@ FOSS now powers major initiatives and services worldwide, and is backed by indus
 <div class="sect2">
 <h3 id="_audience"><a class="anchor" href="#_audience"></a>Audience</h3>
 <div class="paragraph">
-<p>The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as WMO Secretariat in the coordination, alignment and support of FOSS within WMO.</p>
+<p>The document is intended for WMO Members who are involved in software acquisition, implementation and development activities in their respective organizations (developers, managers/decision makers) as well as the WMO Secretariat in the coordination, alignment and support of FOSS within WMO.</p>
 </div>
 </div>
 <div class="sect2">
@@ -229,13 +318,13 @@ software, and to commercially sourced or supported software.</p>
 <div class="sect2">
 <h3 id="_background"><a class="anchor" href="#_background"></a>Background</h3>
 <div class="paragraph">
-<p>FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.).</p>
+<p>FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (for example, ecCodes, degrib, libecbufr), as well as data dissemination services (such as THREDDS, GDAL, ERDDAP).</p>
 </div>
 <div class="paragraph">
 <p>In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all.</p>
 </div>
 <div class="paragraph">
-<p>As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards (such as wis2box, wis2-gdc, etc.).  The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
+<p>As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards and Global Services. The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development (see <a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a>).
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.</p>
 </div>
 <div class="sect3">
@@ -251,11 +340,11 @@ While FOSS is increasingly used across WMO Member organizations, guidance and co
 <div class="sect2">
 <h3 id="_data_policy_considerations"><a class="anchor" href="#_data_policy_considerations"></a>Data policy considerations</h3>
 <div class="paragraph">
-<p>While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
+<p>While FOSS is a key enabler of modern meteorological systems, its full value is realized
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
 operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <a href="#annex-data-policies">Annex B</a> for examples).  Together with FOSS they can, for example, support the implementation of the
-<a href="https://wmo.int/wmo-unified-data-policy-resolution-res1">WMO Unified Data Policy</a> by helping Members expand access to
+WMO Unified Data Policy<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup> by helping Members expand access to
 Earth system data, strengthen international collaboration and contribute to broader open science practices.</p>
 </div>
 <div class="sect3">
@@ -340,7 +429,7 @@ data exchange easier (see above).</p>
 reproducibility, scientific integrity, and metadata management.</p>
 </li>
 <li>
-<p><strong>Enabling innovation</strong>: When open data is combined with open software, organisations can develop locally relevant
+<p><strong>Enabling innovation</strong>: When open data is combined with open software, organizations can develop locally relevant
 applications and services, maybe also supporting start ups and local economies, while contributing improvements back to the wider community.</p>
 </li>
 </ul>
@@ -370,7 +459,7 @@ meteorological data ecosystem.</p>
 <p>The capabilities of AI/LLM/Agentic tools and workflows are evolving rapidly and increasingly used to contribute to and manage FOSS projects.
 FOSS projects can be impacted in a variety of ways including dramatic increases in the number, size, and complexity of contributions.
 Many FOSS projects have responded by developing AI Tool Use Policies or Guidelines, often focused on the importance of maintaining a project&#8217;s community and culture.
-(See the <a href="#annex-ai-tool-use">AI Tool Use in FOSS</a> Annex for references to AI in FOSS overview articles and example AI use policies.)</p>
+(See <a href="#annex-ai-tool-use">Annex C</a> for references to AI in FOSS overview articles and example AI use policies.)</p>
 </div>
 <div class="paragraph">
 <p>The guidelines tend to focus on the need for human communication around contributions, the value of contributions relative to the effort required by maintainers, and transparency with type and amount of AI tool use indicated.
@@ -388,17 +477,54 @@ AI has also be used for reputation building through AI-generated discussions and
 <div class="sectionbody">
 <div class="sect2">
 <h3 id="_wmo_members"><a class="anchor" href="#_wmo_members"></a>WMO Members</h3>
+<div class="paragraph">
+<p>WMO Members — through their National Meteorological and Hydrological Services (NMHSs) and other designated bodies — are the primary adopters and, in many cases, developers of FOSS within the WMO community. The guidelines in this section address the full range of Member engagement with FOSS: from evaluation and operational use, through contributing to and managing FOSS projects, to the policies, competencies, and infrastructure that underpin sustainable adoption. Members are encouraged to apply these guidelines in a manner proportionate to their technical capacity and the operational criticality of the software concerned.</p>
+</div>
 <div class="sect3">
 <h4 id="_using_foss"><a class="anchor" href="#_using_foss"></a>Using FOSS</h4>
+<div class="paragraph">
+<p>This section provides an overview of key considerations for WMO Members when using FOSS, covering the benefits it can offer alongside the risks and cost implications that require careful management.</p>
+</div>
 <div class="sect4">
-<h5 id="_risks"><a class="anchor" href="#_risks"></a>Risks</h5>
+<h5 id="_benefits_of_foss"><a class="anchor" href="#_benefits_of_foss"></a>Benefits of FOSS</h5>
+<div class="paragraph">
+<p>The benefits of FOSS are well evidenced, though they vary significantly by context, scale, and implementation approach. They can be summarized across three dimensions: autonomy and control, cost advantages, and ecosystem flexibility.</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Licence compliance risks</strong> Open-source licences often have widely varying requirements regarding commercial use, redistribution, and code modification. Certain licences include restrictive clauses, such as mandating that derivative works be made open source or that original copyright notices be preserved in full. Violations may lead to legal disputes and intellectual property issues.</p>
+<p><strong>Autonomy and control</strong>: The code is open and licences are flexible, allowing meteorological organizations to perform customization as needed, directly modifying the code to add or remove functional modules to suit unique operational scenarios (for example,regional weather forecasting adjustments). This level of access also allows them to independently identify and fix vulnerabilities, optimize performance for large meteorological data workloads, and control the technical roadmap of core systems. Certain permissive licences (for example,MIT License, Apache License 2.0) even permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.</p>
 </li>
 <li>
-<p><strong>Security and continuity risks</strong>: Open-source software from niche or less-established projects may pose security risks due to limited formal code audits. Additionally, the complexity of open-source software supply chains creates vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological applications, especially when handling sensitive observational data or real-time forecasting models.</p>
+<p><strong>Cost advantages</strong>: No software licence fees or subscription fees are required, making FOSS suitable for national meteorological services as well as deployments in regional forecasting centres. The availability of source code and community documentation reduces costs during adaptation and integration. Meteorological organizations can also choose free community support or affordable third-party services instead of expensive vendor support packages. A 2021 study commissioned by the European Commission estimated a cost-benefit ratio of above 1:4 for OSS investment across the EU public sector, noting that EU companies' € 1 billion investment in OSS in 2018 generated between € 65 and € 95 billion in macroeconomic impact on EU GDP — though these are economy-wide figures and individual organizational returns will vary.<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> A World Bank case study of institutional investment in open-source geospatial software — a domain closely analogous to NMHS operations — found a conservatively estimated 200% return on investment over seven years.<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup></p>
+</li>
+<li>
+<p><strong>Avoiding vendor lock-in</strong>: Free from proprietary interfaces and data format dependencies, enabling free choice of deployment environments (for example,private or public clouds). Even if the original project is discontinued, maintenance can be taken over independently or by a third party. Moreover, multiple service providers often support the same open-source software, strengthening the user&#8217;s bargaining position.</p>
+</li>
+<li>
+<p><strong>Cross-platform portability</strong>: Most open-source tools run on multiple operating systems (for example,Windows and Linux). Adherence to common technical standards (for example,WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centres.</p>
+</li>
+<li>
+<p><strong>Technical capacity development</strong>: Community involvement within FOSS projects can foster career growth, professional recognition, networking and collaboration. In turn this can lead to increased technical capacity within Members' NMHSs and other organizations.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_risks"><a class="anchor" href="#_risks"></a>Risks</h5>
+<div class="paragraph">
+<p>The use of FOSS may introduce a range of risks that should be carefully assessed and managed, particularly in operational environments where reliability, security, and compliance are critical. It is worth noting that many of these risks apply equally to commercially licensed software.</p>
+</div>
+<div class="ulist">
+<ul>
+<li>
+<p><strong>Licence compliance risks — users</strong>: Members using FOSS internally, without modification or redistribution to third parties, face minimal licence compliance risk in most cases. The principal exception is the Affero GPL (AGPL), which extends copyleft obligations to software used to provide network services even without distribution; NMHSs operating web-based or API services should assess AGPL-licensed components carefully.</p>
+</li>
+<li>
+<p><strong>Licence compliance risks — contributors and distributors</strong>: Members who modify FOSS and distribute it to third parties face broader obligations. Copyleft licences (for example, GPL, LGPL) require that derivative works be made available under the same terms and that original copyright notices be preserved. Where FOSS components with different licences are combined, compatibility between those licences must also be assessed. Violations of applicable licence terms may lead to legal disputes and intellectual property issues.</p>
+</li>
+<li>
+<p><strong>Security risks</strong>: The openness of FOSS source code means that vulnerabilities can be identified — and fixed — by a wide community of developers; this transparency is a significant security advantage over proprietary software where code cannot be independently inspected. However, software from niche or less-established projects may pose security risks where the contributor community is too small to provide adequate review. Additionally, the complexity of FOSS supply chains can create vulnerabilities that could be exploited to implant malicious code. These risks are amplified in meteorological applications, especially when handling sensitive observational data or real-time forecasting models.</p>
 </li>
 <li>
 <p><strong>Maintenance risks</strong>: Fixes for vulnerabilities rely on community responsiveness. If an open-source project is discontinued, known vulnerabilities may remain unaddressed.</p>
@@ -413,7 +539,10 @@ AI has also be used for reputation building through AI-generated discussions and
 </div>
 </div>
 <div class="sect4">
-<h5 id="_hidden_costs"><a class="anchor" href="#_hidden_costs"></a>Hidden costs</h5>
+<h5 id="_cost_implications"><a class="anchor" href="#_cost_implications"></a>Cost Implications</h5>
+<div class="paragraph">
+<p>The use of FOSS may entail cost implications that should be carefully assessed, particularly with regard to integration, maintenance, and long-term resource requirements. As with risks, many of these considerations apply equally to commercially licensed software.</p>
+</div>
 <div class="ulist">
 <ul>
 <li>
@@ -428,7 +557,13 @@ AI has also be used for reputation building through AI-generated discussions and
 <li>
 <p><strong>Compliance audit and management costs</strong>: It is necessary to maintain an inventory of all open-source components and perform regular compliance audits. Large meteorological organizations may also need to develop dedicated management platforms, with costs increasing as the number of components grows.</p>
 </li>
+<li>
+<p><strong>Proprietary software pricing risks</strong>: When assessing the cost implications of FOSS, these should be considered alongside the risks of commercially licensed alternatives, which may include vendor-driven migration to subscription-only licensing models (whether cloud-based or locally deployed software requiring ongoing licence validation), significant price increases, and ratchet mechanisms that progressively erode an organization&#8217;s bargaining position and ability to exit the relationship.</p>
+</li>
 </ul>
+</div>
+<div class="paragraph">
+<p>The risks and costs described above are faced by individual Members when adopting FOSS. The broader systemic implications — including WMO&#8217;s role in monitoring project health, managing community-wide sustainability risks, and supporting Members when critical software reaches end-of-life — are addressed in <a href="#_foss_sustainability_and_risk_management">FOSS sustainability and risk management</a>.</p>
 </div>
 </div>
 </div>
@@ -437,7 +572,7 @@ AI has also be used for reputation building through AI-generated discussions and
 <div class="sect4">
 <h5 id="_national_policies"><a class="anchor" href="#_national_policies"></a>National policies</h5>
 <div class="paragraph">
-<p>The adoption and development of FOSS within NMHSs can be significantly strengthened through supportive national-level policies. Several WMO Members have already introduced digital government strategies that encourage the use of open standards, open data and open-source software as default options within public administrations.<sup class="footnote">[<a id="_footnoteref_3" class="footnote" href="#_footnotedef_3" title="View footnote.">3</a>]</sup> Where such frameworks exist, NMHSs can leverage them to increase efficiency, reduce vendor lock-in and ensure long-term sustainability of operational systems.</p>
+<p>The adoption and development of FOSS within NMHSs can be significantly strengthened through supportive national-level policies. Several WMO Members have already introduced digital government strategies that encourage the use of open standards, open data and open-source software as default options within public administrations.<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup> Where such frameworks exist, NMHSs can leverage them to increase efficiency, reduce vendor lock-in and ensure long-term sustainability of operational systems.</p>
 </div>
 <div class="paragraph">
 <p>National FOSS-related policies may include:</p>
@@ -445,13 +580,13 @@ AI has also be used for reputation building through AI-generated discussions and
 <div class="ulist">
 <ul>
 <li>
-<p>"Open by default" procurement rules requiring public institutions to consider FOSS alternatives alongside proprietary solutions when acquiring software. National examples include the United States Federal Source Code Policy,<sup class="footnote">[<a id="_footnoteref_4" class="footnote" href="#_footnotedef_4" title="View footnote.">4</a>]</sup> the Government of Canada Open First approach,<sup class="footnote">[<a id="_footnoteref_5" class="footnote" href="#_footnotedef_5" title="View footnote.">5</a>]</sup> Australia&#8217;s Digital Service Standard (Criterion 8: Make source code open),<sup class="footnote">[<a id="_footnoteref_6" class="footnote" href="#_footnotedef_6" title="View footnote.">6</a>]</sup> New Zealand&#8217;s NZGOAL-SE framework,<sup class="footnote">[<a id="_footnoteref_7" class="footnote" href="#_footnotedef_7" title="View footnote.">7</a>]</sup> India&#8217;s Policy on Adoption of Open Source Software,<sup class="footnote">[<a id="_footnoteref_8" class="footnote" href="#_footnotedef_8" title="View footnote.">8</a>]</sup> and Japan&#8217;s Open Source Promotion Report.<sup class="footnote">[<a id="_footnoteref_9" class="footnote" href="#_footnotedef_9" title="View footnote.">9</a>]</sup> In some countries, like Romania, when you purchase "on demand" software development services, the source code should be transferred to the customer along with all the IPR associated with the software. Making the source code available under an open-source licence is highly recommended.</p>
+<p>"Open by default" procurement rules requiring public institutions to consider FOSS alternatives alongside proprietary solutions when acquiring software. National examples include the United States Federal Source Code Policy,<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup> the Government of Canada Open First approach,<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup> New Zealand&#8217;s NZGOAL-SE framework,<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup> India&#8217;s Policy on Adoption of Open Source Software,<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup> and Japan&#8217;s Open Source Promotion Report.<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup> In some countries, like Romania, when you purchase "on demand" software development services, the source code should be transferred to the customer along with all the IPR associated with the software. Making the source code available under an open-source licence is highly recommended.</p>
 </li>
 <li>
-<p>Guidelines for software development funded from public budget, encouraging publication of code under approved open-source licences. The "Public Money? Public Code!" campaign, supported by over 200 civil society organizations, advocates that software developed with public funds should be released under open-source licences.<sup class="footnote">[<a id="_footnoteref_10" class="footnote" href="#_footnotedef_10" title="View footnote.">10</a>]</sup></p>
+<p>Guidelines for software development funded from public budget, encouraging publication of code under approved open-source licences. The "Public Money? Public Code!" campaign, supported by over 200 civil society organizations, advocates that software developed with public funds should be released under open-source licences.<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
 </li>
 <li>
-<p>Policies promoting interoperability and open standards, which naturally align with FOSS implementations within WIS2 and other WMO technical frameworks. In the European Union, the Interoperable Europe Act<sup class="footnote">[<a id="_footnoteref_11" class="footnote" href="#_footnotedef_11" title="View footnote.">11</a>]</sup> (in force from April 2024) requires public sector bodies to conduct interoperability assessments and share open source solutions for cross-border digital services.</p>
+<p>Policies promoting interoperability and open standards, which naturally align with FOSS implementations within WIS2 and other WMO technical frameworks. In the European Union, the Interoperable Europe Act<sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup> (in force from April 2024) requires public sector bodies to conduct interoperability assessments and share open source solutions for cross-border digital services.</p>
 </li>
 <li>
 <p>Capacity-building programmes that enable staff to acquire skills for maintaining and developing open-source tools, reducing long-term operational dependency on external vendors.</p>
@@ -478,34 +613,17 @@ AI has also be used for reputation building through AI-generated discussions and
 <li>
 <p>Promote transparency by adopting open repositories for research software and operational tools.</p>
 </li>
-<li>
-<p>Events/hackathons (e.g. OGC/OSGeo/ASF Joint Sprints) TODO Vasile</p>
-<div class="ulist">
-<ul>
-<li>
-<p>By product: connection/collab</p>
-</li>
 </ul>
 </div>
-</li>
-<li>
-<p>Regulations / risk / constraints / considerations</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Features, maintenance, project</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
+<div class="paragraph">
+<p>Participation in events such as code sprints, hackathons and conferences (for example,OGC/OSGeo/ASF joint sprints and FOSS4G) provides valuable opportunities for capacity building, community engagement and collaborative development. OSGeo also supports a network of local chapters<sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup> that can serve as regional points of contact for FOSS engagement. WMO&#8217;s coordination role in facilitating such events and managing partnerships with external FOSS organizations is described in <a href="#_external_partnerships">External partnerships</a>.</p>
 </div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_managing_foss_activities"><a class="anchor" href="#_managing_foss_activities"></a>Managing FOSS activities</h4>
 <div class="paragraph">
-<p>In some cases, Members developing their own FOSS in support of WMO obligations and activities may wish to make the software freely available to the public.  The current FOSS landscape and infrastructure provides a strong support mechanism for doing FOSS development in the open, using services such as <a href="https://github.com">GitHub</a>, <a href="https://gitlab.com/gitlab-org">GitLab</a>, <a href="https://codeberg.org">Codeberg</a> and numerous other platforms.</p>
+<p>In some cases, Members developing their own FOSS in support of WMO obligations and activities may wish to make the software freely available to the public.  The current FOSS landscape and infrastructure provide a strong support mechanism for doing FOSS development in the open, using services such as <a href="https://github.com">GitHub</a>, <a href="https://gitlab.com/gitlab-org">GitLab</a>, <a href="https://codeberg.org">Codeberg</a> and numerous other platforms.</p>
 </div>
 <div class="paragraph">
 <p>In the same spirit as contributing to FOSS, where no national regulations exist, NMHSs can still develop institution-level policies or guidelines in support of making FOSS available to the public.  The following are (some) key aspects to consider:</p>
@@ -529,10 +647,10 @@ AI has also be used for reputation building through AI-generated discussions and
 <p>Make clear how collaboration will work to the public (for example, by providing a <code>CONTRIBUTING.md</code> document for GitHub).</p>
 </li>
 <li>
-<p>Having a strong process for managing contributions can help ensure a strong culture of collaboration and cooperation. (This applies to both open projects and more restricted, small group projects). Consider addressing whether and how contributors can use AI Tools, if at all (see the <a href="#impact-of-ai">Impact of AI on FOSS Projects</a> section and <a href="#annex-ai-tool-use">AI Tool Use in FOSS</a> Annex).</p>
+<p>Having a strong process for managing contributions can help ensure a strong culture of collaboration and cooperation. (This applies to both open projects and more restricted, small group projects). Consider addressing whether and how contributors can use AI Tools, if at all (see the <a href="#impact-of-ai">Impact of AI on FOSS Projects</a> section and <a href="#annex-ai-tool-use">Annex C</a>).</p>
 </li>
 <li>
-<p>Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points, etc.)</p>
+<p>Make clear how security issues should be addressed (mitigation/release policies/timelines, contact points and so forth)</p>
 </li>
 <li>
 <p>What is the release schedule for new versions?</p>
@@ -541,7 +659,7 @@ AI has also be used for reputation building through AI-generated discussions and
 </div>
 </li>
 <li>
-<p>Choose a licence that the software will be made available with (such as the Apache License, Version 2.0, MIT, etc.).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability</p>
+<p>Choose a licence that the software will be made available with (such as the Apache License, Version 2.0, MIT and similar licences).  It is strongly advised to consider and consult organization policies to ensure proper licensing and understanding risk, responsibility and liability</p>
 </li>
 <li>
 <p>Choose the mechanism by which the software will be made available (GitHub, GitLab, Codeberg, organizational website, etc.)</p>
@@ -550,38 +668,13 @@ AI has also be used for reputation building through AI-generated discussions and
 <p>Ensure that a <code>README</code> is available with the code stating a clear mission and purpose</p>
 </li>
 <li>
-<p>Identify any supported WMO Technical Regulations</p>
+<p>Identify any supported WMO technical standards and best practices</p>
 </li>
 <li>
-<p>Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additional documentation for developer or other audience types (administrators, etc.)</p>
+<p>Ensure that the project has proper documentation for users (downloading, installing, configuring, running), as well as additional documentation for developer or other audience types (administrators and so forth)</p>
 </li>
 <li>
 <p>Ensure the code is versioned (for example using Git as a version control system)</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect3">
-<h4 id="_benefits_of_foss"><a class="anchor" href="#_benefits_of_foss"></a>Benefits of FOSS</h4>
-<div class="paragraph">
-<p>The benefits of FOSS can be summarized across three dimensions: autonomy and control, cost optimization, and ecosystem flexibility.</p>
-</div>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Autonomy and control</strong>: The code is open and licences are flexible, allowing meteorological organizations to perform customization as needed, directly modifying the code to add or remove functional modules to suit unique operational scenarios (e.g., regional weather forecasting adjustments). This level of access also allows them to independently identify and fix vulnerabilities, optimize performance for large meteorological data workloads, and control the technical roadmap of core systems. Certain permissive licences (e.g., MIT License, Apache License 2.0) even permit using modified code as closed source in commercial products, balancing customization needs with operational requirements.</p>
-</li>
-<li>
-<p><strong>Cost advantages</strong>: No software licence fees or subscription fees are required, making FOSS suitable for national meteorological services as well as deployments in regional forecasting centres. The availability of source code and community documentation reduces costs during adaptation and integration. Meteorological organizations can also choose free community support or affordable third-party services instead of expensive vendor support packages. A 2021 study commissioned by the European Commission estimated that EUR 1 billion of investment in open source generated EUR 65–95 billion in economic impact, characterizing FOSS as a global public good.<sup class="footnote">[<a id="_footnoteref_12" class="footnote" href="#_footnotedef_12" title="View footnote.">12</a>]</sup> A World Bank study of institutional investment in open-source geospatial software found a conservatively estimated 200% return on investment over seven years.<sup class="footnote">[<a id="_footnoteref_13" class="footnote" href="#_footnotedef_13" title="View footnote.">13</a>]</sup></p>
-</li>
-<li>
-<p><strong>Avoiding vendor lock-in</strong>: Free from proprietary interfaces and data format dependencies, enabling free choice of deployment environments (e.g., private or public clouds). Even if the original project is discontinued, maintenance can be taken over independently or by a third party. Moreover, multiple service providers often support the same open-source software, strengthening the user’s bargaining position.</p>
-</li>
-<li>
-<p><strong>Cross-platform portability</strong>: Most open-source tools run on multiple operating systems (e.g., Windows and Linux). Adherence to common technical standards (e.g., WMO GRIB data formats) lowers system integration difficulty. Modular design facilitates containerized deployment and cross-cluster migration, adapting to architectural upgrades in meteorological data centres.</p>
-</li>
-<li>
-<p><strong>Technical capacity development</strong>: Community involvement within FOSS projects can foster career growth, professional recognition, networking and collaboration. In turn this can lead to increased techical capacity within the Members NMHSs and other organisations.</p>
 </li>
 </ul>
 </div>
@@ -605,8 +698,7 @@ participating in collaborative development.</p>
 <p>Platforms such as <a href="https://github.com">GitHub</a>, <a href="https://gitlab.com">GitLab</a>, and <a href="https://codeberg.org">Codeberg</a> provide the
 core infrastructure for hosting source code, tracking issues, managing contributions via pull or merge requests, and
 publishing project documentation. Many of these platforms also offer free tiers for public open-source projects. Members
-should consider platform accessibility (e.g. connectivity constraints in some regions), governance (commercial vs.
-community-run), and data sovereignty when making a choice. Some platforms, notably GitLab (Community Edition),
+should consider platform accessibility (for example,connectivity constraints in some regions), governance and data sovereignty when making a choice. Some platforms, notably GitLab (Community Edition),
 <a href="https://gitea.io">Gitea</a>, and <a href="https://forgejo.org">Forgejo</a>, can also be self-hosted, which may be preferable where
 organizational policy or national regulations require software infrastructure to remain under institutional control.</p>
 </div>
@@ -614,7 +706,7 @@ organizational policy or national regulations require software infrastructure to
 <div class="sect4">
 <h5 id="_continuous_integration_and_delivery_cicd"><a class="anchor" href="#_continuous_integration_and_delivery_cicd"></a>Continuous integration and delivery (CI/CD)</h5>
 <div class="paragraph">
-<p>Most major hosting platforms include integrated CI/CD tooling (e.g. GitHub Actions, GitLab CI) that enables automated
+<p>Most major hosting platforms include integrated CI/CD tooling (for example,GitHub Actions, GitLab CI) that enables automated
 testing, building, and release workflows. These services are typically free for public repositories and significantly
 reduce the overhead of maintaining software quality and producing releases. Where platforms are self-hosted, organizations
 must also provision and maintain the runner infrastructure — the compute resources on which CI/CD jobs execute. This
@@ -639,7 +731,7 @@ registry terms alongside software licences.</p>
 <h5 id="_community_infrastructure"><a class="anchor" href="#_community_infrastructure"></a>Community infrastructure</h5>
 <div class="paragraph">
 <p>Beyond code hosting, FOSS projects often rely on additional community infrastructure including mailing lists, discussion
-forums, chat platforms (e.g. Matrix, Slack, Discourse), and documentation sites. When evaluating or adopting a FOSS
+forums, chat platforms (for example,Matrix, Slack, Discourse), and documentation sites. When evaluating or adopting a FOSS
 project, the health and accessibility of these channels is a useful indicator of community activity and support.</p>
 </div>
 </div>
@@ -647,59 +739,73 @@ project, the health and accessibility of these channels is a useful indicator of
 </div>
 <div class="sect2">
 <h3 id="_wmo_activities"><a class="anchor" href="#_wmo_activities"></a>WMO Activities</h3>
+<div class="paragraph">
+<p>This chapter presents key WMO activities aimed at supporting the effective adoption and use of FOSS, including coordination and alignment, standards compliance, software review and evaluation, and reference implementations.</p>
+</div>
 <div class="sect3">
 <h4 id="_coordination_alignment_and_support"><a class="anchor" href="#_coordination_alignment_and_support"></a>Coordination, alignment and support</h4>
 <div class="paragraph">
-<p>As FOSS has become increasingly embedded in WMO programmes, projects and Member operations, the need for structured coordination at the organizational level has grown accordingly. Historically, software developed, or selected, for use in different projects and programmes has largely been managed on an ad-hoc basis. Independent experts, contractors, and implementing authorities / agencies have typically made independent choices without a common framework for the evaluation, governance, and life-cycle management of FOSS.</p>
+<p>As FOSS has become increasingly embedded in WMO programmes, projects and Member operations, the need for structured coordination at the organizational level has grown accordingly. Historically, software developed, or selected, for use in different projects and programmes has largely been managed on an ad-hoc basis. Independent experts, contractors, and implementing authorities / agencies have typically made, and in many cases continue to make, independent choices without a common framework for the evaluation, governance, and life-cycle management of FOSS.</p>
 </div>
 <div class="paragraph">
-<p>Whilst enabling rapid development and innovation, this approach has led to fragmentation and duplication of effort, and in some cases, reliance on unmaintained or insecure software that puts Members services at risk.</p>
+<p>Whilst enabling rapid development and innovation, this approach has led to fragmentation and duplication of effort, and in some cases, reliance on software that does not meet adequate standards of maintenance, security, or operational fitness — putting Members' services at risk.</p>
 </div>
 <div class="paragraph">
-<p>The WMO Secretariat, as the body supporting the work of its Members and constituent bodies, has a central role in coordinating FOSS activities across WMO programmes and projects and in supporting Members in the adoption of FOSS. This coordination function should ensure that FOSS initiatives adopted through WMO projects and programmes are aligned with the WMO&#8217;s regulatory framework and that software used in support of WMO obligations meets appropriate standards of quality and security. Equally important, this coordination should ensure that Members, particularly those with more limited technical capacities, are not left behind.</p>
+<p>The WMO Secretariat, as the body supporting the work of its Members and constituent bodies, has a central role in coordinating FOSS activities across WMO programmes and projects and in supporting Members in the adoption of FOSS. This coordination function should ensure that FOSS initiatives adopted through WMO projects and programmes are aligned with WMO&#8217;s regulatory framework and that software used in support of WMO obligations meets appropriate standards of quality and security. Equally important, this coordination should ensure that Members, particularly those with more limited technical capacities, are not left behind.</p>
 </div>
 <div class="sect4">
 <h5 id="_governance_and_organizational_functions"><a class="anchor" href="#_governance_and_organizational_functions"></a>Governance and organizational functions</h5>
 <div class="paragraph">
-<p>Effective FOSS coordination with the WMO requires dedicated governance functions. The following functions are identified as essential:</p>
+<p>Effective FOSS coordination within WMO requires dedicated governance functions. The following functions are identified as essential:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Software evaluation and review</strong>: Providing a consistent process for assessing FOSS used in WMO programmes and projects, applying criteria such as those described in the FOSS evaluation rubric (see <a href="#annex-evaluation-rubric">FOSS evaluation rubric</a>).
+<p><strong>Software evaluation and endorsement</strong>: Providing a consistent process for assessing FOSS used in WMO programmes and projects, applying criteria such as those described in the FOSS evaluation rubric (see <a href="#annex-evaluation-rubric">Annex A</a>).
 This includes evaluating licence compatibility, security posture, project and community health, openness of governance, and technical fitness for purpose.</p>
 </li>
 <li>
 <p><strong>Lifecycle oversight</strong>: Tracking the status of FOSS components used across WMO programmes, from initial adoption through operational use to end-of-life, ensuring that migration plans are in place when software is no longer maintained.</p>
 </li>
 <li>
-<p><strong>Standards alignment</strong>: Ensuring that FOSS developed or endorsed within WMO implements relevant Technical Regulations and open standards correctly and consistently.</p>
+<p><strong>Standards alignment</strong>: Coordinating standards alignment reviews, working with Expert Teams to ensure that FOSS developed or endorsed within WMO implements relevant Technical Regulations and open standards correctly and consistently.</p>
 </li>
 <li>
-<p><strong>Guidance and advisory support</strong>: Providing practical guidance to Expert Teams, Task Teams, Communities of
-Practice, and other implementors on FOSS best practices, including licensing, contribution workflows, governance models and release management.</p>
+<p><strong>Guidance and advisory support</strong>: Providing practical guidance on FOSS best practices — including licensing, contribution workflows, governance models, and release management — to Members, implementing authorities, and project teams, in support of the technical direction set by Expert Teams and Task Teams.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>These functions may be carried out by existing WMO bodies, such as the Standing Committees, Expert Teams, and Task Teams.  However, these bodies often have a narrow focus on a particular activity or area, are not typically involved in the projects implementing or using FOSS, and often lack the specialist knowledge on FOSS. Alternatively, a dedicated software review function, such as through an Open Source Program Office (OSPO), could be established. Regardless of the organizational form, there is a clear requirement for software governance to be systematic rather than ad-hoc, and that clear, objective criteria exist for evaluating and endorsing FOSS within WMO.</p>
+<p>These functions may be carried out by existing WMO bodies, such as the Standing Committees, Expert Teams, and Task Teams. However, these bodies often have a narrow focus on a particular activity or area, are not typically involved in the projects implementing or using FOSS, and often lack the specialist knowledge on FOSS.</p>
 </div>
 <div class="paragraph">
-<p>It is important to note that WMO should not seek to develop its own registry of open-source software.</p>
+<p>The governance functions described above are best delivered through a dedicated <strong>Open Source Program Office (OSPO)</strong>, as described in the following section.</p>
+</div>
+</div>
+<div class="sect4">
+<h5 id="_open_source_program_office"><a class="anchor" href="#_open_source_program_office"></a>Open Source Program Office</h5>
+<div class="paragraph">
+<p>An Open Source Program Office (OSPO) is a dedicated organizational unit responsible for enabling, governing, and coordinating an institution&#8217;s engagement with open-source software. OSPOs are increasingly adopted by public sector organizations — including intergovernmental bodies, national governments, and major operational centres — as the recognized best-practice mechanism for managing FOSS at institutional scale. This model is well established in comparable organizations: ECMWF has embedded FOSS practice as a core institutional activity; the World Bank operates its own open source programme with documented returns on institutional investment; and the UNDP and ITU, through their Open Source Ecosystem Enabler (OSEE) initiative, actively support the establishment of OSPOs across the UN system and in developing countries. An OSPO need not require a significant resource commitment — many effective OSPOs operate with a small, dedicated team — but it does require a clear institutional mandate and the authority to act across programme boundaries.</p>
 </div>
 <div class="paragraph">
-<p>Existing registries and ecosystems (such as those maintained by OSGeo, the Digital Public Goods Alliance, and language-specific package repositories) already serve this purpose.  WMO&#8217;s coordination role should focus on evaluating and recommending software from within these existing ecosystems, rather than duplicating their efforts.</p>
+<p>For WMO, an OSPO would serve as the central coordination function for FOSS across all programmes and projects, hosted within the Secretariat and operating with a cross-cutting mandate, enabling it to engage with all programmes, constituent bodies, and Members. The core functions of a WMO OSPO are described in the <a href="#_governance_and_organizational_functions">Governance and organizational functions</a> section above. In practice, an OSPO also acts as a point of contact for Members seeking advice on FOSS matters, a liaison with external FOSS organizations, and a custodian of institutional knowledge on FOSS governance. It provides continuity across constituent body sessions, which volunteer Expert and Task Teams cannot reliably sustain.</p>
+</div>
+<div class="paragraph">
+<p>Regardless of the specific organizational form adopted, there is a clear requirement for software governance to be systematic rather than ad hoc, and for clear, objective criteria to exist for evaluating and endorsing FOSS within WMO. It is equally important to note that WMO should not seek to develop its own registry of open-source software — existing registries and ecosystems (such as those maintained by OSGeo, the Digital Public Goods Alliance, and language-specific package repositories) already serve this purpose. WMO&#8217;s coordination role should focus on evaluating and recommending software from within these existing ecosystems, rather than duplicating their efforts.</p>
 </div>
 </div>
 <div class="sect4">
 <h5 id="_roles_and_responsibilities"><a class="anchor" href="#_roles_and_responsibilities"></a>Roles and responsibilities</h5>
 <div class="paragraph">
-<p>Coordination of FOSS activities within the WMO involves a range of actors:</p>
+<p>Coordination of FOSS activities within WMO involves a range of actors:</p>
 </div>
 <div class="ulist">
 <ul>
 <li>
-<p><strong>WMO Secretariat</strong>: Facilitates coordination across programmes and projects, supports the development and maintenance of FOSS guidance, and manages relationships with external FOSS organizations.  The Secretariat also provides continuity and institutional memory for FOSS initiatives that span multiple constituent body sessions.</p>
+<p><strong>Open Source Program Office (OSPO)</strong>: Delivers the day-to-day coordination of FOSS activities across programmes and projects, including software evaluation, lifecycle oversight, guidance to implementors, management of external partnerships, and continuity of institutional knowledge across constituent body sessions.</p>
+</li>
+<li>
+<p><strong>WMO Secretariat</strong>: Provides the institutional mandate and home for the OSPO, and ensures FOSS governance is embedded within WMO&#8217;s broader programme management and regulatory framework.</p>
 </li>
 <li>
 <p><strong>Expert Teams and Task Teams</strong>: Provide domain-specific expertise in evaluating and developing FOSS relevant to their areas of responsibility.  Expert Teams and Task Teams may identify candidate software for endorsement or develop <a href="#_reference_implementations">Reference Implementations</a> of WMO standards.</p>
@@ -713,7 +819,7 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 </ul>
 </div>
 <div class="paragraph">
-<p>Whilst "Communities of Practice" have been listed above, these do not exist formally within the WMO&#8217;s framework and constituent bodies, instead operating on an informal basis. Strengthening and formally recognizing these communities would have significant benefit.</p>
+<p>Whilst "Communities of Practice" have been listed above, these do not exist formally within WMO&#8217;s framework and constituent bodies, instead operating on an informal basis. Strengthening and formally recognizing these communities would have significant benefit.</p>
 </div>
 </div>
 <div class="sect4">
@@ -724,7 +830,7 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Concept and prototyping</strong>: An initial requirement is identified and ideas are explored. These may often be part of the development of a new standard, such as the WIS2.0 standards, or in response to an operational need. At this stage, the software may be experimental and maintained by a small number of developers.</p>
+<p><strong>Concept and prototyping</strong>: An initial requirement is identified and ideas are explored. These may often be part of the development of a new standard, such as the WIS2 standards, or in response to an operational need. At this stage, the software may be experimental and maintained by a small number of developers.</p>
 </li>
 <li>
 <p><strong>Development and pilot use</strong>: Following initial prototyping, the software gains maturity and may have additional contributors. The software is tested in pilot environments. Parallel to this, the standards that the software is implementing may also gain maturity and undergo further changes.</p>
@@ -733,12 +839,12 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <p><strong>Operational use</strong>: Software, and standards, are ready for production use in operational environments. There will be established governance processes for the FOSS together with comprehensive documentation and contribution guides. The contributor base will have grown and be sustainable.</p>
 </li>
 <li>
-<p><strong>End-of-life and migration</strong>: When software is no longer actively maintained or has been superseded, clear guidance should exist for migrating to alternative solutions, including data migration.  End-of-life planning is particularly important for software that Members depend on for operational services.</p>
+<p><strong>End-of-life and migration</strong>: When software is no longer actively maintained or has been superseded, clear guidance should exist for migrating to alternative solutions, including data migration. End-of-life planning is particularly important for software that Members depend on for operational services. Retirement planning should include: a data archiving plan to ensure secure storage and traceability of historical data; an assessment of migration costs and a defined transition path to maintain continuity of service; and clear assignment of responsibilities for decommissioning, including procedures to mitigate risks such as data loss or service disruption.</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>The WMO can support this lifecycle by providing evaluation criteria at each stage, recognizing software that meets established thresholds of maturity, and facilitating transitions when software reaches end-of-life.  Established frameworks such as the OSGeo incubator and graduation process<sup class="footnote">[<a id="_footnoteref_14" class="footnote" href="#_footnotedef_14" title="View footnote.">14</a>]</sup> provide a useful model for structuring such a lifecycle within the WMO.</p>
+<p>The WMO can support this lifecycle by providing evaluation criteria at each stage, recognizing software that meets established thresholds of maturity, and facilitating transitions when software reaches end-of-life.  Established frameworks such as the OSGeo incubator and graduation process<sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup> provide a useful model for structuring such a lifecycle within the WMO.</p>
 </div>
 </div>
 <div class="sect4">
@@ -749,10 +855,10 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Bus / retirement factor</strong>: Over-reliance on a single, or small team, for critical software. When supporting FOSS development and adoption, the WMO should encourage a broad contributor base, shared governance, and pooling of resources for the support and development of critical software.</p>
+<p><strong>Key person dependency (bus factor)</strong>: Over-reliance on a single, or small team, for critical software. When supporting FOSS development and adoption, the WMO should encourage a broad contributor base, shared governance, and pooling of resources for the support and development of critical software.</p>
 </li>
 <li>
-<p><strong>Lack of long-term support and maintenance</strong>: Not all FOSS projects have a sustained commitment to long-term support. Projects may cease active development without formal end-of-life notice, leaving Members dependent on unmaintained software with unaddressed vulnerabilities and no migration path. Unlike proprietary software, where support obligations are contractually defined, FOSS maintenance relies on community goodwill, institutional backing, or commercial arrangements — none of which are guaranteed. Members should assess the long-term support model of any FOSS solution prior to operational adoption and have contingency plans in place should maintenance cease.</p>
+<p><strong>Lack of long-term support and maintenance</strong>: Not all FOSS projects have a sustained commitment to long-term support. Projects may cease active development without formal end-of-life notice, leaving Members dependent on unmaintained software with unaddressed vulnerabilities and no migration path. FOSS maintenance relies on community goodwill, institutional backing, or commercial arrangements with service providers — similarly to proprietary software, where such obligations are contractually defined but not always guaranteed in practice. Members should assess the long-term support model of any FOSS solution prior to operational adoption and have contingency plans in place should maintenance cease.</p>
 </li>
 <li>
 <p><strong>Security vulnerabilities</strong>: Software components must be subject to regular security reviews, including vulnerability testing, with clear disclosure and patching policies. Adequate resources must be in place to ensure any identified vulnerabilities are addressed in a timely fashion.</p>
@@ -780,7 +886,7 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Technical Regulations and standards</strong>: Co-development of Reference Implementations alongside the development and implementation of new regulations and standards; FOSS developed or endorsed should conform with and / or implement WMO standards. The WMO should also promote alignment and interoperability with open standards, such as those developed by the Open Geospatial Consortium (OGC).</p>
+<p><strong>Technical Regulations and standards</strong>: Co-development of Reference Implementations alongside the development and implementation of new regulations and standards; FOSS developed or endorsed should conform with and / or implement WMO standards. The WMO should also promote alignment and interoperability with open standards, such as those developed by the <a href="https://www.ogc.org">Open Geospatial Consortium (OGC)</a>.</p>
 </li>
 <li>
 <p><strong>Cross-programme and cross-project coordination</strong>: FOSS components are often relevant to multiple WMO programmes.  Coordination can help avoid duplication, identify opportunities for shared development and ensure that Members benefit from a coherent set of tools rather than competing or overlapping solutions.</p>
@@ -796,7 +902,7 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <div class="ulist">
 <ul>
 <li>
-<p><strong>Capacity building</strong>: Providing training, documentation and technical support to help Members evaluate, deploy and maintain FOSS solutions.  This is particularly important for developing countries and small island developing states, where resource constraints may limit the ability to engage with FOSS communities directly.</p>
+<p><strong>Capacity building</strong>: Providing training, documentation and technical support to help Members evaluate, deploy and maintain FOSS solutions.  This is particularly important for developing countries and small island developing States, where resource constraints may limit the ability to engage with FOSS communities directly.</p>
 </li>
 <li>
 <p><strong>Knowledge transfer</strong>: Facilitating the exchange of experience and expertise between Members, for example through workshops, code sprints and hackathons organized alongside WMO events or in collaboration with partner organizations.</p>
@@ -821,19 +927,19 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 <p><strong>Formal partnerships:</strong> Memoranda of Understanding (MoUs) with organizations such as OSGeo can provide a structured basis for collaboration on project governance, incubation and quality assurance.</p>
 </li>
 <li>
-<p><strong>Registration as Digital Public Goods:</strong> Key WMO FOSS implementations may qualify for registration with the DPGA, increasing their visibility and credibility within the broader international development community. The <a href="https://new.digitalpublicgoods.net/standard">DPG Standard</a> provides a structured quality framework covering licence compliance, documentation, privacy, and standards adherence.</p>
+<p><strong>Registration as Digital Public Goods:</strong> Key WMO FOSS implementations may qualify for registration with the DPGA, increasing their visibility and credibility within the broader international development community. The DPG Standard<sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnotedef_21" title="View footnote.">21</a>]</sup> provides a structured quality framework covering licence compliance, documentation, privacy, and standards adherence.</p>
 </li>
 <li>
-<p><strong>Multilateral development partners:</strong> The <a href="https://www.undp.org/digital/osee">UNDP</a> and <a href="https://www.itu.int">ITU</a>, through their joint Open Source Ecosystem Enabler (OSEE) initiative, provide practical support to developing countries in establishing national open source ecosystems and Open Source Programme Offices (OSPOs). The <a href="https://opensource.worldbank.org">World Bank</a> maintains its own open source programme and has documented significant returns on institutional FOSS investment in geospatial and environmental data domains directly analogous to NMHS operations.<sup class="footnote">[<a id="_footnoteref_15" class="footnote" href="#_footnotedef_15" title="View footnote.">15</a>]</sup></p>
+<p><strong>Multilateral development partners:</strong> The <a href="https://www.undp.org/digital/osee">UNDP</a> and <a href="https://www.itu.int">ITU</a>, through their joint Open Source Ecosystem Enabler (OSEE) initiative, provide practical support to developing countries in establishing national open source ecosystems and Open Source Program Offices (OSPOs). This initiative represents a direct parallel to the OSPO model described in this guide, and presents an opportunity for WMO to partner with UNDP/ITU in promoting OSPOs across the meteorological and hydrological community. The <a href="https://opensource.worldbank.org">World Bank</a> maintains its own open source programme and has documented significant returns on institutional FOSS investment in geospatial and environmental data domains directly analogous to NMHS operations.<sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnotedef_22" title="View footnote.">22</a>]</sup></p>
 </li>
 <li>
 <p><strong>Joint events:</strong> Code sprints, hackathons and workshops organized in collaboration with partner organizations (such as OGC/OSGeo/ASF joint sprints or <a href="https://foss4g.org">FOSS4G conferences</a>) provide valuable opportunities for capacity building, community engagement and collaborative development.</p>
 </li>
 <li>
-<p><strong>Meteorological sector examples:</strong> The European Centre for Medium-Range Weather Forecasts (ECMWF) runs an annual open source innovation programme under the Copernicus Climate Change Service (Code for Earth),<sup class="footnote">[<a id="_footnoteref_16" class="footnote" href="#_footnotedef_16" title="View footnote.">16</a>]</sup> demonstrating how a major operational meteorological institution can embed FOSS practice as a core activity.</p>
+<p><strong>Meteorological sector examples:</strong> The European Centre for Medium-Range Weather Forecasts (ECMWF) runs an annual open source innovation programme under the Copernicus Climate Change Service (Code for Earth),<sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnotedef_23" title="View footnote.">23</a>]</sup> demonstrating how a major operational meteorological institution can embed FOSS practice as a core activity.</p>
 </li>
 <li>
-<p><strong>Regional digital innovation hubs</strong>: Regional digital innovation hubs, established in collaboration with Members, national and international development agencies, and regional organizations, can play an important role in the development and implementation of FOSS solutions, with a focus on meeting the needs of Members within a region. These could be co-located, or hosted, by existing regional centres.</p>
+<p><strong>Regional digital innovation hubs</strong>: Regional digital innovation hubs, established in collaboration with Members, national and international development agencies, and regional organizations, can play an important role in the development and implementation of FOSS solutions, with a focus on meeting the needs of Members within a region. These could be co-located, or hosted, by existing regional centres. By enabling the development of regional communities around shared software solutions, FOSS can also support local service ecosystems, allowing expertise and associated economic value to be retained within the region rather than being dependent on external providers.</p>
 </li>
 </ul>
 </div>
@@ -846,11 +952,12 @@ Practice, and other implementors on FOSS best practices, including licensing, co
 implementation.  As part of the standards development phase, developing the associated FOSS
 implementation(s) aids in determining "fit for purpose" of the specification.  In addition, FOSS
 implementation during standards development allows for an open review and assessment on how a
-standard is implemented (supported network protocols, avaiability of tooling/libraries for
-integration, as well as speed of implementation (if a FOSS implementation during the development
-of a standard takes a considerable level of effort, why?  Is the complexity acceptable for the
-scope of the standard?  Determining these aspects earlier can help improve and adjust the standard
-while in development (as opposed to formal amendment processes once approved by WMO).  The agile and parallel
+standard is implemented — covering supported network protocols, availability of tooling and libraries
+for integration, and the effort required for implementation. Where a FOSS implementation proves
+unexpectedly complex, this is a signal that the standard itself may need to be reviewed for scope
+or clarity before formal approval. Determining these aspects earlier in the development cycle
+allows the standard to be improved and adjusted while still in development, avoiding costly
+formal amendment processes once approved by WMO.  The agile and parallel
 development of WIS2 standards and FOSS is a key example in this context (see <a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a>).</p>
 </div>
 <div class="paragraph">
@@ -861,7 +968,7 @@ implemented, and has investment from various projects as early adopters.</p>
 </div>
 <div class="paragraph">
 <p>In summary, while FOSS is not in scope for being identified as part of a Technical Regulation, it
-is a strong indicator of the the maturity, applicability and sustainability of a given standard.  Implementing
+is a strong indicator of the maturity, applicability and sustainability of a given standard.  Implementing
 FOSS during standards development provides safety in investment, iterative improvements,
 and confidence for widespread and sustainable adoption and implementation by Members.</p>
 </div>
@@ -875,25 +982,25 @@ Before adopting, recommending or endorsing a software solution, Members and WMO 
 <div class="ulist">
 <ul>
 <li>
-<p>Purpose and scope alignment. The software should have a clearly defined purpose and scope, aligned with the intended operational, research or regulatory use case. Its role within the overall system architecture (e.g. data production, exchange, discovery, processing or visualization) should be explicit and overlaps or dependencies with existing solutions should be identified.</p>
+<p><strong>Purpose and scope alignment</strong>. The software should have a clearly defined purpose and scope, aligned with the intended operational, research or regulatory use case. Its role within the overall system architecture (for example,data production, exchange, discovery, processing or visualization) should be explicit and overlaps or dependencies with existing solutions should be identified.</p>
 </li>
 <li>
-<p>Standards and regulatory compliance. The software should demonstrably support relevant WMO Technical Regulations, standards and recommended practices, as applicable (e.g. WIS2, BUFR, GRIB, NetCDF, WMO Core Metadata Profile). Where full compliance is not yet achieved, gaps, limitations and mitigation measures should be clearly documented.</p>
+<p><strong>Standards and regulatory compliance</strong>. The software should demonstrably support relevant WMO Technical Regulations, standards and recommended practices, as applicable (for example,WIS2, BUFR, GRIB, NetCDF, WMO Core Metadata Profile). Where full compliance is not yet achieved, gaps, limitations and mitigation measures should be clearly documented. For Members operating across national boundaries, cross-border data transfer requirements should also be assessed, covering applicable data protection frameworks and WMO data policies across the full data lifecycle — collection, processing, sharing, and archiving.</p>
 </li>
 <li>
-<p>Licensing and policy compatibility. Licensing terms must be clearly stated and compatible with national regulations, WMO data policies and operational constraints. For FOSS, licences should be OSI-approved and allow redistribution, modification and operational use without legal ambiguity.</p>
+<p><strong>Licensing and policy compatibility</strong>. Licensing terms must be clearly stated and compatible with national regulations, WMO data policies and operational constraints. For FOSS, licences should be OSI-approved and allow redistribution, modification and operational use without legal ambiguity.</p>
 </li>
 <li>
-<p>Project maturity and sustainability. The assessment should consider the maturity of the project, including release history, roadmap availability, versioning practices and evidence of operational use. Indicators such as the number of active contributors, governance transparency, institutional backing and the “bus factor” provide insight into long-term sustainability and associated risks.</p>
+<p><strong>Project maturity and sustainability</strong>. The assessment should consider the maturity of the project, including release history, roadmap availability, versioning practices and evidence of operational use. Indicators such as the number of active contributors, governance transparency, institutional backing and the “key person dependency” (bus factor) provide insight into long-term sustainability and associated risks.</p>
 </li>
 <li>
-<p>Security and risk management. The project should have documented security practices, including vulnerability reporting mechanisms, patching policies and incident response procedures. Known risks, external dependencies and lifecycle considerations (including end-of-life or migration paths) should be evaluated early in the selection process.</p>
+<p><strong>Security and risk management</strong>. The project should have documented security practices, including vulnerability reporting mechanisms, patching policies and incident response procedures. Known risks, external dependencies and lifecycle considerations (including end-of-life or migration paths) should be evaluated early in the selection process.</p>
 </li>
 <li>
-<p>Technical quality and operational fitness. Software quality should be assessed based on documentation availability, test coverage, automation (e.g. CI/CD), performance at NMHS-relevant data volumes, and ease of deployment, operation and maintenance. Evidence of production use within the WMO community or by peer organizations is a strong positive indicator.</p>
+<p><strong>Technical quality and operational fitness</strong>. Software quality should be assessed based on documentation availability, test coverage, automation (for example,CI/CD), performance at NMHS-relevant data volumes, and ease of deployment, operation and maintenance. Evidence of production use within the WMO community or by peer organizations is a strong positive indicator.</p>
 </li>
 <li>
-<p>Organizational readiness and total cost of ownership (TCO). Adopting organizations should evaluate internal capacity, including staff skills, support models, infrastructure requirements and TCO. This includes training needs, long-term maintenance effort and the ability to contribute fixes or enhancements upstream where appropriate.</p>
+<p><strong>Organizational readiness and total cost of ownership (TCO)</strong>. Adopting organizations should evaluate internal capacity, including staff skills, support models, infrastructure requirements and TCO. This includes training needs, long-term maintenance effort and the ability to contribute fixes or enhancements upstream where appropriate. Where feasible, core functionality should be validated through a proof-of-concept or pilot deployment using representative operational data, including scenarios relevant to peak load or extreme conditions. Evaluation should conclude with a documented adoption decision — full adoption, conditional adoption subject to identified remediation, or rejection — with the rationale recorded for audit and future review.</p>
 </li>
 </ul>
 </div>
@@ -915,15 +1022,15 @@ Before adopting, recommending or endorsing a software solution, Members and WMO 
 <p>validating the functionality and capability of a given standard (for example, for data encodings or interfaces)</p>
 </li>
 <li>
-<p>providing a publicly available FOSS resource that is definitive and can be studied to better understand and/or implement a standard</p>
+<p>providing a publicly available FOSS resource that is authoritative and can be studied to better understand and/or implement a standard</p>
 </li>
 <li>
-<p>providing an implementation that may be used by Members as desired</p>
+<p>providing an implementation that Members may adopt directly, adapt to their operational context, or use as a reference basis for their own development</p>
 </li>
 </ul>
 </div>
 <div class="paragraph">
-<p>RIs developed alongside a given specification are especially useful for agile, rapid and iterative feedback during the specification definition phase, leading to the approval of Technical Regulations with confidence.  It is therefore strongly recommended to develop RIs as part of WMO Technical Regulation development to ensure fit for purpose and functionality.  Citing a RI as part of a WMO Technical Regulation should not be required, but allowed if applicable.</p>
+<p>RIs developed alongside a given specification are especially useful for agile, rapid and iterative feedback during the specification definition phase, leading to the approval of Technical Regulations with confidence.  Developing RIs as part of WMO Technical Regulation development is therefore strongly encouraged, to ensure fit for purpose and functionality.  Where a WMO Technical Regulation is supported by an RI, referencing it within the regulation may be appropriate, though this should not be a requirement.</p>
 </div>
 <div class="admonitionblock note">
 <table>
@@ -932,147 +1039,22 @@ Before adopting, recommending or endorsing a software solution, Members and WMO 
 <div class="title">Note</div>
 </td>
 <td class="content">
-They key purpose of an RI is functionality coverage.  They need not be suitable for mission critical or production environments.
+The primary purpose of an RI is functionality coverage — demonstrating that a standard can be implemented correctly. While RIs need not initially target mission-critical or production environments, they may evolve into production-grade tools as community adoption grows, as demonstrated by several WIS2 implementations (see <a href="#_case_study_wis2_foss_and_agile_development">Case study: WIS2, FOSS, and agile development</a>).
 </td>
 </tr>
 </table>
-</div>
-<div class="sect4">
-<h5 id="_compliance_data_exchange"><a class="anchor" href="#_compliance_data_exchange"></a>Compliance (data exchange)</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Standards alignment</strong>: The software adheres to WMO technical standards and common industry specifications, unifying
-data exchange interfaces and formats.</p>
-</li>
-<li>
-<p><strong>Data protection</strong>: It complies with international conventions and national data protection regulations by
-implementing data desensitization, encrypted data transmission, and secure storage of sensitive meteorological data.</p>
-</li>
-<li>
-<p><strong>Cross-border data security</strong>: It meets data cross-border transfer requirements in operational regions by establishing
-a full lifecycle data-security management mechanism. This mechanism covers data collection, processing, sharing, and
-archiving in line with WMO data policies.</p>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_software_evaluation"><a class="anchor" href="#_software_evaluation"></a>Software evaluation</h5>
-<div class="ulist">
-<ul>
-<li>
-<p><strong>Core Evaluation Checklist</strong>:</p>
-<div class="ulist">
-<ul>
-<li>
-<p><em>Technical Quality</em>: Functionality completeness and accuracy for meteorological use cases, performance when
-processing massive meteorological datasets (e.g., real-time observational data, forecast model outputs), reliability
-under peak load conditions, security, maintainability, and compatibility with existing meteorological systems.</p>
-</li>
-<li>
-<p><em>Compliance</em>: Licence is OSI-approved with no licence conflicts, and complies with WMO data policies and relevant regulations.</p>
-</li>
-<li>
-<p><em>Community Sustainability</em>: Recent community activity (within the last 6–12 months), stability of the maintenance
-team, regularity of version releases, and maturity of the ecosystem.</p>
-</li>
-<li>
-<p><em>Cost-effectiveness</em>: Controllable costs across the software lifecycle (deployment, operation, maintenance, training,
-migration, and decommissioning).</p>
-</li>
-<li>
-<p><em>Business Fit</em>: Aligns with existing meteorological operational processes, good usability for forecasters and data
-analysts, and support for future expansion needs.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p><strong>Confidence Assurance:</strong></p>
-<div class="ulist">
-<ul>
-<li>
-<p>Adopt standardized evaluation processes and quantifiable metrics to ensure objectivity and repeatability of results.</p>
-</li>
-<li>
-<p>Validate core functionality through a Proof-of-Concept (PoC) approach, incorporating feedback collected from real-world operational scenarios.</p>
-</li>
-<li>
-<p>Conduct multi-dimensional verification, including code audits, security vulnerability scans, and in-depth open-source community research, to confirm the reliability of the software.</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_readiness"><a class="anchor" href="#_readiness"></a>Readiness</h5>
-<div class="paragraph">
-<p>Completed drafting of requirements specification documents, and form a professional evaluation team (including technical, business, legal, and operations personnel).</p>
-</div>
-<div class="paragraph">
-<p>Set up a simulated meteorological operations testing environment, and prepare test data (including extreme weather scenario data) and necessary evaluation tools.</p>
-</div>
-<div class="paragraph">
-<p>Define clear priorities for software requirements and establish final decision criteria, such as approval for full adoption, conditional adoption, or rejection. Document the rationale for all decisions for audit purposes.</p>
-</div>
-</div>
-<div class="sect4">
-<h5 id="_busretirement_factor"><a class="anchor" href="#_busretirement_factor"></a>Bus/retirement factor</h5>
-
-</div>
-<div class="sect4">
-<h5 id="_business_fit_and_retirement_considerations"><a class="anchor" href="#_business_fit_and_retirement_considerations"></a>Business Fit and Retirement Considerations</h5>
-<div class="ulist">
-<ul>
-<li>
-<p>Business Fit</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Offers seamless integration with existing meteorological operational processes, minimizing the need for process adjustments.</p>
-</li>
-<li>
-<p>Supports custom development and feature expansion to meet evolving needs (such as business scaling and new scenario integration).</p>
-</li>
-<li>
-<p>Aligns with users’ habits in meteorological operations by providing a user-friendly interface and flexible configuration options.</p>
-</li>
-</ul>
-</div>
-</li>
-<li>
-<p>Retirement Planning</p>
-<div class="ulist">
-<ul>
-<li>
-<p>Establish a clear data archiving plan to ensure secure storage and traceability of historical meteorological data after the software is decommissioned.</p>
-</li>
-<li>
-<p>Proactively assess the costs of migrating to new systems, and establish a smooth migration path to ensure business continuity.</p>
-</li>
-<li>
-<p>Define clear responsibilities and standardized procedures for software retirement to mitigate potential risks (e.g., data leakage, system conflicts, and service disruptions).</p>
-</li>
-</ul>
-</div>
-</li>
-</ul>
-</div>
 </div>
 </div>
 <div class="sect3">
 <h4 id="_case_study_wis2_foss_and_agile_development"><a class="anchor" href="#_case_study_wis2_foss_and_agile_development"></a>Case study: WIS2, FOSS, and agile development</h4>
 <div class="paragraph">
-<p>The WMO Information System 2.0 (WIS 2.0) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and makes international, regional, and national data sharing simple, effective, and inexpensive. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS 2.0 development. These objectives inspire the principles underpinning the WIS 2.0 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.<sup class="footnote">[<a id="_footnoteref_17" class="footnote" href="#_footnotedef_17" title="View footnote.">17</a>]</sup></p>
+<p>The WMO Information System 2.0 (WIS2) is the framework for WMO data sharing in the 21st century for all WMO domains and disciplines. It supports the WMO Unified Data policy and the Global Basic Observing Network (GBON) and simplifies international, regional and national data sharing, making it more accessible and cost-effective. The idea that no Member should be left behind and the objective of lowering the barrier to adoption has been at the core of WIS2 development. These objectives inspire the principles underpinning the WIS2 technical framework, such as adopting open standards and Web technologies to facilitate sharing of increasing variety and volume of real-time data.<sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnotedef_24" title="View footnote.">24</a>]</sup></p>
 </div>
 <div class="paragraph">
-<p>The WMO Executive Council, through <a href="https://library.wmo.int/idviewer/66258/1147">Resolution 34 (EC-76)</a> - Implementation plan update of the WMO Information System 2.0, endorsed the WMO Information System 2.0 (WIS2) implementation plan. The Resolution also recognized the importance of establishing a pilot phase to develop the WIS2 infrastructure and begin testing it, in order to be ready for a pre-operational phase in 2024, and then for the transition starting in 2025.</p>
+<p>The WMO Executive Council, through Resolution 34 (EC-76)<sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnotedef_25" title="View footnote.">25</a>]</sup> — Implementation plan update of the WMO Information System 2.0, endorsed the WIS2 implementation plan. The Resolution also recognized the importance of establishing a pilot phase to develop the WIS2 infrastructure and begin testing it, in order to be ready for a pre-operational phase in 2024, and then for the transition starting in 2025.</p>
 </div>
 <div class="paragraph">
-<p>The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.<sup class="footnote">[<a id="_footnoteref_18" class="footnote" href="#_footnotedef_18" title="View footnote.">18</a>]</sup></p>
+<p>The pilot phase was completed at the end of 2023, with several Members collaborating in building the WIS2 infrastructure. Each Member had a different role in the WIS2 framework and implemented a specific component. Starting in January 2024, the implementation of WIS2 entered the pre-operational phase in preparation for transitioning to WIS2.  On 01 January 2025, WIS2 became operational.<sup class="footnote">[<a id="_footnoteref_26" class="footnote" href="#_footnotedef_26" title="View footnote.">26</a>]</sup></p>
 </div>
 <div class="paragraph">
 <p>WIS2 is comprised of a number of key standards, including (but are not limited to):</p>
@@ -1094,7 +1076,7 @@ analysts, and support for future expansion needs.</p>
 </ul>
 </div>
 <div class="paragraph">
-<p>Throughout the WIS2 Implementation timeline, the <a href="https://raw.githubusercontent.com/wmo-im/wis2-guide/refs/heads/main/guide/images/architecture/c4.container.png">architecture</a>, standards definitions as well as key software components were developed, deployed and tested in parallel, in an agile manner.  These software include (but are not limited to):</p>
+<p>Throughout the WIS2 Implementation timeline, the architecture<sup class="footnote">[<a id="_footnoteref_27" class="footnote" href="#_footnotedef_27" title="View footnote.">27</a>]</sup>, standards definitions as well as key software components were developed, deployed and tested in parallel, in an agile manner.  These software components include (but are not limited to):</p>
 </div>
 <table class="tableblock frame-all grid-all stretch">
 <colgroup>
@@ -1141,6 +1123,119 @@ analysts, and support for future expansion needs.</p>
 </div>
 </div>
 <div class="sect1">
+<h2 id="_glossary"><a class="anchor" href="#_glossary"></a>Glossary</h2>
+<div class="sectionbody">
+<div class="dlist">
+<dl>
+<dt class="hdlist1">AGPL (Affero General Public License)</dt>
+<dd>
+<p>A copyleft licence that extends the obligations of the GPL to software used to provide network services, even without distribution. See also: <a href="#_licence_compliance_risks">[_licence_compliance_risks]</a>.</p>
+</dd>
+<dt class="hdlist1">API (Application Programming Interface)</dt>
+<dd>
+<p>A defined interface that allows software components to communicate with each other.</p>
+</dd>
+<dt class="hdlist1">BUFR (Binary Universal Form for the Representation of meteorological data)</dt>
+<dd>
+<p>A binary data format standardized by WMO for the exchange of meteorological observations.</p>
+</dd>
+<dt class="hdlist1">CI/CD (Continuous Integration and Continuous Delivery)</dt>
+<dd>
+<p>A software development practice in which code changes are automatically tested and, where configured, deployed. Widely used in FOSS projects to maintain software quality.</p>
+</dd>
+<dt class="hdlist1">DPGA (Digital Public Goods Alliance)</dt>
+<dd>
+<p>A multi-stakeholder initiative that endorses open source software, open data, and open content meeting its standard for digital public goods.</p>
+</dd>
+<dt class="hdlist1">ECMWF (European Centre for Medium-Range Weather Forecasts)</dt>
+<dd>
+<p>An independent intergovernmental organization operating one of the largest supercomputer facilities for numerical weather prediction.</p>
+</dd>
+<dt class="hdlist1">EW4All (Early Warnings for All)</dt>
+<dd>
+<p>A WMO initiative aimed at ensuring that every person on Earth is protected by early warning systems by 2027.</p>
+</dd>
+<dt class="hdlist1">FAIR</dt>
+<dd>
+<p>A set of principles — Findable, Accessible, Interoperable, and Reusable — for managing scientific data and software to maximize their value and reusability.</p>
+</dd>
+<dt class="hdlist1">FOSS (Free and Open Source Software)</dt>
+<dd>
+<p>Software released under a licence that grants users the freedom to run, study, modify, and distribute the software and its source code.</p>
+</dd>
+<dt class="hdlist1">GBON (Global Basic Observing Network)</dt>
+<dd>
+<p>A WMO framework defining minimum observational requirements to support global numerical weather prediction.</p>
+</dd>
+<dt class="hdlist1">GPL (GNU General Public License)</dt>
+<dd>
+<p>A widely used copyleft licence that requires derivative works to be distributed under the same terms.</p>
+</dd>
+<dt class="hdlist1">GRIB (GRIdded Binary)</dt>
+<dd>
+<p>A WMO-standardized binary data format for gridded meteorological and oceanographic data.</p>
+</dd>
+<dt class="hdlist1">Key person dependency</dt>
+<dd>
+<p>The risk arising when critical knowledge, code, or operational responsibility is concentrated in a single individual or very small group, such that the loss of that person threatens the continuity of a project or service. Sometimes referred to as the "bus factor".</p>
+</dd>
+<dt class="hdlist1">LDC (Least Developed Country)</dt>
+<dd>
+<p>A United Nations classification of countries with low levels of socioeconomic development, structural impediments to sustainable development, and limited capacity to integrate into the global economy.</p>
+</dd>
+<dt class="hdlist1">LGPL (Lesser General Public License)</dt>
+<dd>
+<p>A copyleft licence similar to the GPL but with reduced restrictions on linking, allowing proprietary software to use LGPL-licensed libraries without triggering copyleft obligations.</p>
+</dd>
+<dt class="hdlist1">NMHS (National Meteorological and Hydrological Service)</dt>
+<dd>
+<p>A government body responsible for providing meteorological and hydrological services within a country. WMO Members are typically represented through their NMHS.</p>
+</dd>
+<dt class="hdlist1">NWP (Numerical Weather Prediction)</dt>
+<dd>
+<p>The use of mathematical models of the atmosphere to forecast weather based on current conditions.</p>
+</dd>
+<dt class="hdlist1">OGC (Open Geospatial Consortium)</dt>
+<dd>
+<p>An international standards organization developing open standards for geospatial content and services.</p>
+</dd>
+<dt class="hdlist1">OSGeo (Open Source Geospatial Foundation)</dt>
+<dd>
+<p>A non-profit organization supporting the development and adoption of open source geospatial software.</p>
+</dd>
+<dt class="hdlist1">OSEE (Open Source Ecosystem Enabler)</dt>
+<dd>
+<p>A joint initiative of UNDP and ITU to support developing countries in establishing national open source ecosystems and Open Source Program Offices.</p>
+</dd>
+<dt class="hdlist1">OSI (Open Source Initiative)</dt>
+<dd>
+<p>A non-profit organization that promotes and protects open source software and maintains the canonical list of OSI-approved licences.</p>
+</dd>
+<dt class="hdlist1">OSPO (Open Source Program Office)</dt>
+<dd>
+<p>A dedicated organizational unit responsible for enabling, governing, and coordinating an institution&#8217;s engagement with open source software.</p>
+</dd>
+<dt class="hdlist1">SIDS (Small Island Developing States)</dt>
+<dd>
+<p>A distinct group of developing countries facing specific social, economic and environmental vulnerabilities, recognized by the United Nations as requiring special attention in the sustainable development context.</p>
+</dd>
+<dt class="hdlist1">TCO (Total Cost of Ownership)</dt>
+<dd>
+<p>The full cost of acquiring, deploying, operating, and maintaining a software solution over its lifetime, including both direct and indirect costs.</p>
+</dd>
+<dt class="hdlist1">VCP (Voluntary Cooperation Programme)</dt>
+<dd>
+<p>A WMO programme through which Members contribute resources to support meteorological and hydrological capacity development in other Members.</p>
+</dd>
+<dt class="hdlist1">WIS2 (WMO Information System 2.0)</dt>
+<dd>
+<p>The WMO framework for data sharing in the 21st century, based on open standards and web technologies, supporting the WMO Unified Data Policy.</p>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+<div class="sect1">
 <h2 id="_references"><a class="anchor" href="#_references"></a>References</h2>
 <div class="sectionbody">
 <div class="sect2">
@@ -1148,16 +1243,19 @@ analysts, and support for future expansion needs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="producing-oss"></a> Fogel, Karl: Producing Open Source Software: How to Run a Successful Free Software Project (2024) <sup class="footnote">[<a id="_footnoteref_19" class="footnote" href="#_footnotedef_19" title="View footnote.">19</a>]</sup></p>
+<p><a id="raymond-cathedral-bazaar"></a> Raymond, Eric S.: The Cathedral and the Bazaar (1999)</p>
 </li>
 <li>
-<p><a id="osor-handbook"></a> European Commission / Open Source Observatory: OSOR Handbook on Open Source Software in Public Administration (2026) <sup class="footnote">[<a id="_footnoteref_20" class="footnote" href="#_footnotedef_20" title="View footnote.">20</a>]</sup></p>
+<p><a id="producing-oss"></a> Fogel, Karl: Producing Open Source Software: How to Run a Successful Free Software Project (2024) <sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnotedef_28" title="View footnote.">28</a>]</sup></p>
 </li>
 <li>
-<p><a id="public-digital"></a> Public Digital: Open Source in Government (2021) <sup class="footnote">[<a id="_footnoteref_21" class="footnote" href="#_footnotedef_21" title="View footnote.">21</a>]</sup></p>
+<p><a id="osor-handbook"></a> European Commission / Open Source Observatory: OSOR Handbook on Open Source Software in Public Administration (2026) <sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnotedef_29" title="View footnote.">29</a>]</sup></p>
 </li>
 <li>
-<p><a id="public-money-public-code"></a> Free Software Foundation Europe: Public Money? Public Code! <sup class="footnote">[<a id="_footnoteref_22" class="footnote" href="#_footnotedef_22" title="View footnote.">22</a>]</sup></p>
+<p><a id="public-digital"></a> Public Digital: Open Source in Government (2021) <sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnotedef_30" title="View footnote.">30</a>]</sup></p>
+</li>
+<li>
+<p><a id="public-money-public-code"></a> Free Software Foundation Europe: Public Money? Public Code! <sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnotedef_31" title="View footnote.">31</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1167,13 +1265,13 @@ analysts, and support for future expansion needs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="ec-oss-impact"></a> Blind, K. et al.: The Impact of Open Source Software and Hardware on Technological Independence, Competitiveness and Innovation in the EU Economy, European Commission (2021) <sup class="footnote">[<a id="_footnoteref_23" class="footnote" href="#_footnotedef_23" title="View footnote.">23</a>]</sup></p>
+<p><a id="ec-oss-impact"></a> Blind, K. et al.: The Impact of Open Source Software and Hardware on Technological Independence, Competitiveness and Innovation in the EU Economy, European Commission (2021) <sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnotedef_32" title="View footnote.">32</a>]</sup></p>
 </li>
 <li>
-<p><a id="wb-geonode-roi"></a> GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source <sup class="footnote">[<a id="_footnoteref_24" class="footnote" href="#_footnotedef_24" title="View footnote.">24</a>]</sup></p>
+<p><a id="wb-geonode-roi"></a> GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source <sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnotedef_33" title="View footnote.">33</a>]</sup></p>
 </li>
 <li>
-<p><a id="lf-roi"></a> Linux Foundation: Active Open Source Contribution Delivers 2–5x ROI (2025) <sup class="footnote">[<a id="_footnoteref_25" class="footnote" href="#_footnotedef_25" title="View footnote.">25</a>]</sup></p>
+<p><a id="lf-roi"></a> Linux Foundation: Active Open Source Contribution Delivers 2–5x ROI (2025) <sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnotedef_34" title="View footnote.">34</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1183,40 +1281,37 @@ analysts, and support for future expansion needs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="ec-oss-strategy"></a> European Commission: Open Source Software Strategy 2020–2023 — Think Open (2020) <sup class="footnote">[<a id="_footnoteref_26" class="footnote" href="#_footnotedef_26" title="View footnote.">26</a>]</sup></p>
+<p><a id="ec-oss-strategy"></a> European Commission: Open Source Software Strategy 2020–2023 — Think Open (2020) <sup class="footnote">[<a id="_footnoteref_35" class="footnote" href="#_footnotedef_35" title="View footnote.">35</a>]</sup></p>
 </li>
 <li>
-<p><a id="interoperable-europe-act"></a> Regulation (EU) 2024/903: Interoperable Europe Act <sup class="footnote">[<a id="_footnoteref_27" class="footnote" href="#_footnotedef_27" title="View footnote.">27</a>]</sup></p>
+<p><a id="interoperable-europe-act"></a> Regulation (EU) 2024/903: Interoperable Europe Act <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href="#_footnotedef_36" title="View footnote.">36</a>]</sup></p>
 </li>
 <li>
-<p><a id="eu-cra"></a> Regulation (EU) 2024/2847: Cyber Resilience Act — open source implications <sup class="footnote">[<a id="_footnoteref_28" class="footnote" href="#_footnotedef_28" title="View footnote.">28</a>]</sup></p>
+<p><a id="eu-cra"></a> Regulation (EU) 2024/2847: Cyber Resilience Act — open source implications <sup class="footnote">[<a id="_footnoteref_37" class="footnote" href="#_footnotedef_37" title="View footnote.">37</a>]</sup></p>
 </li>
 <li>
-<p><a id="us-fsc-policy"></a> United States Office of Management and Budget: Federal Source Code Policy (OMB M-16-21, 2016) <sup class="footnote">[<a id="_footnoteref_29" class="footnote" href="#_footnotedef_29" title="View footnote.">29</a>]</sup></p>
+<p><a id="us-fsc-policy"></a> United States Office of Management and Budget: Federal Source Code Policy (OMB M-16-21, 2016) <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href="#_footnotedef_38" title="View footnote.">38</a>]</sup></p>
 </li>
 <li>
-<p><a id="ca-open-first"></a> Government of Canada: Open First Whitepaper (2020) <sup class="footnote">[<a id="_footnoteref_30" class="footnote" href="#_footnotedef_30" title="View footnote.">30</a>]</sup></p>
+<p><a id="ca-open-first"></a> Government of Canada: Open First Whitepaper (2020) <sup class="footnote">[<a id="_footnoteref_39" class="footnote" href="#_footnotedef_39" title="View footnote.">39</a>]</sup></p>
 </li>
 <li>
-<p><a id="au-dss"></a> Australian Government Digital Transformation Agency: Digital Service Standard — Criterion 8: Make source code open <sup class="footnote">[<a id="_footnoteref_31" class="footnote" href="#_footnotedef_31" title="View footnote.">31</a>]</sup></p>
+<p><a id="nz-nzgoal-se"></a> New Zealand Government: NZGOAL Software Extension (NZGOAL-SE) <sup class="footnote">[<a id="_footnoteref_40" class="footnote" href="#_footnotedef_40" title="View footnote.">40</a>]</sup></p>
 </li>
 <li>
-<p><a id="nz-nzgoal-se"></a> New Zealand Government: NZGOAL Software Extension (NZGOAL-SE) <sup class="footnote">[<a id="_footnoteref_32" class="footnote" href="#_footnotedef_32" title="View footnote.">32</a>]</sup></p>
+<p><a id="india-oss-policy"></a> Ministry of Electronics and Information Technology (MeitY), India: Policy on Adoption of Open Source Software for Government of India (2015) <sup class="footnote">[<a id="_footnoteref_41" class="footnote" href="#_footnotedef_41" title="View footnote.">41</a>]</sup></p>
 </li>
 <li>
-<p><a id="india-oss-policy"></a> Ministry of Electronics and Information Technology (MeitY), India: Policy on Adoption of Open Source Software for Government of India (2015) <sup class="footnote">[<a id="_footnoteref_33" class="footnote" href="#_footnotedef_33" title="View footnote.">33</a>]</sup></p>
+<p><a id="japan-ipa-2024"></a> Information-technology Promotion Agency (IPA), Japan: 2024 Open Source Promotion Report <sup class="footnote">[<a id="_footnoteref_42" class="footnote" href="#_footnotedef_42" title="View footnote.">42</a>]</sup></p>
 </li>
 <li>
-<p><a id="japan-ipa-2024"></a> Information-technology Promotion Agency (IPA), Japan: 2024 Open Source Promotion Report <sup class="footnote">[<a id="_footnoteref_34" class="footnote" href="#_footnotedef_34" title="View footnote.">34</a>]</sup></p>
+<p><a id="brazil-spb"></a> Government of Brazil: Portal do Software Público Brasileiro <sup class="footnote">[<a id="_footnoteref_43" class="footnote" href="#_footnotedef_43" title="View footnote.">43</a>]</sup></p>
 </li>
 <li>
-<p><a id="brazil-spb"></a> Government of Brazil: Portal do Software Público Brasileiro <sup class="footnote">[<a id="_footnoteref_35" class="footnote" href="#_footnotedef_35" title="View footnote.">35</a>]</sup></p>
+<p><a id="au-digital-transformation"></a> African Union Commission: Digital Transformation Strategy for Africa 2020–2030 <sup class="footnote">[<a id="_footnoteref_44" class="footnote" href="#_footnotedef_44" title="View footnote.">44</a>]</sup></p>
 </li>
 <li>
-<p><a id="au-digital-transformation"></a> African Union Commission: Digital Transformation Strategy for Africa 2020–2030 <sup class="footnote">[<a id="_footnoteref_36" class="footnote" href="#_footnotedef_36" title="View footnote.">36</a>]</sup></p>
-</li>
-<li>
-<p><a id="csis-oss-policies"></a> Center for Strategic and International Studies (CSIS): Government Open Source Software Policies database <sup class="footnote">[<a id="_footnoteref_37" class="footnote" href="#_footnotedef_37" title="View footnote.">37</a>]</sup></p>
+<p><a id="csis-oss-policies"></a> Center for Strategic and International Studies (CSIS): Government Open Source Software Policies database <sup class="footnote">[<a id="_footnoteref_45" class="footnote" href="#_footnotedef_45" title="View footnote.">45</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1226,19 +1321,19 @@ analysts, and support for future expansion needs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="dpga-standard"></a> Digital Public Goods Alliance: Digital Public Goods Standard <sup class="footnote">[<a id="_footnoteref_38" class="footnote" href="#_footnotedef_38" title="View footnote.">38</a>]</sup></p>
+<p><a id="dpga-standard"></a> Digital Public Goods Alliance: Digital Public Goods Standard <sup class="footnote">[<a id="_footnoteref_46" class="footnote" href="#_footnotedef_46" title="View footnote.">46</a>]</sup></p>
 </li>
 <li>
-<p><a id="undp-osee"></a> UNDP / ITU: Open Source Ecosystem Enabler (OSEE) <sup class="footnote">[<a id="_footnoteref_39" class="footnote" href="#_footnotedef_39" title="View footnote.">39</a>]</sup></p>
+<p><a id="undp-osee"></a> UNDP / ITU: Open Source Ecosystem Enabler (OSEE) <sup class="footnote">[<a id="_footnoteref_47" class="footnote" href="#_footnotedef_47" title="View footnote.">47</a>]</sup></p>
 </li>
 <li>
-<p><a id="undp-default-open"></a> UNDP Digital Standards — Standard 9: Default to Open <sup class="footnote">[<a id="_footnoteref_40" class="footnote" href="#_footnotedef_40" title="View footnote.">40</a>]</sup></p>
+<p><a id="undp-default-open"></a> UNDP Digital Standards — Standard 9: Default to Open <sup class="footnote">[<a id="_footnoteref_48" class="footnote" href="#_footnotedef_48" title="View footnote.">48</a>]</sup></p>
 </li>
 <li>
-<p><a id="wb-oss-global"></a> World Bank: Open Source for Global Public Goods (2020) <sup class="footnote">[<a id="_footnoteref_41" class="footnote" href="#_footnotedef_41" title="View footnote.">41</a>]</sup></p>
+<p><a id="wb-oss-global"></a> World Bank: Open Source for Global Public Goods (2020) <sup class="footnote">[<a id="_footnoteref_49" class="footnote" href="#_footnotedef_49" title="View footnote.">49</a>]</sup></p>
 </li>
 <li>
-<p><a id="osor-country-intel"></a> EU Open Source Observatory: Open Source Software Country Intelligence (60+ countries) <sup class="footnote">[<a id="_footnoteref_42" class="footnote" href="#_footnotedef_42" title="View footnote.">42</a>]</sup></p>
+<p><a id="osor-country-intel"></a> EU Open Source Observatory: Open Source Software Country Intelligence (60+ countries) <sup class="footnote">[<a id="_footnoteref_50" class="footnote" href="#_footnotedef_50" title="View footnote.">50</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1248,10 +1343,13 @@ analysts, and support for future expansion needs.</p>
 <div class="ulist">
 <ul>
 <li>
-<p><a id="ecmwf-code-for-earth"></a> ECMWF / Copernicus Climate Change Service: Code for Earth <sup class="footnote">[<a id="_footnoteref_43" class="footnote" href="#_footnotedef_43" title="View footnote.">43</a>]</sup></p>
+<p><a id="ecmwf-openifs"></a> ECMWF: OpenIFS <sup class="footnote">[<a id="_footnoteref_51" class="footnote" href="#_footnotedef_51" title="View footnote.">51</a>]</sup></p>
 </li>
 <li>
-<p><a id="wis2-transition"></a> WMO: WIS2 Transition Guide <sup class="footnote">[<a id="_footnoteref_44" class="footnote" href="#_footnotedef_44" title="View footnote.">44</a>]</sup></p>
+<p><a id="ecmwf-code-for-earth"></a> ECMWF / Copernicus Climate Change Service: Code for Earth <sup class="footnote">[<a id="_footnoteref_52" class="footnote" href="#_footnotedef_52" title="View footnote.">52</a>]</sup></p>
+</li>
+<li>
+<p><a id="wis2-transition"></a> WMO: <em>Provisions for the Transition from the WMO Information System</em> (WIS) <em>1.0 and Global Telecommunication System to WIS 2.0</em> (WMO-No. 1323) <sup class="footnote">[<a id="_footnoteref_53" class="footnote" href="#_footnotedef_53" title="View footnote.">53</a>]</sup></p>
 </li>
 </ul>
 </div>
@@ -1300,14 +1398,14 @@ analysts, and support for future expansion needs.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">No known unpatched CVEs</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Regular security checks (e.g., daily or automated)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Regular security checks (for example,daily or automated)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" rowspan="5" style="background-color: #FFFFFF;"><p class="tableblock">Project Health</p></td>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Public issue tracker</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Source code under version control (e.g. on GitHub, GitLab, Codeberg or other version control system)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Source code under version control (for example,on GitHub, GitLab, Codeberg or other version control system)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Active communication channels (forum, mailing list, chat)</p></td>
@@ -1326,7 +1424,7 @@ analysts, and support for future expansion needs.</p>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Supported by major NMHSs, WMO Programmes, or recognized consortia</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Low bus factor (not reliant on one person)</p></td>
+<td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Low key person dependency / bus factor (not reliant on one person)</p></td>
 </tr>
 <tr>
 <td class="tableblock halign-left valign-top" style="background-color: #FFFFFF;"><p class="tableblock">Code of conduct available</p></td>
@@ -1524,135 +1622,162 @@ analysts, and support for future expansion needs.</p>
 <a href="#_footnoteref_2">2</a>. <a href="https://community.wmo.int/governance/commission-membership/infcom" class="bare">https://community.wmo.int/governance/commission-membership/infcom</a>
 </div>
 <div class="footnote" id="_footnotedef_3">
-<a href="#_footnoteref_3">3</a>. A global database of government open source software policies is maintained by the Center for Strategic and International Studies (CSIS): <a href="https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies" class="bare">https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies</a>. Country-level intelligence reports for 60+ countries are also available from the EU Open Source Observatory (OSOR): <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence</a>
+<a href="#_footnoteref_3">3</a>. <a href="https://www.gnu.org/licenses/gpl-3.0.html" class="bare">https://www.gnu.org/licenses/gpl-3.0.html</a>
 </div>
 <div class="footnote" id="_footnotedef_4">
-<a href="#_footnoteref_4">4</a>. OMB Memorandum M-16-21, August 2016: <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf" class="bare">https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf</a>
+<a href="#_footnoteref_4">4</a>. <a href="https://opensource.org/license/mit" class="bare">https://opensource.org/license/mit</a>
 </div>
 <div class="footnote" id="_footnotedef_5">
-<a href="#_footnoteref_5">5</a>. <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html" class="bare">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html</a>
+<a href="#_footnoteref_5">5</a>. <a href="https://www.apache.org/licenses/LICENSE-2.0" class="bare">https://www.apache.org/licenses/LICENSE-2.0</a>
 </div>
 <div class="footnote" id="_footnotedef_6">
-<a href="#_footnoteref_6">6</a>. <a href="https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria/8-make-source-code-open" class="bare">https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria/8-make-source-code-open</a>
+<a href="#_footnoteref_6">6</a>. <a href="https://opensource.org/licenses" class="bare">https://opensource.org/licenses</a>
 </div>
 <div class="footnote" id="_footnotedef_7">
-<a href="#_footnoteref_7">7</a>. <a href="https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/" class="bare">https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/</a>
+<a href="#_footnoteref_7">7</a>. The Free Software Foundation emphasises the ethical dimension of software freedom, while the Open Source Initiative focuses on the practical benefits of open development. In most practical contexts the terms refer to the same body of software and licences.
 </div>
 <div class="footnote" id="_footnotedef_8">
-<a href="#_footnoteref_8">8</a>. Ministry of Electronics and Information Technology (MeitY), 2015: <a href="https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf" class="bare">https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf</a>
+<a href="#_footnoteref_8">8</a>. <a href="https://wmo.int/wmo-unified-data-policy-resolution-res1" class="bare">https://wmo.int/wmo-unified-data-policy-resolution-res1</a>
 </div>
 <div class="footnote" id="_footnotedef_9">
-<a href="#_footnoteref_9">9</a>. Information-technology Promotion Agency (IPA), 2024: <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report</a>
+<a href="#_footnoteref_9">9</a>. Blind, K. et al.: The Impact of Open Source Software and Hardware on Technological Independence, Competitiveness and Innovation in the EU Economy, European Commission, 2021: <a href="https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and" class="bare">https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and</a>
 </div>
 <div class="footnote" id="_footnotedef_10">
-<a href="#_footnoteref_10">10</a>. <a href="https://fsfe.org/activities/publiccode/index.en.html" class="bare">https://fsfe.org/activities/publiccode/index.en.html</a>
+<a href="#_footnoteref_10">10</a>. GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source: <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
 </div>
 <div class="footnote" id="_footnotedef_11">
-<a href="#_footnoteref_11">11</a>. Regulation (EU) 2024/903: <a href="https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act" class="bare">https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act</a>
+<a href="#_footnoteref_11">11</a>. A global database of government open source software policies is maintained by the Center for Strategic and International Studies (CSIS): <a href="https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies" class="bare">https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies</a>. Country-level intelligence reports for 60+ countries are also available from the EU Open Source Observatory (OSOR): <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence</a>
 </div>
 <div class="footnote" id="_footnotedef_12">
-<a href="#_footnoteref_12">12</a>. Blind, K. et al.: The Impact of Open Source Software and Hardware on Technological Independence, Competitiveness and Innovation in the EU Economy, European Commission, 2021: <a href="https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and" class="bare">https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and</a>
+<a href="#_footnoteref_12">12</a>. OMB Memorandum M-16-21, August 2016: <a href="https://digital.gov/resources/requirements-for-achieving-efficiency-transparency-and-innovation-through-reusable-and-open-source-software" class="bare">https://digital.gov/resources/requirements-for-achieving-efficiency-transparency-and-innovation-through-reusable-and-open-source-software</a>
 </div>
 <div class="footnote" id="_footnotedef_13">
-<a href="#_footnoteref_13">13</a>. GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source: <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
+<a href="#_footnoteref_13">13</a>. <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html" class="bare">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html</a>
 </div>
 <div class="footnote" id="_footnotedef_14">
-<a href="#_footnoteref_14">14</a>. <a href="https://www.osgeo.org/resources/project-graduation-checklist/" class="bare">https://www.osgeo.org/resources/project-graduation-checklist/</a>
+<a href="#_footnoteref_14">14</a>. <a href="https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/" class="bare">https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/</a>
 </div>
 <div class="footnote" id="_footnotedef_15">
-<a href="#_footnoteref_15">15</a>. GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source: <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
+<a href="#_footnoteref_15">15</a>. Ministry of Electronics and Information Technology (MeitY), 2015: <a href="https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf" class="bare">https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf</a>
 </div>
 <div class="footnote" id="_footnotedef_16">
-<a href="#_footnoteref_16">16</a>. <a href="https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data" class="bare">https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data</a>
+<a href="#_footnoteref_16">16</a>. Information-technology Promotion Agency (IPA), 2024: <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report</a>
 </div>
 <div class="footnote" id="_footnotedef_17">
-<a href="#_footnoteref_17">17</a>. <a href="https://wmo.int/wis-20" class="bare">https://wmo.int/wis-20</a>
+<a href="#_footnoteref_17">17</a>. <a href="https://fsfe.org/activities/publiccode/index.en.html" class="bare">https://fsfe.org/activities/publiccode/index.en.html</a>
 </div>
 <div class="footnote" id="_footnotedef_18">
-<a href="#_footnoteref_18">18</a>. <a href="https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction" class="bare">https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html#_1_introduction</a>
+<a href="#_footnoteref_18">18</a>. Regulation (EU) 2024/903: <a href="https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act" class="bare">https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act</a>
 </div>
 <div class="footnote" id="_footnotedef_19">
-<a href="#_footnoteref_19">19</a>. <a href="https://producingoss.com" class="bare">https://producingoss.com</a>
+<a href="#_footnoteref_19">19</a>. <a href="https://wiki.osgeo.org/wiki/Local_Chapters" class="bare">https://wiki.osgeo.org/wiki/Local_Chapters</a>
 </div>
 <div class="footnote" id="_footnotedef_20">
-<a href="#_footnoteref_20">20</a>. <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/updated-osor-handbook-published" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/updated-osor-handbook-published</a>
+<a href="#_footnoteref_20">20</a>. <a href="https://www.osgeo.org/resources/project-graduation-checklist/" class="bare">https://www.osgeo.org/resources/project-graduation-checklist/</a>
 </div>
 <div class="footnote" id="_footnotedef_21">
-<a href="#_footnoteref_21">21</a>. <a href="https://assets.public.digital/Open_Source_Report.pdf" class="bare">https://assets.public.digital/Open_Source_Report.pdf</a>
+<a href="#_footnoteref_21">21</a>. <a href="https://digitalpublicgoods.net/standard" class="bare">https://digitalpublicgoods.net/standard</a>
 </div>
 <div class="footnote" id="_footnotedef_22">
-<a href="#_footnoteref_22">22</a>. <a href="https://fsfe.org/activities/publiccode/index.en.html" class="bare">https://fsfe.org/activities/publiccode/index.en.html</a>
+<a href="#_footnoteref_22">22</a>. GFDRR/World Bank: OpenDRI and GeoNode — A Case Study for Institutional Investment in Open Source: <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
 </div>
 <div class="footnote" id="_footnotedef_23">
-<a href="#_footnoteref_23">23</a>. <a href="https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and" class="bare">https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and</a>
+<a href="#_footnoteref_23">23</a>. <a href="https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data" class="bare">https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data</a>
 </div>
 <div class="footnote" id="_footnotedef_24">
-<a href="#_footnoteref_24">24</a>. <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
+<a href="#_footnoteref_24">24</a>. <a href="https://wmo.int/wis-20" class="bare">https://wmo.int/wis-20</a>
 </div>
 <div class="footnote" id="_footnotedef_25">
-<a href="#_footnoteref_25">25</a>. <a href="https://www.linuxfoundation.org/research/open-source-roi" class="bare">https://www.linuxfoundation.org/research/open-source-roi</a>
+<a href="#_footnoteref_25">25</a>. <a href="https://library.wmo.int/idviewer/66258/1147" class="bare">https://library.wmo.int/idviewer/66258/1147</a>
 </div>
 <div class="footnote" id="_footnotedef_26">
-<a href="#_footnoteref_26">26</a>. <a href="https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-software-strategy_en" class="bare">https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-software-strategy_en</a>
+<a href="#_footnoteref_26">26</a>. <em>Provisions for the Transition from the WMO Information System</em> (WIS) <em>1.0 and Global Telecommunication System to WIS 2.0</em> (WMO-No. 1323): <a href="https://library.wmo.int/idurl/4/69050" class="bare">https://library.wmo.int/idurl/4/69050</a>
 </div>
 <div class="footnote" id="_footnotedef_27">
-<a href="#_footnoteref_27">27</a>. <a href="https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act" class="bare">https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act</a>
+<a href="#_footnoteref_27">27</a>. <a href="https://raw.githubusercontent.com/wmo-im/wis2-guide/refs/heads/main/guide/images/architecture/c4.container.png" class="bare">https://raw.githubusercontent.com/wmo-im/wis2-guide/refs/heads/main/guide/images/architecture/c4.container.png</a>
 </div>
 <div class="footnote" id="_footnotedef_28">
-<a href="#_footnoteref_28">28</a>. <a href="https://digital-strategy.ec.europa.eu/en/policies/cra-open-source" class="bare">https://digital-strategy.ec.europa.eu/en/policies/cra-open-source</a>
+<a href="#_footnoteref_28">28</a>. <a href="https://producingoss.com" class="bare">https://producingoss.com</a>
 </div>
 <div class="footnote" id="_footnotedef_29">
-<a href="#_footnoteref_29">29</a>. <a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf" class="bare">https://obamawhitehouse.archives.gov/sites/default/files/omb/memoranda/2016/m_16_21.pdf</a>
+<a href="#_footnoteref_29">29</a>. <a href="https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-01/osor-handbook.pdf" class="bare">https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-01/osor-handbook.pdf</a>
 </div>
 <div class="footnote" id="_footnotedef_30">
-<a href="#_footnoteref_30">30</a>. <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html" class="bare">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html</a>
+<a href="#_footnoteref_30">30</a>. <a href="https://assets.public.digital/Open_Source_Report.pdf" class="bare">https://assets.public.digital/Open_Source_Report.pdf</a>
 </div>
 <div class="footnote" id="_footnotedef_31">
-<a href="#_footnoteref_31">31</a>. <a href="https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria/8-make-source-code-open" class="bare">https://www.dta.gov.au/help-and-advice/digital-service-standard/digital-service-standard-criteria/8-make-source-code-open</a>
+<a href="#_footnoteref_31">31</a>. <a href="https://fsfe.org/activities/publiccode/index.en.html" class="bare">https://fsfe.org/activities/publiccode/index.en.html</a>
 </div>
 <div class="footnote" id="_footnotedef_32">
-<a href="#_footnoteref_32">32</a>. <a href="https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/" class="bare">https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/</a>
+<a href="#_footnoteref_32">32</a>. <a href="https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and" class="bare">https://digital-strategy.ec.europa.eu/en/library/study-about-impact-open-source-software-and-hardware-technological-independence-competitiveness-and</a>
 </div>
 <div class="footnote" id="_footnotedef_33">
-<a href="#_footnoteref_33">33</a>. <a href="https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf" class="bare">https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf</a>
+<a href="#_footnoteref_33">33</a>. <a href="https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open" class="bare">https://blogs.worldbank.org/en/opendata/leveraging-open-source-public-institution-new-analysis-reveals-significant-returns-investment-open</a>
 </div>
 <div class="footnote" id="_footnotedef_34">
-<a href="#_footnoteref_34">34</a>. <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report</a>
+<a href="#_footnoteref_34">34</a>. <a href="https://www.linuxfoundation.org/research/contribution-roi" class="bare">https://www.linuxfoundation.org/research/contribution-roi</a>
 </div>
 <div class="footnote" id="_footnotedef_35">
-<a href="#_footnoteref_35">35</a>. <a href="https://github.com/spbgovbr" class="bare">https://github.com/spbgovbr</a>
+<a href="#_footnoteref_35">35</a>. <a href="https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-software-strategy_en" class="bare">https://commission.europa.eu/about/departments-and-executive-agencies/digital-services/open-source-software-strategy_en</a>
 </div>
 <div class="footnote" id="_footnotedef_36">
-<a href="#_footnoteref_36">36</a>. <a href="https://au.int/sites/default/files/documents/38507-doc-dts-english.pdf" class="bare">https://au.int/sites/default/files/documents/38507-doc-dts-english.pdf</a>
+<a href="#_footnoteref_36">36</a>. <a href="https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act" class="bare">https://interoperable-europe.ec.europa.eu/interoperable-europe/interoperable-europe-act</a>
 </div>
 <div class="footnote" id="_footnotedef_37">
-<a href="#_footnoteref_37">37</a>. <a href="https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies" class="bare">https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies</a>
+<a href="#_footnoteref_37">37</a>. <a href="https://digital-strategy.ec.europa.eu/en/policies/cra-open-source" class="bare">https://digital-strategy.ec.europa.eu/en/policies/cra-open-source</a>
 </div>
 <div class="footnote" id="_footnotedef_38">
-<a href="#_footnoteref_38">38</a>. <a href="https://new.digitalpublicgoods.net/standard" class="bare">https://new.digitalpublicgoods.net/standard</a>
+<a href="#_footnoteref_38">38</a>. <a href="https://digital.gov/resources/requirements-for-achieving-efficiency-transparency-and-innovation-through-reusable-and-open-source-software" class="bare">https://digital.gov/resources/requirements-for-achieving-efficiency-transparency-and-innovation-through-reusable-and-open-source-software</a>
 </div>
 <div class="footnote" id="_footnotedef_39">
-<a href="#_footnoteref_39">39</a>. <a href="https://www.undp.org/digital/osee" class="bare">https://www.undp.org/digital/osee</a>
+<a href="#_footnoteref_39">39</a>. <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html" class="bare">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/open-source-software/open-first-whitepaper.html</a>
 </div>
 <div class="footnote" id="_footnotedef_40">
-<a href="#_footnoteref_40">40</a>. <a href="https://www.undp.org/digital/standards/9-default-to-Open" class="bare">https://www.undp.org/digital/standards/9-default-to-Open</a>
+<a href="#_footnoteref_40">40</a>. <a href="https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/" class="bare">https://www.data.govt.nz/manage-data/policies/nzgoal/nzgoal-se-guidance-note-1/</a>
 </div>
 <div class="footnote" id="_footnotedef_41">
-<a href="#_footnoteref_41">41</a>. <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/672901582561140400/open-source-for-global-public-goods" class="bare">https://documents.worldbank.org/en/publication/documents-reports/documentdetail/672901582561140400/open-source-for-global-public-goods</a>
+<a href="#_footnoteref_41">41</a>. <a href="https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf" class="bare">https://www.meity.gov.in/static/uploads/2024/02/policy_on_adoption_of_oss.pdf</a>
 </div>
 <div class="footnote" id="_footnotedef_42">
-<a href="#_footnoteref_42">42</a>. <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence</a>
+<a href="#_footnoteref_42">42</a>. <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/news/japans-2024-open-source-promotion-report</a>
 </div>
 <div class="footnote" id="_footnotedef_43">
-<a href="#_footnoteref_43">43</a>. <a href="https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data" class="bare">https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data</a>
+<a href="#_footnoteref_43">43</a>. <a href="https://github.com/spbgovbr" class="bare">https://github.com/spbgovbr</a>
 </div>
 <div class="footnote" id="_footnotedef_44">
-<a href="#_footnoteref_44">44</a>. <a href="https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html" class="bare">https://wmo-im.github.io/wis2-transition-guide/transition-guide/wis2-transition-guide-APPROVED.html</a>
+<a href="#_footnoteref_44">44</a>. <a href="https://au.int/sites/default/files/documents/38507-doc-dts-english.pdf" class="bare">https://au.int/sites/default/files/documents/38507-doc-dts-english.pdf</a>
+</div>
+<div class="footnote" id="_footnotedef_45">
+<a href="#_footnoteref_45">45</a>. <a href="https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies" class="bare">https://www.csis.org/programs/strategic-technologies-program/resources/government-open-source-software-policies</a>
+</div>
+<div class="footnote" id="_footnotedef_46">
+<a href="#_footnoteref_46">46</a>. <a href="https://digitalpublicgoods.net/standard" class="bare">https://digitalpublicgoods.net/standard</a>
+</div>
+<div class="footnote" id="_footnotedef_47">
+<a href="#_footnoteref_47">47</a>. <a href="https://www.undp.org/digital/osee" class="bare">https://www.undp.org/digital/osee</a>
+</div>
+<div class="footnote" id="_footnotedef_48">
+<a href="#_footnoteref_48">48</a>. <a href="https://www.undp.org/digital/standards/9-default-to-Open" class="bare">https://www.undp.org/digital/standards/9-default-to-Open</a>
+</div>
+<div class="footnote" id="_footnotedef_49">
+<a href="#_footnoteref_49">49</a>. <a href="https://documents.worldbank.org/en/publication/documents-reports/documentdetail/672901582561140400/open-source-for-global-public-goods" class="bare">https://documents.worldbank.org/en/publication/documents-reports/documentdetail/672901582561140400/open-source-for-global-public-goods</a>
+</div>
+<div class="footnote" id="_footnotedef_50">
+<a href="#_footnoteref_50">50</a>. <a href="https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence" class="bare">https://interoperable-europe.ec.europa.eu/collection/open-source-observatory-osor/open-source-software-country-intelligence</a>
+</div>
+<div class="footnote" id="_footnotedef_51">
+<a href="#_footnoteref_51">51</a>. <a href="https://www.ecmwf.int/en/research/projects/openifs" class="bare">https://www.ecmwf.int/en/research/projects/openifs</a>
+</div>
+<div class="footnote" id="_footnotedef_52">
+<a href="#_footnoteref_52">52</a>. <a href="https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data" class="bare">https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data</a>
+</div>
+<div class="footnote" id="_footnotedef_53">
+<a href="#_footnoteref_53">53</a>. <a href="https://library.wmo.int/idurl/4/69050" class="bare">https://library.wmo.int/idurl/4/69050</a>
 </div>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2026-06-01 13:44:45 UTC
+Last updated 2026-06-04 11:25:02 UTC
 </div>
 </div>
 </body>
