@@ -1,0 +1,53 @@
+== Glossary
+
+AGPL (Affero General Public License):: A copyleft licence that extends the obligations of the GPL to software used to provide network services, even without distribution. See also: <<_licence_compliance_risks>>.
+
+API (Application Programming Interface):: A defined interface that allows software components to communicate with each other.
+
+BUFR (Binary Universal Form for the Representation of meteorological data):: A binary data format standardized by WMO for the exchange of meteorological observations.
+
+CI/CD (Continuous Integration and Continuous Delivery):: A software development practice in which code changes are automatically tested and, where configured, deployed. Widely used in FOSS projects to maintain software quality.
+
+DPGA (Digital Public Goods Alliance):: A multi-stakeholder initiative that endorses open source software, open data, and open content meeting its standard for digital public goods.
+
+ECMWF (European Centre for Medium-Range Weather Forecasts):: An independent intergovernmental organization operating one of the largest supercomputer facilities for numerical weather prediction.
+
+EW4All (Early Warnings for All):: A WMO initiative aimed at ensuring that every person on Earth is protected by early warning systems by 2027.
+
+FAIR:: A set of principles — Findable, Accessible, Interoperable, and Reusable — for managing scientific data and software to maximize their value and reusability.
+
+FOSS (Free and Open Source Software):: Software released under a licence that grants users the freedom to run, study, modify, and distribute the software and its source code.
+
+GBON (Global Basic Observing Network):: A WMO framework defining minimum observational requirements to support global numerical weather prediction.
+
+GPL (GNU General Public License):: A widely used copyleft licence that requires derivative works to be distributed under the same terms.
+
+GRIB (GRIdded Binary):: A WMO-standardized binary data format for gridded meteorological and oceanographic data.
+
+Key person dependency:: The risk arising when critical knowledge, code, or operational responsibility is concentrated in a single individual or very small group, such that the loss of that person threatens the continuity of a project or service. Sometimes referred to as the "bus factor".
+
+LDC (Least Developed Country):: A United Nations classification of countries with low levels of socioeconomic development, structural impediments to sustainable development, and limited capacity to integrate into the global economy.
+
+LGPL (Lesser General Public License):: A copyleft licence similar to the GPL but with reduced restrictions on linking, allowing proprietary software to use LGPL-licensed libraries without triggering copyleft obligations.
+
+NMHS (National Meteorological and Hydrological Service):: A government body responsible for providing meteorological and hydrological services within a country. WMO Members are typically represented through their NMHS.
+
+NWP (Numerical Weather Prediction):: The use of mathematical models of the atmosphere to forecast weather based on current conditions.
+
+OGC (Open Geospatial Consortium):: An international standards organization developing open standards for geospatial content and services.
+
+OSGeo (Open Source Geospatial Foundation):: A non-profit organization supporting the development and adoption of open source geospatial software.
+
+OSEE (Open Source Ecosystem Enabler):: A joint initiative of UNDP and ITU to support developing countries in establishing national open source ecosystems and Open Source Program Offices.
+
+OSI (Open Source Initiative):: A non-profit organization that promotes and protects open source software and maintains the canonical list of OSI-approved licences.
+
+OSPO (Open Source Program Office):: A dedicated organizational unit responsible for enabling, governing, and coordinating an institution's engagement with open source software.
+
+SIDS (Small Island Developing States):: A distinct group of developing countries facing specific social, economic and environmental vulnerabilities, recognized by the United Nations as requiring special attention in the sustainable development context.
+
+TCO (Total Cost of Ownership):: The full cost of acquiring, deploying, operating, and maintaining a software solution over its lifetime, including both direct and indirect costs.
+
+VCP (Voluntary Cooperation Programme):: A WMO programme through which Members contribute resources to support meteorological and hydrological capacity development in other Members.
+
+WIS2 (WMO Information System 2.0):: The WMO framework for data sharing in the 21st century, based on open standards and web technologies, supporting the WMO Unified Data Policy.

@@ -2,6 +2,7 @@
 
 === FOSS practice and governance
 
+* [[raymond-cathedral-bazaar]] Raymond, Eric S.: The Cathedral and the Bazaar (1999)
 * [[producing-oss]] Fogel, Karl: Producing Open Source Software: How to Run a Successful Free Software Project (2024) footnote:[https://producingoss.com]
 * [[osor-handbook]] European Commission / Open Source Observatory: OSOR Handbook on Open Source Software in Public Administration (2026) footnote:[https://interoperable-europe.ec.europa.eu/sites/default/files/custom-page/attachment/2026-01/osor-handbook.pdf]
 * [[public-digital]] Public Digital: Open Source in Government (2021) footnote:[https://assets.public.digital/Open_Source_Report.pdf]
@@ -37,5 +38,6 @@
 
 === Meteorological sector
 
+* [[ecmwf-openifs]] ECMWF: OpenIFS footnote:[https://www.ecmwf.int/en/research/projects/openifs]
 * [[ecmwf-code-for-earth]] ECMWF / Copernicus Climate Change Service: Code for Earth footnote:[https://climate.copernicus.eu/code-earth-2025-advancing-energy-system-resilience-climate-data]
 * [[wis2-transition]] WMO: _Provisions for the Transition from the WMO Information System_ (WIS) _1.0 and Global Telecommunication System to WIS 2.0_ (WMO-No. 1323) footnote:[https://library.wmo.int/idurl/4/69050]

@@ -1,11 +1,11 @@
 == Introduction
 
 Free and open-source software (FOSS) refers to software that is released under a license that grants users the freedom
-to run, study, modify, and distribute the software and its source code. Common licenses include GPL, MIT, Apache, BSD,
-and many others. Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
+to run, study, modify, and distribute the software and its source code. Common licenses include GPL,footnote:[https://www.gnu.org/licenses/gpl-3.0.html] MIT,footnote:[https://opensource.org/license/mit] Apache,footnote:[https://www.apache.org/licenses/LICENSE-2.0] BSD,
+and many others, a comprehensive list of which is maintained by the Open Source Initiative (OSI).footnote:[https://opensource.org/licenses] Throughout this document, the terms "FOSS" and "open source" are used interchangeably for readability, though they carry distinct philosophical emphases.footnote:[The Free Software Foundation emphasises the ethical dimension of software freedom, while the Open Source Initiative focuses on the practical benefits of open development. In most practical contexts the terms refer to the same body of software and licences.] Such software has become increasingly crucial for WMO and its Members.  No longer a "niche" industry,
 FOSS now powers major initiatives and services worldwide, and is backed by industry support.
 
-FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All, a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for developing countries (LDCs) and small island developing states (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
+FOSS solutions play a pivotal role as accelerators for the implementation of Early Warnings for All (EW4All), a key WMO initiative aimed at protecting every person on Earth with life-saving early warning systems by 2027. By providing accessible, customizable, and cost-effective tools, FOSS enables Members to rapidly deploy and adapt early warning systems to their specific needs and contexts. This approach is particularly crucial for least developed countries (LDCs) and small island developing States (SIDS), where resource constraints often hinder the implementation of proprietary solutions. 
 
 Moreover, FOSS initiatives serve as powerful catalysts in supporting Members' efforts towards digital transformation. As National Meteorological and Hydrological Services (NMHSs) worldwide strive to modernize their operations and services, FOSS now offers a flexible and scalable foundation for innovation. They enable Members to leverage cutting-edge technologies, collaborate on development, and share best practices, thus accelerating their digital transformation journeys while optimizing resource utilization.
 
@@ -21,11 +21,11 @@ software, and to commercially sourced or supported software.
 
 === Background
 
-FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (e.g. ecCodes, degrib, libecbufr, etc.), as well as data dissemination services (THREDDS, GDAL, ERDDAP, etc.). 
+FOSS development and use among WMO Members has been a longstanding activity.  Typical FOSS implementations included decoders and encoder libraries of WMO BUFR and GRIB formats (for example, ecCodes, degrib, libecbufr), as well as data dissemination services (such as THREDDS, GDAL, ERDDAP). 
 
 In addition, as part of the global open data/open science movement, numerous government organizations have put forth using FOSS by default; this includes use of existing FOSS tools as well as developing them and working in the open by default.  Free software development platforms and tools (for example, GitHub) have greatly lowered the barrier for sharing software for research, development and operations for all.
 
-As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards and Global Services. The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development.
+As part of the development of the WMO Information System (WIS2), FOSS implementation has been a significant activity, as exemplified by a number of Reference Implementations of WIS2 Standards and Global Services. The development of software in the open during the pre-operational phases of WIS2 proved valuable in testing WIS2 Standards put forth in Technical Regulations while they were still in development. This also promoted the “release early, release often” philosophy of agile and iterative development (see <<_case_study_wis2_foss_and_agile_development>>).
 While FOSS is increasingly used across WMO Member organizations, guidance and coordination are vital to support the delivery of services with security, privacy and safety in mind.
 
 ==== Culture and process in FOSS projects
@@ -40,7 +40,7 @@ While Free and Open Source Software (FOSS) is a key enabler of modern meteorolog
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
 operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <<annex-data-policies, Annex B>> for examples).  Together with FOSS they can, for example, support the implementation of the
-https://wmo.int/wmo-unified-data-policy-resolution-res1[WMO Unified Data Policy] by helping Members expand access to
+WMO Unified Data Policyfootnote:[https://wmo.int/wmo-unified-data-policy-resolution-res1] by helping Members expand access to
 Earth system data, strengthen international collaboration and contribute to broader open science practices.
 
 ==== Open data as a strategic asset
@@ -87,7 +87,7 @@ costly proprietary software, an aspect especially interesting for members with l
 data exchange easier (see above).
 - *Strengthening transparency*: FOSS workflows allow users to inspect how data are processed, improving trust,
 reproducibility, scientific integrity, and metadata management.
-- *Enabling innovation*: When open data is combined with open software, organisations can develop locally relevant
+- *Enabling innovation*: When open data is combined with open software, organizations can develop locally relevant
 applications and services, maybe also supporting start ups and local economies, while contributing improvements back to the wider community.
 
 By relying on open standards and transparent architectures, FOSS helps ensure that data remains interoperable,
@@ -109,7 +109,7 @@ meteorological data ecosystem.
 The capabilities of AI/LLM/Agentic tools and workflows are evolving rapidly and increasingly used to contribute to and manage FOSS projects.
 FOSS projects can be impacted in a variety of ways including dramatic increases in the number, size, and complexity of contributions.
 Many FOSS projects have responded by developing AI Tool Use Policies or Guidelines, often focused on the importance of maintaining a project's community and culture.
-(See the <<annex-ai-tool-use>> Annex for references to AI in FOSS overview articles and example AI use policies.)
+(See <<annex-ai-tool-use, Annex C>> for references to AI in FOSS overview articles and example AI use policies.)
 
 The guidelines tend to focus on the need for human communication around contributions, the value of contributions relative to the effort required by maintainers, and transparency with type and amount of AI tool use indicated.
 (Contributions of low value-to-effort are sometimes called "extractive contributions".)
