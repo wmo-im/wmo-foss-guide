@@ -36,7 +36,7 @@ Communication during the contribution and review process is key. Contributors sh
 
 === Data policy considerations
 
-While Free and Open Source Software (FOSS) is a key enabler of modern meteorological systems, its full value is realized
+While FOSS is a key enabler of modern meteorological systems, its full value is realized
 only when combined with accessible, well-governed data. Open data and FOSS are mutually reinforcing: open data provides
 the raw material for analysis and forecasting, while FOSS provides the tools to discover, process, share, and
 operationalize that data. Open data policy has existed for decades at global, regional and national levels (see <<annex-data-policies, Annex B>> for examples).  Together with FOSS they can, for example, support the implementation of the
