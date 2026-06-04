@@ -30,9 +30,13 @@
 <<<
 toc::[]
 <<<
+include::sections/executive-summary.adoc[]
+
 include::sections/introduction.adoc[]
 
 include::sections/guidelines/index.adoc[]
+
+include::sections/glossary.adoc[]
 
 include::sections/references.adoc[]
 

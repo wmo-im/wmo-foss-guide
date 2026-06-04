@@ -18,11 +18,11 @@
 | Clear security vulnerability policy/process
 | Prompt patch releases (within days)
 | No known unpatched CVEs
-| Regular security checks (e.g., daily or automated)
+| Regular security checks (for example,daily or automated)
 
 .5+| Project Health
 | Public issue tracker
-| Source code under version control (e.g. on GitHub, GitLab, Codeberg or other version control system)
+| Source code under version control (for example,on GitHub, GitLab, Codeberg or other version control system)
 | Active communication channels (forum, mailing list, chat)
 | Wiki or documentation site
 | Contribution guidelines or agreements
@@ -30,7 +30,7 @@
 .4+| Community Health
 | Multiple active contributors
 | Supported by major NMHSs, WMO Programmes, or recognized consortia
-| Low bus factor (not reliant on one person)
+| Low key person dependency / bus factor (not reliant on one person)
 | Code of conduct available
 
 .5+| Openness & Governance

@@ -9,7 +9,7 @@ not exhaustive; it illustrates the breadth and maturity of FOSS activity across 
 listed projects carry OSI-approved open source licences unless otherwise noted.
 
 NOTE: GitHub is the dominant platform for NMHS open source publishing. GitLab sees some use, both on
-gitlab.com and through self-hosted instances (e.g. EUMETSAT operates gitlab.eumetsat.int; GeoSphere Austria
+gitlab.com and through self-hosted instances (for example, EUMETSAT operates gitlab.eumetsat.int; GeoSphere Austria
 uses a self-hosted https://forgejo.org[Forgejo] instance at gitea.geosphere.at). The choice of platform is a
 matter of organizational preference and existing infrastructure; Members should evaluate options based on
 accessibility, governance, and their own policy requirements (see <<_source_code_hosting_and_collaboration>>).
