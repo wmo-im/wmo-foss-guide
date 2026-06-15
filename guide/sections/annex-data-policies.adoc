@@ -26,3 +26,9 @@
 ** https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/information-management.html
 * United Kingdom
 ** https://www.gov.uk/guidance/national-data-strategy
+* United States
+** National Oceanic and Atmospheric Administration (NOAA)
+*** https://www.noaa.gov/organization/administration/nao-212-15-Management-of-NOAA-Data-and-Information
+*** https://sciencecouncil.noaa.gov/wp-content/uploads/2022/08/2020-Data-Strategy.pdf
+** National Aeronautics and Space Administration (NASA)
+*** https://www.nasa.gov/wp-content/uploads/2025/07/nasa-data-strategy.pdf
