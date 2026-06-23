@@ -125,5 +125,15 @@ registry terms alongside software licences.
 ===== Community infrastructure
 
 Beyond code hosting, FOSS projects often rely on additional community infrastructure including mailing lists, discussion
-forums, chat platforms (for example,Matrix, Slack, Discourse), and documentation sites. When evaluating or adopting a FOSS
+forums, chat platforms (for example: Matrix, Slack, Discourse, etc.), and documentation sites. When evaluating or adopting a FOSS
 project, the health and accessibility of these channels is a useful indicator of community activity and support.
+
+==== Economic aspects of FOSS development and support
+
+While the origins of FOSS have been volunteer driven, numerous FOSS projects and activities now provide viable business models for industry.  This includes, but is not limited to:
+
+- custom development
+- maintenance (defect management)
+- support / deployment / operation
+
+FOSS can be financially supported in numerous ways (crowdsourcing, direct procurement, etc.) in support of a given project's upstream community/development.  When evaluating or adopting a FOSS project, funding architecture is a valuable indicator of community support and maintenance.
