@@ -15,9 +15,7 @@ The document is intended for WMO Members who are involved in software acquisitio
 
 === Scope
 
-This document provides guidance on FOSS for WMO Members and WMO Secretariat, both in terms of using FOSS but also
-in the development and contribution to FOSS projects. The guidance is equally applicable to internally developed
-software, and to commercially sourced or supported software.
+This document provides guidance on FOSS for WMO Members and WMO Secretariat, both in terms of using FOSS but also in the development and contribution to FOSS projects. The guidance is equally applicable to any software (FOSS, proprietary, etc.).
 
 === Background
 
