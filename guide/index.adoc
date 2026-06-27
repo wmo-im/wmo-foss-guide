@@ -1,8 +1,8 @@
 :title: WMO Guide to Free and Open Source Software
 :titletext: {title}
-:version: 0.1.0
-:date: {docdate}
-:copyright: Copyright © 2025 World Meteorological Organization (WMO)
+:version: 1.0.0-rc.1
+:date: 2026-06-28
+:copyright: Copyright © 2026 World Meteorological Organization (WMO)
 :doctype: book
 :encoding: utf-8
 :lang: en
