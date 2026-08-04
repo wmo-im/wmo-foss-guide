@@ -74,7 +74,20 @@ Different formats serve different purposes:
 
 Members can engage beyond simply attending by sending staff as contributors rather than observers, hosting or sponsoring regional editions co-located with WMO meetings and proposing challenges or datasets that reflect operational needs. OSGeo supports a network of local chapters footnote:[https://wiki.osgeo.org/wiki/Local_Chapters] that can serve as regional points of contact for organizing or joining such events.
 
-==== Managing FOSS activities
+===== Individual contribution
+
+Much of FOSS's development and maintenance is undertaken by individual contributors, for example, developers, researchers
+and enthusiasts maintaining and improving software in their own time, independent of any institutional mandate. This
+volunteer tradition is not incidental to FOSS; it is one of its defining strengths, and NMHS staff engaging with FOSS
+as individuals (for example, fixing a bug in a package they rely on, or maintaining a personal project) should be
+encouraged and supported to do so in this same tradition.
+
+Institutions can support this by establishing clear policies on individual contribution in a professional context: for
+example, permitting staff to submit fixes upstream, rather than only patching locally, when a defect is found in the
+course of their work, clarifying intellectual property and attribution where contributions are made using institutional
+time or resources, and recognizing upstream contribution as a legitimate and valuable form of technical work.
+
+==== Organizational management of FOSS activities
 
 In some cases, Members developing their own FOSS in support of WMO obligations and activities may wish to make the software freely available to the public.  The current FOSS landscape and infrastructure provide a strong support mechanism for doing FOSS development in the open, using services such as https://github.com[GitHub], https://gitlab.com/gitlab-org[GitLab], https://codeberg.org[Codeberg] and numerous other platforms.
 
