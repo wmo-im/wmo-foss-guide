@@ -23,7 +23,7 @@ accessibility, governance, and their own policy requirements (see <<_source_code
 |WMO Information Management (`wmo-im`)
 |GitHub
 |https://github.com/wmo-im
-|* https://github.com/wmo-im/wis2-gdc[wis2-gdc] / https://github.com/wmo-im/wis2-gc[wis2-gc] / https://github.com/wmo-im/wis2-gb[wis2-gb] — WIS2 Global Discovery Catalogue, Global Cache, and Global Broker Reference Implementations (Apache-2.0)
+|* https://github.com/wmo-im/wmo-resource-catalogue[wmo-resource-catalogue] / https://github.com/wmo-im/wis2-gc[wis2-gc] / https://github.com/wmo-im/wis2-gb[wis2-gb] — WIS2 Global Discovery Catalogue, Global Cache, and Global Broker Reference Implementations (Apache-2.0)
 * https://github.com/wmo-im/pywcmp[pywcmp] — Python tool for validating WMO Core Metadata Profile (WCMP) documents (MIT)
 * https://github.com/wmo-im/pywiscat[pywiscat] — Python API for querying the WIS2 Global Discovery Catalogue (MIT)
 

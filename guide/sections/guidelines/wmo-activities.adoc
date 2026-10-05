@@ -180,8 +180,8 @@ Throughout the WIS2 Implementation timeline, the architecturefootnote:[https://r
 |https://docs.wis2box.wis.wmo.int[wis2box]
 |WIS2 Node
  
-|https://github.com/wmo-im/wis2-gdc[wis2-gdc]
-|Global Discovery Catalogue
+|https://github.com/wmo-im/wmo-resource-catalogue[wmo-resource-catalogue]
+|WMO Resource Catalogue (WIS2 Global Discovery Catalogue, WIGOS Global Observing Facility Catalogue)
  
 |https://github.com/World-Meteorological-Organization/csv2bufr[csv2bufr]
 |CSV to BUFR encoding tool for station data
